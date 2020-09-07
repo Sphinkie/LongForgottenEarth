@@ -1,0 +1,18 @@
+Installation Notes:
+======================
+
+>> THIS IS AN ALPHA VERSION (the game is far from finished)
+
+Create a folder: \sphinx (or the name you want)
+
+Copy the EXE files and run it.
+This is an auto-extractible EXE file.
+
+You should have these three directories: 
+\sphinx\Release
+\sphinx\media
+\sphinx\savedgames
+
+Go to \Release, and
+- run config.exe for configuration
+- run sphinx.exe for playing
