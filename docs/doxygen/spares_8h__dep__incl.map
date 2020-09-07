@@ -1,0 +1,10 @@
+base referer
+rect $_ship_element_8h.html 252,231 361,258
+rect $_the_ship_8h.html 325,82 408,109
+rect $_ship_engine_8h.html 256,157 357,183
+rect $_computer___maintenance_8cpp.html 24,7 213,34
+rect $_door_8cpp.html 332,7 406,34
+rect $_hibernation_8cpp.html 436,7 550,34
+rect $_computer___control_8h.html 109,82 250,109
+rect $_ship_element_8cpp.html 109,157 232,183
+rect $_room_8cpp.html 533,231 616,258

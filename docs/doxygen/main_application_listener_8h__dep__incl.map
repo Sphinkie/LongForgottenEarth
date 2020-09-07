@@ -1,0 +1,8 @@
+base referer
+rect $main_application_8h.html 152,82 280,109
+rect $_body_8cpp.html 8,8 85,34
+rect $_clock_8cpp.html 109,8 189,34
+rect $main_application_8cpp.html 213,8 354,34
+rect $_win_main_8cpp.html 378,8 480,34
+rect $main_application_listener_8cpp.html 304,82 493,109
+rect $_room_8cpp.html 517,82 600,109

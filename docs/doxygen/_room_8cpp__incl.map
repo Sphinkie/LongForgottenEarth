@@ -1,0 +1,10 @@
+base referer
+rect $_room_8h.html 8,7 77,34
+rect $_clock_8h.html 101,7 168,34
+rect $_x_m_lparser___t_8h.html 192,7 304,34
+rect $_sound_manager_8h.html 328,7 450,34
+rect $_main_application_listener_8h.html 474,7 650,34
+rect $_macros_8h.html 674,7 752,34
+rect $_galaxy_box_8h.html 776,7 874,34
+rect $_spares_8h.html 898,7 970,34
+rect $_hibernation_8h.html 994,7 1096,34

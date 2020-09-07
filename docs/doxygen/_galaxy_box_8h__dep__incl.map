@@ -1,0 +1,8 @@
+base referer
+rect $_galaxy_box_8cpp.html 8,7 120,34
+rect $_main_application_8cpp.html 144,7 285,34
+rect $_main_application_listener_8cpp.html 309,7 498,34
+rect $_room_8cpp.html 522,7 605,34
+rect $_ship_level_8cpp.html 629,7 736,34
+rect $_stars_database_8cpp.html 760,7 896,34
+rect $_the_ship_8cpp.html 920,7 1016,34

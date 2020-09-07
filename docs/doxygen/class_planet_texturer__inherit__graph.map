@@ -1,0 +1,7 @@
+base referer
+rect $class_planet_texturer___complex.html 7,712 229,1096
+rect $class_planet_texturer___gas.html 253,824 445,984
+rect $class_planet_texturer___granit.html 469,840 650,968
+rect $class_planet_texturer___ice.html 674,848 837,960
+rect $class_planet_texturer___rock.html 861,848 1037,960
+rect $class_planet_texturer___venusian.html 1061,840 1261,968

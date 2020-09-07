@@ -1,0 +1,3 @@
+base referer
+rect $class_space_ship.html 9,8 94,34
+rect $class_the_ship.html 144,8 216,34

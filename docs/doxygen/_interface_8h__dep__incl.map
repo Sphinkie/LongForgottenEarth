@@ -1,0 +1,11 @@
+base referer
+rect $_robot___interface_8h.html 50,82 178,109
+rect $_computer_8h.html 303,82 394,109
+rect $_computer___base_8h.html 7,8 135,34
+rect $_computer___control_8h.html 159,8 301,34
+rect $_computer__logs_8h.html 325,8 447,34
+rect $_computer___maintenance_8h.html 471,8 647,34
+rect $_computer___navigation_8h.html 671,8 834,34
+rect $_hibernation___interface_8h.html 570,82 733,109
+rect $_interface_8cpp.html 757,82 855,109
+rect $_simple___interface_8h.html 879,82 1013,109

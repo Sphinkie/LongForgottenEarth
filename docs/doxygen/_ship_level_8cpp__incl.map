@@ -1,0 +1,12 @@
+base referer
+rect $_macros_8h.html 7,82 85,109
+rect $_ship_level_8h.html 109,82 202,109
+rect $_galaxy_box_8h.html 226,82 325,109
+rect $_button_8h.html 349,82 421,109
+rect $_hibernation_8h.html 445,82 546,109
+rect $_computer_8h.html 870,8 961,34
+rect $_computer___base_8h.html 621,82 749,109
+rect $_computer__logs_8h.html 773,82 901,109
+rect $_computer___control_8h.html 925,82 1066,109
+rect $_computer___navigation_8h.html 1090,82 1253,109
+rect $_computer___maintenance_8h.html 1277,82 1453,109

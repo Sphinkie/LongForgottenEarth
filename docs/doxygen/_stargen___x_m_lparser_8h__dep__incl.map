@@ -1,0 +1,12 @@
+base referer
+rect $ss___solar_system_8h.html 572,157 700,184
+rect $_galaxy_box_8h.html 514,82 613,109
+rect $_galaxy_box_8cpp.html 8,8 120,34
+rect $_main_application_8cpp.html 144,8 285,34
+rect $_main_application_listener_8cpp.html 309,8 498,34
+rect $_room_8cpp.html 522,8 605,34
+rect $_ship_level_8cpp.html 629,8 736,34
+rect $_stars_database_8cpp.html 760,8 896,34
+rect $_the_ship_8cpp.html 920,8 1016,34
+rect $ss___solar_system_8cpp.html 637,82 781,109
+rect $_stargen___x_m_lparser_8cpp.html 724,157 889,184

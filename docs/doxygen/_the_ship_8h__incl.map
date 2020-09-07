@@ -1,0 +1,8 @@
+base referer
+rect $_ship_light_8h.html 58,82 146,109
+rect $_space_ship_8h.html 314,82 413,109
+rect $_ship_level_8h.html 437,82 530,109
+rect $_ship_element_8h.html 557,8 666,34
+rect $_ship_engine_8h.html 605,82 706,109
+rect $_waypoint_network_8h.html 730,82 869,109
+rect $_text_list_8h.html 893,82 970,109

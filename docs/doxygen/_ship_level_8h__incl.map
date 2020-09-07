@@ -1,0 +1,8 @@
+base referer
+rect $_door_8h.html 58,157 117,184
+rect $_room_8h.html 141,157 205,184
+rect $_classes_8h.html 137,82 214,109
+rect $_ship_level___x_m_lparser_8h.html 376,157 538,184
+rect $_x_m_lparser_8h.html 450,82 549,109
+rect $_scene___x_m_lparser_8h.html 562,157 704,184
+rect $_x_m_lparser___t_8h.html 624,82 738,109

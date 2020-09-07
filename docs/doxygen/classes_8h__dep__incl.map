@@ -1,0 +1,14 @@
+base referer
+rect $_animated_object_8cpp.html 8,7 152,34
+rect $_body_8cpp.html 176,7 253,34
+rect $_button_8cpp.html 277,7 362,34
+rect $_room_8h.html 386,7 456,34
+rect $_door_8cpp.html 480,7 554,34
+rect $_galaxy_box_8cpp.html 578,7 690,34
+rect $_hibernation_8cpp.html 714,7 829,34
+rect $_lens_flare_8cpp.html 853,7 960,34
+rect $_player_8cpp.html 984,7 1069,34
+rect $_robot_8cpp.html 1093,7 1176,34
+rect $ss___archipel_8cpp.html 1200,7 1314,34
+rect $ss___asteroide_8cpp.html 1338,7 1461,34
+rect $ss___star_8cpp.html 1485,7 1576,34

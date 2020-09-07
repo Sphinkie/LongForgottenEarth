@@ -1,0 +1,7 @@
+base referer
+rect $_computer_8h.html 96,7 186,34
+rect $_macros_8h.html 210,7 288,34
+rect $_sound_manager_8h.html 312,7 434,34
+rect $_the_ship_8h.html 458,7 541,34
+rect $_clock_8h.html 565,7 632,34
+rect $_x_m_lparser___t_8h.html 656,7 770,34

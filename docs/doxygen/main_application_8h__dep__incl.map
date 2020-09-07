@@ -1,0 +1,5 @@
+base referer
+rect $_body_8cpp.html 8,7 85,34
+rect $_clock_8cpp.html 109,7 189,34
+rect $main_application_8cpp.html 213,7 354,34
+rect $_win_main_8cpp.html 378,7 480,34

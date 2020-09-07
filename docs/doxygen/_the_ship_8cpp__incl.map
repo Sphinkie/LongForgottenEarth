@@ -1,0 +1,7 @@
+base referer
+rect $_the_ship_8h.html 8,7 90,34
+rect $_player_8h.html 114,7 184,34
+rect $_macros_8h.html 208,7 285,34
+rect $_x_m_lparser___t_8h.html 309,7 424,34
+rect $_galaxy_box_8h.html 448,7 546,34
+rect $_robot_8h.html 570,7 640,34

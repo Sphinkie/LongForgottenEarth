@@ -1,0 +1,16 @@
+base referer
+rect $_main_application_listener_8h.html 8,157 184,183
+rect $_player_8h.html 2133,157 2202,183
+rect $_macros_8h.html 2226,157 2304,183
+rect $version_8h.html 2328,157 2405,183
+rect $_clock_8h.html 2429,157 2496,183
+rect $_keyboard_translator_8h.html 2520,157 2669,183
+rect $_simple___interface_8h.html 2693,157 2826,183
+rect $_hibernation_8h.html 2850,157 2952,183
+rect $_robot_8h.html 2976,157 3045,183
+rect $_door_8h.html 3093,7 3154,34
+rect $_ship_level_8h.html 3120,82 3213,109
+rect $_computer_8h.html 3277,157 3368,183
+rect $_button_8h.html 3392,157 3464,183
+rect $_the_ship_8h.html 3170,157 3253,183
+rect $_galaxy_box_8h.html 3488,157 3586,183

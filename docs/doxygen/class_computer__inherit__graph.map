@@ -1,0 +1,7 @@
+base referer
+rect $class_computer___base.html 8,1864 208,2056
+rect $class_computer___control.html 232,1792 432,2128
+rect $class_computer___logs.html 456,1832 656,2088
+rect $class_computer___maintenance.html 680,1752 880,2168
+rect $class_computer___navigation.html 904,1816 1104,2104
+rect $class_interface.html 456,8 656,872

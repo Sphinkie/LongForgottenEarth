@@ -1,0 +1,10 @@
+base referer
+rect $ss___solar_system_8h.html 176,231 304,258
+rect $_catalog_star_8h.html 58,82 162,109
+rect $ss___star_8h.html 148,157 225,183
+rect $ss___planet_8h.html 249,157 340,183
+rect $_planet_texturer_8h.html 408,157 528,183
+rect $_stargen___x_m_lparser_8h.html 602,157 754,183
+rect $_x_m_lparser___t_8h.html 621,82 736,109
+rect $_clock_8h.html 784,157 850,183
+rect $_macros_8h.html 556,231 633,258

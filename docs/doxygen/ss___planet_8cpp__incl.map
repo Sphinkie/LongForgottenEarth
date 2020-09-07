@@ -1,0 +1,10 @@
+base referer
+rect $ss___planet_8h.html 8,82 98,109
+rect $_macros_8h.html 122,82 200,109
+rect $_planet_texturer_8h.html 550,8 670,34
+rect $_planet_texturer___ice_8h.html 274,82 418,109
+rect $_planet_texturer___rock_8h.html 442,82 600,109
+rect $_planet_texturer___gas_8h.html 624,82 776,109
+rect $_planet_texturer___granit_8h.html 800,82 962,109
+rect $_planet_texturer___venusian_8h.html 986,82 1168,109
+rect $_const_8h.html 1192,82 1258,109

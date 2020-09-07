@@ -1,0 +1,11 @@
+base referer
+rect $_player_8h.html 58,82 128,109
+rect $_hibernation_8h.html 152,82 253,109
+rect $_macros_8h.html 277,82 354,109
+rect $_classes_8h.html 378,82 456,109
+rect $_spares_8h.html 480,82 552,109
+rect $_the_ship_8h.html 576,82 658,109
+rect $_clock_8h.html 682,82 749,109
+rect $_n_p_c___manager_8h.html 773,82 893,109
+rect $_sound_manager_8h.html 917,82 1040,109
+rect $_x_m_lparser___t_8h.html 1064,82 1178,109

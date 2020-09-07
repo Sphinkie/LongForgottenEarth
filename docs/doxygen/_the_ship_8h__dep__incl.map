@@ -1,0 +1,17 @@
+base referer
+rect $_clock_8cpp.html 8,17 88,43
+rect $_computer_8cpp.html 112,17 216,43
+rect $_computer___control_8cpp.html 240,17 397,43
+rect $_computer__logs_8cpp.html 421,17 560,43
+rect $_computer___maintenance_8cpp.html 584,17 773,43
+rect $_computer___navigation_8cpp.html 797,17 976,43
+rect $_door_8cpp.html 1000,17 1074,43
+rect $_hibernation_8cpp.html 1098,17 1213,43
+rect $_hibernation___interface_8cpp.html 1237,17 1413,43
+rect $_main_application_8cpp.html 1437,17 1578,43
+rect $_main_application_listener_8cpp.html 1602,17 1792,43
+rect $_player_8cpp.html 1816,17 1901,43
+rect $_robot_8cpp.html 1925,17 2008,43
+rect $_robot___interface_8cpp.html 2032,17 2173,43
+rect $_ship_engine_8cpp.html 2197,17 2312,43
+rect $_the_ship_8cpp.html 2336,17 2432,43

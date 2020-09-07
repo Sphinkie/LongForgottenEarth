@@ -1,0 +1,10 @@
+base referer
+rect $_animated_object_8cpp.html 8,7 152,34
+rect $_computer_8cpp.html 176,7 280,34
+rect $_door_8cpp.html 304,7 378,34
+rect $_hibernation_8cpp.html 402,7 517,34
+rect $_main_application_8cpp.html 541,7 682,34
+rect $_robot_8cpp.html 706,7 789,34
+rect $_room_8cpp.html 813,7 896,34
+rect $_ship_engine_8cpp.html 920,7 1034,34
+rect $_sound_manager_8cpp.html 1058,7 1194,34

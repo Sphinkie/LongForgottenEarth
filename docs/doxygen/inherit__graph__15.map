@@ -1,0 +1,11 @@
+base referer
+rect $class_interface.html 8,185 82,212
+rect $class_computer.html 166,109 246,136
+rect $class_hibernation___interface.html 132,160 281,186
+rect $class_robot___interface.html 148,210 265,237
+rect $class_simple___interface.html 145,261 268,288
+rect $class_computer___base.html 354,8 472,34
+rect $class_computer___control.html 348,58 478,85
+rect $class_computer___logs.html 354,109 472,136
+rect $class_computer___maintenance.html 330,160 496,186
+rect $class_computer___navigation.html 337,210 489,237

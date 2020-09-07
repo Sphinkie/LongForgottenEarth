@@ -1,0 +1,10 @@
+base referer
+rect $_stars_database_8h.html 10,162 130,189
+rect $_catalog_star_8h.html 160,88 264,114
+rect $_galaxy_box_8h.html 346,237 445,264
+rect $ss___archipel_8h.html 389,88 490,114
+rect $ss___solar_system_8h.html 205,162 333,189
+rect $_lens_flare_8h.html 514,88 608,114
+rect $_bytes_8h.html 469,237 533,264
+rect $_macros_8h.html 557,237 634,264
+rect $_const_8h.html 658,237 722,264

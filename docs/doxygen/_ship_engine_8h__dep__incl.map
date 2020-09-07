@@ -1,0 +1,5 @@
+base referer
+rect $_the_ship_8h.html 223,82 306,109
+rect $_computer___control_8cpp.html 50,8 207,34
+rect $_computer___control_8h.html 58,82 199,109
+rect $_ship_engine_8cpp.html 258,8 373,34

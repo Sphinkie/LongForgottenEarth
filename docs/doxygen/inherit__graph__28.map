@@ -1,0 +1,3 @@
+base referer
+rect $class_ship_element.html 7,8 106,34
+rect $class_ship_engine.html 154,8 245,34

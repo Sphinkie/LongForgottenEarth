@@ -1,0 +1,5 @@
+base referer
+rect $class_computer.html 8,920 200,1704
+rect $class_hibernation___interface.html 224,1160 424,1464
+rect $class_robot___interface.html 448,1216 648,1408
+rect $class_simple___interface.html 672,1216 872,1408

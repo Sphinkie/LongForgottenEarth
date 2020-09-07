@@ -1,0 +1,8 @@
+base referer
+rect $_button_8cpp.html 8,7 93,34
+rect $_galaxy_box_8cpp.html 117,7 229,34
+rect $_hibernation_8cpp.html 253,7 368,34
+rect $_main_application_8cpp.html 392,7 533,34
+rect $_main_application_listener_8cpp.html 557,7 746,34
+rect $_player_8cpp.html 770,7 856,34
+rect $_the_ship_8cpp.html 880,7 976,34
