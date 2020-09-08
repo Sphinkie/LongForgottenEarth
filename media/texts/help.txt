@@ -1,0 +1,79 @@
+# ------------------------------------------------------
+# help screen
+# ------------------------------------------------------
+.
+             HELP SCREEN    (F1 : Quit this screen)
+.
+.
+Basic functions:
+------------------
+ESC         : Exit Computer / Exit Game
+Q S D Z A E : Player move
+Arrows      : Player move
+RIGHT-SHIFT : Player run
+Mouse Clic  : Open Door, Activate Robot, etc
+F1          : This help screen
+.
+TAB         : Inventory (not implemented yet)
+Right Clic  : Move head, when using a computer (not implemented yet)
+.
+Other functions:
+-----------------
+F12         : Show FrameRate
+PrtScr      : Take a Screenshot
+T           : Change rendering (bilinear, trilinear, anisotropic)
+.
+.
+DEBUG KEYS:
+-----------------
+.
+PAGE UP : move camera up
+PAGE DOWN : move camera down
+.
+...
+B : Change level between 3 and 4
+C : Show All Rooms
+...
+F :
+G : Show Maintenance Robot Position
+H : Decrease camera focal (see Y)
+I : Change Player Speed : normal/ultra fast (for debug)
+J : Jump to level 3 or 4
+K : Enable/disable shadows
+L : Solid Rendering
+...
+N : Null speed (stop the ship)
+O : Wireframe Rendering
+P : Consum all the respirable Air
+...
+R : Add a waypoint
+...
+U : Show the player positin relative to the Ship
+V : Show the player positin relative to the Room
+X : Move teh shi 1000 units forward
+Y : increase camera focal (see H)
+...
+2  : Jump to level 2
+3  : Jump to level 3
+4  : Jump to level 4
+5  : Jump to level 5
+6  : Move the spotlight in Navigation Room
+7  : Move the spotlight in Navigation Room
+.
+F2 : Change Star Light Color
+F3 : Normal Ship Light
+F4 : Ship Alert Red Light
+F5 : Full ambient light
+F6 : Show Information on the Solar system
+F7 : Show version Number
+F8 : Increase the sound attenuation
+F9 : Decrease the sound attenuation
+F10: Show all the waypoints
+F11: Create an environnementmap (skybox) and exit
+.
+Numpad: Change the RGB of the Normal Light
+1-7 : Change the Red component
+2-8 : Change the Green component
+3-9 : Change the Blue component
+.
+

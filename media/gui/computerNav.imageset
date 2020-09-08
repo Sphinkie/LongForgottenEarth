@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<Imageset Name="ComputerNav" Imagefile="../media/gui/computerNav.tga" NativeHorzRes="1024" NativeVertRes="1024" AutoScaled="false">
+	<Image Name="mainWin"       XPos="0"   YPos="0"    Width="680" Height="340" />
+	<Image Name="engineWin"     XPos="340" YPos="0"    Width="340" Height="340" />
+	<Image Name="vectorWin"     XPos="0"   YPos="340"  Width="340"  Height="340" />
+</Imageset>
+

@@ -1,0 +1,112 @@
+// ------------------------------------------------------
+// Overlay scripts: help screen
+// ------------------------------------------------------
+
+#include <SphinxSimpleTemplates.inc>
+
+// -------------------------------------------------------
+// -------------------------------------------------------
+sphinx/help
+{
+    zorder 500
+
+	container Panel(help/background)
+	{
+	top    0.05
+	left   0.10
+	width  0.80
+	height 0.80
+	material message/background/grey
+
+	element TextArea(help/line1): Template/LineText
+		{
+		top    0.02
+		left   0.30
+		char_height 0.04
+		colour_bottom 0 0 1
+		caption HELP SCREEN
+		}
+	element TextArea(help/line2): Template/LineText
+		{
+		top    0.14
+		caption F1: this help screen On/Off
+		}
+	element TextArea(help/line3): Template/LineText
+		{
+		top    0.16
+		caption F12: Show FrameRate
+		}
+	element TextArea(help/line4): Template/LineText
+		{
+		top    0.18
+		caption ESC: Exit Game
+		}
+	element TextArea(help/line5): Template/LineText
+		{
+		top    0.20
+		caption PrtScr: Take a Screenshot
+		}
+	element TextArea(help/line6): Template/LineText
+		{
+		top    0.22
+		caption Clic: Open Door, Activate Robot, etc
+		}
+	element TextArea(help/line7): Template/LineText
+		{
+		top    0.24
+		caption O/L: rendu Wireframe/Solide
+		}
+	element TextArea(help/line8): Template/LineText
+		{
+		top    0.26
+		caption P: Ground level enable/disable
+		}
+	element TextArea(help/line9): Template/LineText
+		{
+		top    0.28
+		caption Y/H: increase/decrease camera focal
+		}
+	element TextArea(help/line10): Template/LineText
+		{
+		top    0.30
+		caption G: Show Maintenance Robot Position
+		}
+	element TextArea(help/line11): Template/LineText
+		{
+		top    0.32
+		caption I: Change Player Speed : normal/ultra fast (for debug)
+		}
+	element TextArea(help/line12): Template/LineText
+		{
+		top    0.34
+		caption V: show Camera Position relative to the Room
+		}
+	element TextArea(help/line13): Template/LineText
+		{
+		top    0.36
+		caption U: Show Camera Position relative to the Ship
+		}
+	element TextArea(help/line14): Template/LineText
+		{
+		top    0.38
+		caption T: Rendu trilineaire
+		}
+	element TextArea(help/line15): Template/LineText
+		{
+		top    0.40
+		caption 1: Normal Light
+		}
+	element TextArea(help/line16): Template/LineText
+		{
+		top    0.42
+		caption 2: Red Light
+		}
+	element TextArea(help/line17): Template/LineText
+		{
+		top    0.44
+		caption Q S D Z A E(+arrows) : movements
+		}
+	}
+}
+
+

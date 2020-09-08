@@ -1,0 +1,22 @@
+<interface>
+
+	<imageset file="../media/gui/Computer.imageset" name="ComputerImagery"></imageset>
+	<title></title>
+
+<!-- ********************************************************************* -->
+
+	<mainWin x="0.10" y="0.45" w="0.75" h="0.45" alpha="0.6">
+		<image x="0" y="0" w="1" h="1">control</image>
+
+		<text     x="0.15" y="0.10" w="0.70" h="0.10" colour="green" >Sphinx SpaceShip Computer</text>
+		<text     x="0.30" y="0.25" w="0.30" h="0.50" pen="yellow" background="no" >@data</text>
+
+		<pushbutton  x="0.1" y="0.65" w="0.18" h="0.14" pen="green"  call="test0">Test 0</pushbutton>
+		<pushbutton  x="0.5" y="0.65" w="0.18" h="0.14" pen="green"  call="test1">Test 1</pushbutton>
+		<pushbutton  x="0.7" y="0.65" w="0.18" h="0.14" pen="yellow" call="exitGUI()">Quit</pushbutton>
+	</mainWin>
+
+<!-- ********************************************************************* -->
+
+</interface>
+

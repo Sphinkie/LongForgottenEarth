@@ -1,0 +1,44 @@
+// ------------------------------------------------------
+//
+// ------------------------------------------------------
+Memories03/vapeur
+{
+    material        Memories03/vapeurPNG
+    particle_width  1000
+    particle_height 500
+    cull_each       false
+    quota           500
+    billboard_type  oriented_self
+
+    // Area emitter
+    emitter Box
+    {
+        angle           90
+        emission_rate	15
+        time_to_live    1.2
+        direction       0 1 0
+        velocity_min    1
+        velocity_max    3
+        height			2
+		depth           2
+        width			230
+		// height => axe X
+		// depth => axe Y
+		// width => axe Z
+    }
+
+    // Acceleration
+    affector LinearForce
+    {
+        force_vector      0 20 0
+        force_application add
+    }
+
+    // Fade to white
+    affector ColourFader
+    {
+        red   0.8
+        green 0.8
+        blue  0.8
+    }
+}

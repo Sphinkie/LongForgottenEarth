@@ -1,0 +1,12 @@
+<level number="5">
+
+ 	<scene file="level/5/scene_virtualorientation.xml"    position="0 0 0" >scene de test: orientation</scene>
+
+
+	
+	<map>
+		<link nodename="TestRoom"     previous="Elevator5" />
+	</map>
+
+
+</level>

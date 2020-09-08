@@ -1,0 +1,77 @@
+// ----------------------------------------------------------
+// Particle systems
+// ----------------------------------------------------------
+
+// ----------------------------------------------------------
+// Fumée
+// ----------------------------------------------------------
+Effect/Smoke
+{
+    	material        	Smoke
+    	particle_width  	10
+    	particle_height 	10
+    	cull_each       	true
+    	quota           	50
+    	billboard_type  	point
+
+    	emitter Point
+    	{
+		angle               		11
+       	emission_rate       		9
+       	time_to_live        		3
+       	direction           		0 1 0
+       	velocity_min        		10
+       	velocity_max        		15
+	}
+
+	affector ColourImage
+	{
+		image		smokecolors.png
+	}
+
+   	affector Rotator
+   	{
+        	rotation_range_start  		0
+        	rotation_range_end   	 	360
+        	rotation_speed_range_start  	-60
+        	rotation_speed_range_end    	200
+   	}
+
+   	affector Scaler
+   	{
+       	rate 	15
+   	}
+}
+
+
+// ----------------------------------------------------------
+// Etincelles
+// ----------------------------------------------------------
+Effect/Sparks
+{
+    	material        	Spark
+    	particle_width  	6
+    	particle_height 	6
+    	cull_each       	true
+	   	quota           	10
+    	billboard_type  	point
+
+    	emitter Point
+    	{
+		angle               		30
+       	emission_rate       		3
+       	time_to_live        		0.6
+       	direction           		0 1 0
+		colour_range_start          1 1 0
+		colour_range_end            1 0 0
+       	velocity_min        		40
+       	velocity_max        		50
+	}
+
+   	affector Scaler
+   	{
+       	rate 	2
+   	}
+}
+
+

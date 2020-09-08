@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<Imageset Name="HibernationImagery" Imagefile="../media/gui/hibernation.tga" NativeHorzRes="512" NativeVertRes="512" AutoScaled="false">
+	<Image Name="frame"   XPos="0"   YPos="0"    Width="340" Height="128" />
+	<Image Name="empty"   XPos="120" YPos="220"  Width="50" Height="80" />
+	<Image Name="XRok"    XPos="0"   YPos="170"  Width="170" Height="170" />
+	<Image Name="XRbad"   XPos="170" YPos="170"  Width="170" Height="170" />
+	<Image Name="XRdead"  XPos="340" YPos="170"  Width="170" Height="170" />
+	<Image Name="IRok"    XPos="0"   YPos="340"  Width="170" Height="170" />
+	<Image Name="IRbad"   XPos="170" YPos="340"  Width="170" Height="170" />
+	<Image Name="IRdead"  XPos="340" YPos="340"  Width="170" Height="170" />
+	<Image Name="EEGok"   XPos="0"   YPos="128"  Width="170" Height="42" />
+	<Image Name="EEGbad"  XPos="170" YPos="128"  Width="170" Height="42" />
+	<Image Name="EEGdead" XPos="340" YPos="128"  Width="170" Height="42" />
+	<Image Name="ECGok"   XPos="340" YPos="0"    Width="170" Height="42" />
+	<Image Name="ECGbad"  XPos="340" YPos="42"   Width="170" Height="42" />
+	<Image Name="ECGdead" XPos="340" YPos="84"   Width="170" Height="42" />
+</Imageset>
+

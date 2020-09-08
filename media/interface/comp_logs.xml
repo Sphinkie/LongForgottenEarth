@@ -1,0 +1,76 @@
+<interface>
+
+	<imageset file="../media/gui/Computer.imageset" name="ComputerImagery"></imageset>
+	<title></title>
+
+<!-- ********************************************************************* -->
+
+	<mainWin x="0.1" y="0.42" w="0.65" h="0.45" alpha="0.7">
+		<image x="0" y="0" w="1" h="1">captain</image>
+		<pushbutton  x="0.20" y="0.40" w="0.18" h="0.10" call="showShipLog()">ship log</pushbutton>
+		<pushbutton  x="0.26" y="0.68" w="0.18" h="0.10" call="showAlertLog()">alerts log</pushbutton>
+		<pushbutton  x="0.44" y="0.28" w="0.18" h="0.10" call="showMissions()">missions</pushbutton>
+		<pushbutton  x="0.53" y="0.58" w="0.18" h="0.10" call="showCrewData()">crew</pushbutton>
+		<pushbutton  x="0.10" y="0.82" w="0.14" h="0.10" call="exitGUI()">start</pushbutton>
+	</mainWin>
+
+<!-- ********************************************************************* -->
+
+	<loginWin x="0.22" y="0.52" w="0.37" h="0.25" frame="yes">
+		<text        x="0.05" y="0.05" w="0.90" h="0.15" colour="blue" >Sphinx SpaceShip Captain Computer</text>
+		<text        x="0.10" y="0.25" w="0.30" h="0.16" pen="black" background="no" align="left">login:</text>
+		<edit        x="0.40" y="0.25" w="0.35" h="0.16" pen="black" background="no" >assimiev</edit>
+		<text        x="0.10" y="0.50" w="0.30" h="0.16" pen="black" background="no" align="left">password: </text>
+		<edit        x="0.40" y="0.50" w="0.35" h="0.16" pen="black" background="no" ></edit>
+		<pushbutton  x="0.65" y="0.80" w="0.25" h="0.16" call="login()">login</pushbutton>
+		<pushbutton  x="0.10" y="0.80" w="0.25" h="0.16" call="exitGUI()">quit</pushbutton>
+	</loginWin>
+
+<!-- *********************************************************************
+Fenetre de visualisation des documents en ReadOnly
+********************************************************************* -->
+
+	<ROdocWin x="0.23" y="0.46" w="0.45" h="0.36" alpha="0.9" frame="yes">
+		<text  x="0.02" y="0.10" w="0.96" h="0.88" pen="blue" colour="white" >@doc</text>
+		<pushbutton  x="0.00" y="0.00" w="0.14" h="0.10" call="showFirst()">top</pushbutton>
+		<pushbutton  x="0.14" y="0.00" w="0.14" h="0.10" call="showPrev()">prev</pushbutton>
+		<pushbutton  x="0.28" y="0.00" w="0.14" h="0.10" call="showNext()">next</pushbutton>
+		<pushbutton  x="0.42" y="0.00" w="0.14" h="0.10" call="showLast()">end</pushbutton>
+<!-- 		<pushbutton  x="0.70" y="0.00" w="0.14" h="0.10" call="erase()">erase</pushbutton> -->
+		<pushbutton  x="0.84" y="0.00" w="0.16" h="0.10" call="close()">exit</pushbutton>
+	</ROdocWin>
+
+
+<!-- *********************************************************************
+Fenetre de visualisation des documents en ReadWrite
+********************************************************************* -->
+
+	<RWdocWin x="0.23" y="0.46" w="0.45" h="0.36" alpha="0.9" frame="yes">
+		<text x="0.02" y="0.10" w="0.96" h="0.88" pen="blue" colour="white" >@doc</text>
+		<pushbutton  x="0.00" y="0.00" w="0.14" h="0.10" call="showFirst()">top</pushbutton>
+		<pushbutton  x="0.14" y="0.00" w="0.14" h="0.10" call="showPrev()">prev</pushbutton>
+		<pushbutton  x="0.28" y="0.00" w="0.14" h="0.10" call="showNext()">next</pushbutton>
+		<pushbutton  x="0.42" y="0.00" w="0.14" h="0.10" call="showLast()">end</pushbutton>
+		<pushbutton  x="0.56" y="0.00" w="0.14" h="0.10" call="erase()">erase</pushbutton>
+		<pushbutton  x="0.70" y="0.00" w="0.14" h="0.10" call="add()">add</pushbutton>
+		<pushbutton  x="0.84" y="0.00" w="0.16" h="0.10" call="close()">exit</pushbutton>
+	</RWdocWin>
+
+
+<!-- *********************************************************************
+Fenetre d'edition des documents en ReadWrite
+********************************************************************* -->
+
+	<EditWin  x="0.23" y="0.46" w="0.45" h="0.36" alpha="0.9" frame="yes">
+		<text x="0.02" y="0.10" w="0.96" h="0.10" pen="blue" colour="white" >@doc</text>
+		<edit x="0.02" y="0.20" w="0.96" h="0.14" pen="white" colour="blue" >@newtitle</edit>
+		<medit x="0.02" y="0.36" w="0.96" h="0.60" pen="white" colour="blue" >@newtext</medit>
+		<pushbutton  x="0.00" y="0.00" w="0.28" h="0.10" call="discard()">cancel</pushbutton>
+		<pushbutton  x="0.72" y="0.00" w="0.28" h="0.10" call="save()">save</pushbutton>
+	</EditWin>
+
+
+<!-- ********************************************************************* -->
+
+</interface>
+

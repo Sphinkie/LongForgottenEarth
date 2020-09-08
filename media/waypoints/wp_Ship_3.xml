@@ -1,0 +1,16 @@
+<line number='3' level='3'>
+<!-- Lab Room -->
+	<waypoint x='165' y='750' z='-500' id="wpMP_lab" />
+	<waypoint x='270' y='750' z='-430' id="wp_lab" />
+	<waypoint x='135' y='750' z='-450' id="wpIN_lab" action='openDoor(Lab Door)' />
+
+<!-- Corridor 3A -->
+	<waypoint x='45'  y='750' z='-450' id="wpOUT_lab" action='openDoor(Lab Door)' />
+	<waypoint x='0'   y='750' z='-450' id="wp_C3A" />
+	<waypoint x='-40' y='750' z='-450' id="wpOUT_maps" action='openDoor(Maps Door)'/>
+
+<!-- Maps Room -->
+	<waypoint x='-140' y='750' z='-450' id="wpIN_maps" action='openDoor(Maps Door)' />
+	<waypoint x='-240' y='750' z='-420' id="wp_maps" />
+	<waypoint x='-160' y='750' z='-394' id="wpMP_maps" />
+</line>

@@ -1,0 +1,5 @@
+<line number='4' level='3'>
+	<waypoint x='105'   y='750' z='-1230' id="wp_hib_D1" />
+	<waypoint id="wp_hib1" />
+	<waypoint x='-105'  y='750' z='-1225' id="wp_hib_G1" />
+</line>

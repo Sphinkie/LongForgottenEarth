@@ -1,0 +1,14 @@
+sphinx/CrosshairOverlay
+{
+	container Panel(crosshair/icon)
+	{
+		metrics_mode relative
+		material sphinx/crosshair
+		width  0.025
+		height 0.025
+		left   0.4875
+		top    0.4875
+	}
+}
+
+

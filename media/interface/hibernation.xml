@@ -1,0 +1,68 @@
+<interface>
+
+	<imageset file="../media/gui/hibernation.imageset" name="HibernationImagery"></imageset>
+
+	<title></title>
+
+
+	<mainWin x="0.09" y="0.59" w="0.82" h="0.30" backgroundimage="frame" frame="no" alpha="0.9" >
+<!-- 	<mainWin x="0.1" y="0.6" w="0.8" h="0.29" backgroundimage="frame" frame="no" alpha="0.9" > -->
+<!-- 	<mainWin x="0.1" y="0.6" w="0.8" h="0.29" alpha="0.6" frame="no">
+		<image x="0" y="0" w="1" h="1" >frame</image> -->
+
+		<text  x="0.05" y="0.01" w="0.6" h="0.1" colour="grey"    >@showSubjectName</text>
+
+		<text  x="0.04" y="0.16" w="0.15" h="0.14" alpha="0.7" colour="blue"    >Phase</text>
+		<text  x="0.22" y="0.16" w="0.13" h="0.14" alpha="0.7" colour="var"     >@showSubjectStatus</text>
+		<text  x="0.37" y="0.16" w="0.13" h="0.14" alpha="0.7" colour="green"   >@showPhase</text>
+		<text  x="0.52" y="0.16" w="0.13" h="0.14" alpha="0.7" colour="var"     >@showAlert</text>
+
+		<pushbutton  x="0.04" y="0.31" w="0.15"  h="0.14" alpha="0.7" call="addWindow(durationWin,NULL)"    >Duration</pushbutton>
+		<text  x="0.22" y="0.31" w="0.13" h="0.14" alpha="0.7" colour="var"    >@showInitialDuration</text>
+		<text  x="0.37" y="0.31" w="0.13" h="0.14" alpha="0.7" colour="var"     >@showElapsedDuration</text>
+		<text  x="0.52" y="0.31" w="0.13" h="0.14" alpha="0.7" colour="var"     >@showRemainingDuration</text>
+
+		<text        x="0.04" y="0.46" w="0.15" h="0.14" alpha="0.7" colour="blue"    >Coverdoor</text>
+		<pushbutton  x="0.22" y="0.46" w="0.13" h="0.14" alpha="0.7" call="actionDoor()" >open/close</pushbutton>
+		<text        x="0.37" y="0.46" w="0.13" h="0.14" alpha="0.7" colour="var"     >@showCover</text>
+		<text        x="0.52" y="0.46" w="0.13" h="0.14" alpha="0.7" colour="var"     >@showLocked</text>
+
+		<text        x="0.04" y="0.61" w="0.15" h="0.14" alpha="0.7" colour="blue"          >Sequence</text>
+		<pushbutton  x="0.22" y="0.61" w="0.13" h="0.14" alpha="0.7" call="start()"   >Start</pushbutton>
+		<pushbutton  x="0.37" y="0.61" w="0.13" h="0.14" alpha="0.7" call="wakeup()"  >Wakeup</pushbutton>
+		<text        x="0.52" y="0.61" w="0.13" h="0.14" alpha="0.7" colour="var"           >@showCaution</text>
+
+		<text  x="0.04" y="0.76" w="0.15" h="0.14" alpha="0.7" colour="blue"	   >Temperature</text>
+		<text  x="0.22" y="0.76" w="0.13" h="0.14" alpha="0.7" colour="green"      >@showAmbient</text>
+		<text  x="0.37" y="0.76" w="0.13" h="0.14" alpha="0.7" colour="green"      >@showTemperature</text>
+		<text  x="0.52" y="0.76" w="0.13" h="0.14" alpha="0.7" colour="var"	       >@showCaution</text>
+
+		<pushbutton  x="0.71" y="0.15" w="0.12" h="0.14" alpha="0.7" call="addWindow(medicalWin,IR)"  >Scan IR</pushbutton>
+		<pushbutton  x="0.85" y="0.15" w="0.11" h="0.14" alpha="0.7" call="addWindow(medicalWin,EEG)" >E.E.G.</pushbutton>
+		<pushbutton  x="0.71" y="0.35" w="0.12" h="0.14" alpha="0.7" call="addWindow(medicalWin,XR)"  >Scan XR</pushbutton>
+		<pushbutton  x="0.85" y="0.35" w="0.11" h="0.14" alpha="0.7" call="addWindow(medicalWin,ECG)" >E.C.G.</pushbutton>
+		<pushbutton  x="0.71" y="0.60" w="0.25" h="0.14" alpha="0.7" call="climb()"                   >Climb in/out</pushbutton>
+		<pushbutton  x="0.71" y="0.75" w="0.25" h="0.14" alpha="0.7" call="exitGUI()"                 >Close</pushbutton>
+	</mainWin>
+
+	<durationWin  x="0.24" y="0.39" w="0.52" h="0.20" alpha="0.7">
+		<text        x="0.03" y="0.15" w="0.18" h="0.4"  alpha="0.5" colour="black">@showYears</text>
+		<text        x="0.23" y="0.15" w="0.18" h="0.4"  alpha="0.5" colour="black">@showMonthes</text>
+		<text        x="0.43" y="0.15" w="0.18" h="0.4"  alpha="0.5" colour="black">@showDays</text>
+		<pushbutton  x="0.03" y="0.60" w="0.18" h="0.25" call="setDuration()"      >Set</pushbutton>
+		<pushbutton  x="0.23" y="0.60" w="0.18" h="0.25" call="cancel()"           >Cancel</pushbutton>
+		<pushbutton  x="0.45" y="0.60" w="0.06" h="0.25" call="changeDuration(-1)" >-</pushbutton>
+		<pushbutton  x="0.54" y="0.60" w="0.06" h="0.25" call="changeDuration(+1)" >+</pushbutton>
+		<slider      x="0.64" y="0.04" w="0.05" h="0.92" alpha="0.9" range="36500" ></slider>
+		<slider      x="0.70" y="0.04" w="0.04" h="0.92" alpha="0.9" range="3650"  ></slider>
+		<text        x="0.78" y="0.25" w="0.18" h="0.50" alpha="0.5" colour="blue" >@total_days</text>
+	</durationWin>
+
+	<medicalWin  x="0.65" y="0.04" w="0.25" h="0.55" alpha="0.6" >
+		<image       x="0.05" y="0.05" w="0.90" h="0.52" scroll="no" >@ScannedImage</image>
+		<text        x="0.05" y="0.60" w="0.90" h="0.30" colour="blue"   font="Tahoma-12"  >@showDiag</text>
+		<pushbutton  x="0.40" y="0.92" w="0.20" h="0.05" call="cancel()"  >Close</pushbutton>
+	</medicalWin>
+
+</interface>
+

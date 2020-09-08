@@ -1,0 +1,18 @@
+<line number='2' level='3'>
+<!-- Weapon Room -->
+	<waypoint x='531' y='750' z='-1724' id="wpMP_weap" />
+	<waypoint x='442' y='750' z='-1778' id="wp_weap" />
+	<waypoint x='155' y='750' z='-1775' id="wpIN_weap" action='openDoor(Weaponry Door)' />
+<!-- Couloir et correspondance -->
+	<waypoint x='40'  y='750' z='-1777' id="wpOUT_weap" action='openDoor(Weaponry Door)' />
+ 	<waypoint x='0'   y='750' z='-1780' id="wp_C3B" />
+	<waypoint x='-40' y='750' z='-1777' id="wpOUT_store" action='openDoor(Store Door)' />
+<!-- Store / Maintenance Room -->
+	<waypoint x='-150'  y='750' z='-1778' id="wpIN_store" action='openDoor(Store Door)' />
+	<waypoint x='-930'  y='750' z='-1787' id="wp2-6" />
+	<waypoint x='-930'  y='750' z='-1500' id="wp2-7" />
+	<waypoint x='-930'  y='750' z='-1225' id="wp2-8" />
+	<waypoint x='-1057' y='750' z='-1225' id="wp2-9" />
+	<waypoint x='-1076' y='750' z='-1700' id="wp_store" />
+	<waypoint x='-1132' y='750' z='-1780' id="wpMP_store" />
+</line>

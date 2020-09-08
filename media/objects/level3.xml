@@ -1,0 +1,20 @@
+<level number="3">
+
+	<scene file="level/3/scene_NavLevel.xml"    position="0 0 0" source="DDL" />
+
+<!-- 	<map>
+		<link nodename="room_nav"      previous="corridor_3A" />
+		<link nodename="Laboratory"    previous="corridor_3A" />
+		<link nodename="room_maps"     previous="corridor_3A" />
+		<link nodename="corridor_3A"   previous="hibroom" />
+		<link nodename="hibroom"       previous="corridor_3B" />
+		<link nodename="room_weap"     previous="corridor_3B" />
+		<link nodename="room_store"    previous="corridor_3B" />
+		<link nodename="corridor_3B"   previous="Elevator3" />
+	</map> -->
+
+</level>
+
+
+
+

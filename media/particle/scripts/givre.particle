@@ -1,0 +1,40 @@
+// ------------------------------------------------------
+// Bouffee de givre pour les caisson d'hibernation
+// ------------------------------------------------------
+Effect/givre
+{
+    material        Effect/givrePNG
+    particle_width  0.6
+    particle_height 0.6
+    cull_each       true
+    quota           1000
+    billboard_type  point
+
+    // Area emitter
+    emitter Box
+    {
+        angle           10
+        emission_rate	120
+        time_to_live    4
+        direction       0 -1 0
+		velocity	    2
+        velocity_min    0
+        velocity_max    5
+        height			50
+		depth           10
+        width			20
+		duration	    5
+		// height => axe Z (avant-arriere)
+		// depth => axe X (droite-gauche
+		// width => axe Y (haut-bas)
+    }
+
+    // Fade to Black and to Transparent
+    affector ColourFader
+    {
+        red    -1
+        green  -1
+        blue   -1
+        alpha  -1
+    }
+}

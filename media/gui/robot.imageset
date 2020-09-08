@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<Imageset Name="RobotImagery" Imagefile="../media/gui/robot.tga" NativeHorzRes="256" NativeVertRes="256" AutoScaled="true">
+	<Image Name="MTdroid"    XPos="5"   YPos="89"   Width="100" Height="100" />
+	<Image Name="ADdroid"    XPos="120" YPos="100"  Width="78"  Height="78"  />
+</Imageset>
+

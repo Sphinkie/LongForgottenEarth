@@ -1,0 +1,31 @@
+#
+# List of credits for LFE
+#
+
+... SPECIAL THANKS TO ...
+
+The Graphic Engine: O.G.R.E.
+The Physic Engine: 
+The Audio Engine: Fmod
+The GUI Engine: Crazy Eddy GUI
+The Tiny XML library: Lee Thomason and Yves Berquin (from www.sourceforge.net/projects/tinyxml)
+The installation software: NSIS from NullSoft opensource.
+
+     - - -
+The Ogre community at www.ogre3D.org
+The Ogre french community at www.ogre-fr.net
+The FMOD developpers at www.fmod.org
+     - - -
+The freeware 3D modelers
+The 3D modelers at www.3D-cafe.com
+3D model: Bridge by www.scifi-art.com
+3D model: Droid by Staffan Norling
+     - - -
+Music: Scifly by unknown artist
+Music: Clair de Lune, by L. von Beethoven
+     - - -
+Font: Galant by Daniel Zadorozny
+Font: Airlock 
+Font: 7th Service
+
+# cks

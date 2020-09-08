@@ -1,0 +1,30 @@
+#
+# Informations about LFE
+#
+
+                                                   ABOUT
+                                  . . . LONG FORGOTTEN EARTH . . .
+                                     . . . L'Odyssée du Sphinx . . .
+
+
+ This Game is a FREE game, but please send us a mail if you enjoy it.
+
+ The game is developped by :
+
+ - David de Lorenzo ("Sphinkie") . . . . . . . . . . . . . . . .  Concept & software coding
+ - Adam  . . . . . . . . Concept & 3D models
+# - Jerome Desbordes ("Etheral Walker") . . . . . . . . 3D models
+ - David                          . . . . . . . . . . . . . 2D artworks & GUI
+
+ The game run on Windows XP, with the following minimum configuration :
+ - CPU: 1 GHz
+ - Video card with vertex shading
+
+ For other operating system, it maybe work but was not tested. So please tell us.
+
+ To contact the Dev-Team, see https://sphinkie.github.io
+
+ This game has no commercial purpose, and therefore uses a lot of Freeware, GNU,
+ GPL, Opensource libraries and stuffs (see "credits").
+
+# chk

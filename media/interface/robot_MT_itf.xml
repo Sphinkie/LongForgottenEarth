@@ -1,0 +1,46 @@
+<interface>
+	<imageset file="../media/gui/Robot.imageset" name="RobotImagery"></imageset>
+	<title>Maintenance Robot Interface</title>
+
+	<mainWin x="0.10" y="0.60" w="0.80" h="0.29" alpha="0.6">
+		<image   x="0.81" y="0.05" w="0.19" h="0.50" >MTdroid</image>
+		<text    x="0.50" y="0.20" w="0.40" h="0.70" id="101" colour="var">Maintenance Robot</text>
+		<listbox x="0.03" y="0.20" w="0.40" h="0.77" textID="101" >@chooseMenu</listbox>
+	</mainWin>
+
+	<menuDown>
+		<item id="0" text="Robot Activated" call="shutdown(false)" >Activation</item>
+	</menuDown>
+
+	<menu colour="blue" >
+		<item id="1" text="Maintenance Robot:  'R. Thorins 8759' -  Serie 2045 " submenu="submenuID">Identification</item>
+		<item id="2" text="TO DO !"          call="setBroken(true)" >Autodiagnostic</item>
+		<item id="3" text="@ActionString"    call="save(testfile)" >What are you doing ?</item>
+		<item id="4" text="The Ship Status has been analyzed." call="getShipStatus()">Analyze the Ship Status</item>
+		<item id="5" text="Select the element to repair..." submenu="status" >Go and Repair...</item>
+		<item id="6" text="Orders cancelled" call="cancelOrders" >Cancel orders</item>
+		<item id="7" text="Shuting down"     call="shutdown(true)" >Shutdown</item>
+		<item id="8" text="Bye Bye"          call="exitGUI" >Quit</item>
+	</menu>
+
+	<status>
+		<!-- Ce menu est rempli dynamiquement 		 -->
+		<item id="100" text="Ready" submenu="menu">Nothing...</item>
+	</status>
+
+	<submenuID colour="blue" >
+		<item id="20" text="Model T2. Serial Number: 465879TRE564X." >Serial Number</item>
+		<item id="21" text="Terran Army - Elite Exploration Space Units " >Owner</item>
+		<item id="22" text="Shanghai - (Asian Imperial Republic - Terra)" >Build Location</item>
+		<item id="23" text="Mise en service: 2045" >First Operation Date</item>
+		<item id="29" text="Ready" submenu="menu">Back...</item>
+	</submenuID>
+
+	<menuBroken colour="blue" >
+		<item id="110" text="Repaired !"   call="autoRepair()">Autorepair</item>
+		<item id="111" text="Shuting down" call="shutdown(true)" >Shutdown</item>
+		<item id="112" text="Bye Bye"      call="exitGUI()" >Quit</item>
+	</menuBroken>
+
+</interface>
+

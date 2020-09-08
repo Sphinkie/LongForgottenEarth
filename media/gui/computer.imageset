@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<Imageset Name="ComputerImagery" Imagefile="../media/gui/computer.tga" NativeHorzRes="512" NativeVertRes="512" AutoScaled="false">
+	<Image Name="maintenance"   XPos="0"   YPos="0"    Width="170" Height="170" />
+	<Image Name="control"       XPos="170" YPos="0"    Width="170" Height="170" />
+	<Image Name="xp"            XPos="340" YPos="0"    Width="170" Height="170" />
+	<Image Name="captain"       XPos="170" YPos="170"  Width="170" Height="170" />
+	<Image Name="empty"   XPos="120" YPos="220"  Width="50" Height="80" />
+</Imageset>
+

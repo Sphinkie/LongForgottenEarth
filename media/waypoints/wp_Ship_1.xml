@@ -1,0 +1,26 @@
+<line number='1' level='3'>
+<!-- Couloir et correspondance -->
+	<waypoint x='-5'  y='750' z='-1900' id="wpElevator3" />
+	<waypoint x='-5'  y='750' z='-1780' id="wp_C3B" />
+	<waypoint x='-5'  y='750' z='-1600' id="wpOUT_hib1" action='openDoor(Hibernation Door 1)'  />
+<!-- Hibernation Room -->
+	<waypoint x='0'   y='750' z='-1450' id="wpIN_hib1" action='openDoor(Hibernation Door 1)' />
+
+	<waypoint x='40'  y='750' z='-1220' id="wp_hib1" />
+	<waypoint x='40'  y='750' z='-1165' id="wp_hib2" />
+	<waypoint x='40'  y='750' z='-1055' id="wp_hib3" />
+	<waypoint x='40'  y='750' z='-990'  id="wp_hib4" />
+
+	<waypoint x='40'  y='750' z='-800'  id="wp_hib5" />
+	<waypoint x='90'  y='750' z='-760'  id="wpMP_hib" />
+	<waypoint x='0'   y='750' z='-760'  id="wpIN_hib2"  action='openDoor(Hibernation Door 2)' />
+<!-- Couloir -->
+	<waypoint x='0'   y='750' z='-670' id="wpOUT_hib2" action='openDoor(Hibernation Door 2)'  />
+	<waypoint x='0'   y='750' z='-450' id="wp_C3A" />
+	<waypoint x='0'   y='750' z='-235' id="wpOUT_nav" action='openDoor(Navigation Door)'  />
+<!-- Navigation Room -->
+	<waypoint x='0'    y='750' z='-180' id="wpIN_nav" action='openDoor(Navigation Door)' />
+	<waypoint x='90'   y='750' z='-90'  id="wp1-4" />
+	<waypoint x='108'  y='750' z='-100' id="wpMP_nav" />
+	<waypoint x='75'   y='750' z='75'   id="wp_nav" />
+</line>

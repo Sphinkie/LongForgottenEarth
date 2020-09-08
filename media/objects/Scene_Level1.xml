@@ -1,0 +1,198 @@
+<scene formatVersion="0.2.0">
+  <nodes>
+    <node name="maintLamp1Ob">
+      <position x="-0.000004" y="-19.399082" z="3.568810"/>
+      <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="maintLamp1Ob" meshFile="maintLamp1Me.mesh"/>
+    </node>
+    <node name="Camera">
+      <position x="16.245304" y="-14.293974" z="1.687906"/>
+      <rotation qx="0.592619" qy="-0.157003" qz="-0.250225" qw="0.749360"/>
+      <scale x="1.823970" y="-2.576900" z="-2.065279"/>
+      <camera name="Camera.001" fov="64.366587" projectionType="perspective">
+        <normal x="0.0" y="0.0" z="-1.0"/>
+        <clipping near="0.100000" far="100.000000"/>
+      </camera>
+    </node>
+    <node name="elevDoorOb">
+      <position x="0.000000" y="0.000000" z="0.000000"/>
+      <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="elevDoorOb" meshFile="elevDoorMe.mesh"/>
+    </node>
+    <node name="corridorFloorOb">
+      <position x="0.000000" y="0.000000" z="0.000000"/>
+      <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="corridorFloorOb" meshFile="corridorFloorMe.mesh"/>
+    </node>
+    <node name="elevatorOb">
+      <position x="0.000000" y="0.000000" z="0.000000"/>
+      <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="elevatorOb" meshFile="elevatorMe.mesh"/>
+    </node>
+    <node name="engineRoomOb">
+      <position x="0.000000" y="0.000000" z="0.000000"/>
+      <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="engineRoomOb" meshFile="engineRoomMe.mesh"/>
+    </node>
+    <node name="engineLamp1Ob">
+      <position x="20.000000" y="8.000000" z="3.700000"/>
+      <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="engineLamp1Ob" meshFile="engineLamp1Me.mesh"/>
+    </node>
+    <node name="corrLamp1Ob">
+      <position x="0.000002" y="-10.000000" z="2.800000"/>
+      <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="corrLamp1Ob" meshFile="corrLamp1Me.mesh"/>
+    </node>
+    <node name="corrPassOb">
+      <position x="0.000000" y="0.000000" z="0.000000"/>
+      <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="corrPassOb" meshFile="Plane.024.mesh"/>
+    </node>
+    <node name="elevatrPassOb">
+      <position x="0.000000" y="0.000000" z="0.000000"/>
+      <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="elevatrPassOb" meshFile="elevatorPassMe.mesh"/>
+    </node>
+    <node name="corrLamp4Ob">
+      <position x="10.000000" y="0.000001" z="2.800000"/>
+      <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="corrLamp4Ob" meshFile="coorLapm4Me.mesh"/>
+    </node>
+    <node name="engineLamp2Ob">
+      <position x="22.000000" y="0.000000" z="3.700000"/>
+      <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="engineLamp2Ob" meshFile="engineLamp2Me.mesh"/>
+    </node>
+    <node name="corrLamp2Ob">
+      <position x="-10.000000" y="-0.000003" z="2.800000"/>
+      <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="corrLamp2Ob" meshFile="corrLamp2Me.mesh"/>
+    </node>
+    <node name="coorTubesOb">
+      <position x="0.000000" y="0.000000" z="0.000000"/>
+      <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="coorTubesOb" meshFile="coorTubesMe.mesh"/>
+    </node>
+    <node name="engineLamp3Ob">
+      <position x="20.000000" y="-10.000000" z="3.700000"/>
+      <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="engineLamp3Ob" meshFile="engineLamp3Me.mesh"/>
+    </node>
+    <node name="corrLamp3Ob">
+      <position x="-0.000004" y="10.000000" z="2.800000"/>
+      <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="corrLamp3Ob" meshFile="corrLamp3Me.mesh"/>
+    </node>
+    <node name="maintComp1Ob">
+      <position x="0.127623" y="-24.047375" z="-1.500000"/>
+      <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="maintComp1Ob" meshFile="maintComp1Me.mesh"/>
+    </node>
+    <node name="engineTubeOb">
+      <position x="26.004322" y="-5.326953" z="1.199999"/>
+      <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="engineTubeOb" meshFile="engineTubeMe.mesh"/>
+    </node>
+    <node name="levelLampOb">
+      <position x="0.000000" y="0.000001" z="15.100000"/>
+      <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+      <scale x="3.000000" y="3.000000" z="3.000000"/>
+      <light name="levelLampLa" type="directional">
+        <normal x="0.0" y="0.0" z="-1.0"/>
+        <colourDiffuse r="1.831884" g="1.831884" b="1.831884"/>
+        <colourSpecular r="1.831884" g="1.831884" b="1.831884"/>
+      </light>
+    </node>
+    <node name="engineCollOb">
+      <position x="17.243017" y="15.066297" z="1.200000"/>
+      <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="engineCollOb" meshFile="engineCollMe.mesh"/>
+    </node>
+    <node name="MaintRoomOb">
+      <position x="0.000002" y="-19.813210" z="1.177487"/>
+      <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="MaintRoomOb" meshFile="MaintRoomMe.mesh"/>
+    </node>
+    <node name="box1Ob.002">
+      <position x="12.545984" y="-20.126814" z="-0.599999"/>
+      <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="box1Ob.002" meshFile="box1Me.002.mesh"/>
+    </node>
+    <node name="box1Ob.001">
+      <position x="11.052021" y="-16.751562" z="-0.599999"/>
+      <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="box1Ob.001" meshFile="box1Me.001.mesh"/>
+    </node>
+    <node name="engineGlassOb">
+      <position x="24.259838" y="-4.882097" z="1.200000"/>
+      <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="engineGlassOb" meshFile="engineGlassMe.mesh"/>
+    </node>
+    <node name="corridorOb">
+      <position x="0.000000" y="0.000000" z="0.000000"/>
+      <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="corridorOb" meshFile="corridorMe.mesh"/>
+    </node>
+    <node name="engineLamOb">
+      <position x="26.962996" y="-1.413071" z="1.200000"/>
+      <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="engineLamOb" meshFile="engineLamMe.mesh"/>
+    </node>
+    <node name="box1Ob">
+      <position x="-13.183390" y="-19.407497" z="-0.600000"/>
+      <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="box1Ob" meshFile="box1Me.mesh"/>
+    </node>
+    <node name="engineOb">
+      <position x="23.623047" y="-1.634748" z="1.199999"/>
+      <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="engineOb" meshFile="engineMe.mesh"/>
+    </node>
+    <node name="Lamp.003">
+      <position x="24.259838" y="-4.882097" z="1.200000"/>
+      <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <light name="Lamp.004" type="point">
+        <colourDiffuse r="1.000000" g="0.000000" b="0.430895"/>
+        <colourSpecular r="1.000000" g="0.000000" b="0.430895"/>
+        <lightAttenuation range="5000.0" constant="1.000000" linear="0.166667" quadratic="0.000000"/>
+      </light>
+    </node>
+  </nodes>
+  <externals>
+    <item type="material">
+      <file name="engineLevel.material"/>
+    </item>
+  </externals>
+  <environment>
+    <colourAmbient r="0.000000" g="0.000000" b="0.000000"/>
+    <colourBackground r="0.056563" g="0.220815" b="0.400000"/>
+  </environment>
+</scene>

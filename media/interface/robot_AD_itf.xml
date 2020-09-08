@@ -1,0 +1,76 @@
+<interface>
+	<imageset file="../media/gui/Robot.imageset" name="RobotImagery"></imageset>
+	<title>Adviser Robot Interface</title>
+
+	<mainWin x="0.10" y="0.60" w="0.80" h="0.29" alpha="0.6">
+	 	<image   x="0.81" y="0.05" w="0.19" h="0.50" >ADdroid</image>
+		<text    x="0.50" y="0.20" w="0.40" h="0.70" id="110" colour="var">Adviser Robot</text>
+		<listbox x="0.03" y="0.20" w="0.40" h="0.77" textID="110" >@chooseMenu</listbox>
+	</mainWin>
+
+
+	<menuDown >
+		<item id="0" text="Robot Activated." call="shutdown(false)" submenu="menu">Activation</item>
+	</menuDown>
+
+	<menu colour="blue" >
+		<item id="1" text="Adviser Droid :  'R. MAIA 0017' -  Serie AZF " submenu="submenuID">Identification</item>
+		<item id="2" text="Technical procedure..." submenu="submenu4" >Give me the procedure for...</item>
+		<item id="3" text="Advising..." submenu="submenu3" >What do you know about...</item>
+		<item id="4" text="Going to..." submenu="submenu2" >Move to...</item>
+		<item id="5" text="Electric Failure detected!" call="setBroken(true)" >Autodiagnostic</item>
+		<item id="6" text="Shuting down" call="shutdown(true)" >Shutdown</item>
+		<item id="7" text="Testing" submenu="submenuTest" >Tests</item>
+		<item id="8" text="Bye Bye" call="exitGUI" >Quit</item>
+	</menu>
+
+	<submenu2 colour="blue" >
+		<item id="20" call="gotoNode(wp_nav)" text="Going to Navigation Room" >Navigation Room</item>
+		<item id="21" call="gotoNode(wp_hib2)" text="Going to Hibernation Room" >Hibernation Room</item>
+		<item id="22" call="work()"    text="Test Work 1" >Follow me (test 1)</item>
+		<item id="23" call="vibrate()" text="Test FloatB" >Stay here (test 2)</item>
+		<item id="29" text="Ready" submenu="menu">Back...</item>
+	</submenu2>
+
+	<submenu3 colour="blue" >
+		<item id="30" text="Nothing." >The spaceship</item>
+		<item id="31" text="Nothing." >The earth</item>
+		<item id="39" text="Ready" submenu="menu">Back...</item>
+	</submenu3>
+
+	<submenu4 colour="blue" >
+		<item id="40" text="You are not authorised!" >Piloting the spaceship</item>
+		<item id="41" text="You are not authorised!" >Landing on a planet</item>
+		<item id="49" text="Ready" submenu="menu">Back...</item>
+	</submenu4>
+
+	<menuBroken colour="blue" >
+		<item id="101" text="kjsdmljk flkmj lkdsfjfsdjkjd skgjprqml  lkjf ljklkjf mjgk lmkjgf jkkgjf ">Identification</item>
+		<item id="102" text="Unable to comply. Critical malfunction." >Give me the procedure for...</item>
+		<item id="103" text="General failure. Core dump: 4578 1245 6545 5646 5465 4564 6505 4654 2100 4654 6546 5132 1564 6546 5477" >What do you know about...</item>
+		<item id="104" text="Unable to comply." >Move to...</item>
+		<item id="105" text="Null pointer Error detected in Motrical AI Unit X27." >Autodiagnostic</item>
+		<item id="106" text="Shuting down." call="shutdown(true)" >Shutdown</item>
+		<item id="107" text="Bye Bye" call="exitGUI" >Quit</item>
+	</menuBroken>
+
+	<submenuID colour="blue" >
+		<item id="50" text="Modele VII. Serial Number: 34FD-TRJK-345F-23E5. " >Serial Number</item>
+		<item id="51" text="Terran Army - Elite Exploration Space Units. " >Owner</item>
+		<item id="52" text="Sophia Antipolis - (Espace Economique Europeen - Terra)" >Build Location</item>
+		<item id="53" text="Mise en service: 2047" >First Operation Date</item>
+		<item id="59" text="Ready" submenu="menu">Back...</item>
+	</submenuID>
+
+	<submenuTest colour="red" >
+		<item id="60" call="loopAnim(floatingB)"       text="Anim loaded" >Load Anim floatingB</item>
+		<item id="61" call="playAnim(coverOpenB)"      text="Anim loaded" >Load Anim coverOpenB</item>
+		<item id="62" call="playAnim(legOpenB)"        text="Anim loaded" >Load Anim legOpenB</item>
+		<item id="63" call="playAnim(legCloseB)"       text="Anim loaded" >Load Anim legCloseB</item>
+		<item id="64" call="loopAnim(floatingClosedB)" text="Anim loaded" >Load Anim floatingClosedB</item>
+		<item id="67" call="startAnim()"               text="Playing Anim" >Play Anim</item>
+		<item id="68" call="alarm()"   text="Test Change texture" >Change texture</item>
+		<item id="69" text="Ready" submenu="menu">Back...</item>
+	</submenuTest>
+</interface>
+

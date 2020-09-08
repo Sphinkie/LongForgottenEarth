@@ -1,0 +1,86 @@
+<skeleton>
+    <bones>
+        <bone id="0" name="B_fixe">
+            <position x="40.8172" y="6.65026" z="2.90692e-07" />
+            <rotation angle="1.5708">
+                <axis x="0" y="0" z="1" />
+            </rotation>
+        </bone>
+        <bone id="1" name="B_Structure02">
+            <position x="12.8106" y="-5.335e-06" z="5.59973e-07" />
+            <rotation angle="0.0108086">
+                <axis x="-3.89881e-06" y="0" z="-1" />
+            </rotation>
+        </bone>
+        <bone id="2" name="B_couvercle">
+            <position x="0.060245" y="-1.78779e-06" z="0" />
+            <rotation angle="0">
+                <axis x="1" y="0" z="0" />
+            </rotation>
+        </bone>
+    </bones>
+    <bonehierarchy>
+        <boneparent bone="B_Structure02" parent="B_fixe" />
+        <boneparent bone="B_couvercle" parent="B_Structure02" />
+    </bonehierarchy>
+    <animations>
+        <animation name="open" length="10">
+            <tracks>
+                <track bone="B_fixe">
+                    <keyframes>
+                        <keyframe time="0">
+                            <translate x="0" y="0" z="0" />
+                            <rotate angle="0">
+                                <axis x="1" y="0" z="0" />
+                            </rotate>
+                            <scale x="1" y="1" z="1" />
+                        </keyframe>
+                        <keyframe time="10">
+                            <translate x="0" y="0" z="0" />
+                            <rotate angle="0">
+                                <axis x="1" y="0" z="0" />
+                            </rotate>
+                            <scale x="1" y="1" z="1" />
+                        </keyframe>
+                    </keyframes>
+                </track>
+                <track bone="B_Structure02">
+                    <keyframes>
+                        <keyframe time="0">
+                            <translate x="0" y="0" z="0" />
+                            <rotate angle="0">
+                                <axis x="1" y="0" z="0" />
+                            </rotate>
+                            <scale x="1" y="1" z="1" />
+                        </keyframe>
+                        <keyframe time="10">
+                            <translate x="0" y="0" z="0" />
+                            <rotate angle="0">
+                                <axis x="1" y="0" z="0" />
+                            </rotate>
+                            <scale x="1" y="1" z="1" />
+                        </keyframe>
+                    </keyframes>
+                </track>
+                <track bone="B_couvercle">
+                    <keyframes>
+                        <keyframe time="0">
+                            <translate x="0" y="0" z="0" />
+                            <rotate angle="0">
+                                <axis x="1" y="0" z="0" />
+                            </rotate>
+                            <scale x="1" y="1" z="1" />
+                        </keyframe>
+                        <keyframe time="10">
+                            <translate x="46.5639" y="0" z="0" />
+                            <rotate angle="0">
+                                <axis x="1" y="0" z="0" />
+                            </rotate>
+                            <scale x="1" y="1" z="1" />
+                        </keyframe>
+                    </keyframes>
+                </track>
+            </tracks>
+        </animation>
+    </animations>
+</skeleton>

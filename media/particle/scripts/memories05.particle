@@ -1,0 +1,27 @@
+// ------------------------------------------------------
+// Heart Beat (medical imaging)
+// ------------------------------------------------------
+Memories05/heartbeat
+{
+    material        Memories05/heart
+    particle_width  40
+    cull_each       false
+    quota           2
+
+    emitter Point
+    {
+        position        3 17 0
+        emission_rate   0.5
+        time_to_live    4
+    }
+
+    affector ColourFader
+    {
+        red   -0.1
+    }
+
+    	affector Scaler
+    	{
+        	rate 	2
+    	}
+}

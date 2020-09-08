@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<Imageset Name="menuImagery" Imagefile="../media/gui/menuImagery.tga" NativeHorzRes="512" NativeVertRes="512" AutoScaled="false">
+	<Image Name="logoLFE"    XPos="0"   YPos="0"    Width="420" Height="80" />
+	<Image Name="enlistForm" XPos="0"   YPos="80"   Width="256" Height="176" />
+</Imageset>
+

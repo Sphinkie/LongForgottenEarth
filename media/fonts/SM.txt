@@ -1,0 +1,25 @@
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+ VIEW THIS USING A MONOSPACED FONT!!!
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+ :: SPECIFIC INFO FOR THIS FONT ::
+ 
+ I guess this is the first ever font I have sketched on paper before going into
+ the editor and making it. And IMO the planning has paid off - this has quickly
+ become one of my favorite fonts, beating JH_TITLES and New Horizons, which are
+ now 2nd and 3rd respectively. I hope you'll also enjoy it.
+
+ This font was made for making titles for my website and my pictures, so it has
+ certain specific optimizations. When used on-screen it will look the best with
+ font sizes starting with 12 and then any next 12. That is 12, 24, 36, 48, etc.
+
+ And as an added bonus this one is actually pretty darn readable and looks cool
+ at size 6! Well, to me on my PC anyway. :)
+
+ Enjoy, and don't forget to send feedback and tell me what characters you would
+ like to see added.
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+ Revision: 0.70 | 16.02.2001
+ [EOF]

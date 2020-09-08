@@ -1,0 +1,186 @@
+<interface>
+	<imageset file="../media/gui/ComputerNav.imageset" name="ComputerNav"></imageset>
+	<title></title>
+
+
+<!-- ====================================================================== -->
+<!-- Fenetre de navigation principale -->
+<!-- ====================================================================== -->
+	<mainWin x="0.04" y="0.59" w="0.92" h="0.30" backgroundimage="mainWin" frame="no" alpha="1.0" >
+
+<!-- Status du moteur 1 -->
+		<text        x="0.035" y="0.01" w="0.15" h="0.14" alpha="0.7" pen="black" background="no"  >Engine 1</text>
+
+		<pushbutton  x="0.035" y="0.17" w="0.15" h="0.13" alpha="0.6" call="activate(Eng1)" >activation</pushbutton>
+		<text        x="0.145" y="0.19" w="0.02" h="0.09" colour="var"                      >@activ(1)</text>
+		<ProgressBar x="0.035" y="0.30" w="0.15" h="0.04" alpha="0.6"                       >@power(1)</ProgressBar>
+
+		<pushbutton  x="0.035" y="0.38" w="0.15" h="0.13" alpha="0.6" call="heat(Eng1)"     >warm up</pushbutton>
+		<text        x="0.145" y="0.40" w="0.02" h="0.09" colour="var"                      >@heat(1)</text>
+		<ProgressBar x="0.035" y="0.51" w="0.15" h="0.04" alpha="0.6"                       >@temp(1)</ProgressBar>
+
+		<pushbutton  x="0.035" y="0.60" w="0.15" h="0.13" alpha="0.6" colour="white"        >@dmgValue(1)</pushbutton>
+		<text        x="0.145" y="0.62" w="0.02" h="0.09" colour="green"                    >@dmg(1)</text>
+		<ProgressBar x="0.035" y="0.73" w="0.15" h="0.04"                                   >@dmg(1)</ProgressBar>
+
+		<pushbutton  x="0.035" y="0.81" w="0.15" h="0.12" alpha="0.6" call="wakeup()"       >override</pushbutton>
+		<text        x="0.145" y="0.83" w="0.02" h="0.08" colour="green"                    ></text>
+
+
+<!-- Status du moteur 2 -->
+		<text        x="0.22" y="0.01" w="0.15" h="0.14" alpha="0.7" pen="black" background="no"     >Engine 2</text>
+
+		<pushbutton  x="0.22" y="0.17" w="0.15" h="0.13" alpha="0.6" call="activate(Eng2)"  >activation</pushbutton>
+		<text  	     x="0.33" y="0.19" w="0.02" h="0.09" colour="var"                       >@activ(2)</text>
+		<ProgressBar x="0.22" y="0.30" w="0.15" h="0.05" alpha="0.6"                        >@power(2)</ProgressBar>
+
+		<pushbutton  x="0.22" y="0.38" w="0.15" h="0.13" alpha="0.6" call="heat(Eng2)"      >warm up</pushbutton>
+		<text        x="0.33" y="0.40" w="0.02" h="0.09" colour="var"                       >@heat(2)</text>
+		<ProgressBar x="0.22" y="0.51" w="0.15" h="0.05" alpha="0.6"                        >@temp(2)</ProgressBar>
+
+		<pushbutton  x="0.22" y="0.60" w="0.15" h="0.13" alpha="0.6" colour="white"         >@dmgValue(2)</pushbutton>
+		<text        x="0.33" y="0.62" w="0.02" h="0.09" colour="yellow"                    >@dmg(2)</text>
+		<ProgressBar x="0.22" y="0.73" w="0.15" h="0.05"                                    >@dmg(2)</ProgressBar>
+
+		<pushbutton  x="0.22" y="0.81" w="0.15" h="0.12" alpha="0.6" call="wakeup()"        >override</pushbutton>
+		<text        x="0.33" y="0.83" w="0.02" h="0.08" colour="green"                     ></text>
+
+
+<!-- Controle de la Puissance -->
+		<pushbutton  x="0.42" y="0.06" w="0.15"  h="0.20" alpha="0.7" call="setDirection(+1)"   >Forward</pushbutton>
+		<pushbutton  x="0.42" y="0.30" w="0.15"  h="0.20" alpha="0.7" call="setDirection(-1)"   >Backward</pushbutton>
+		<pushbutton  x="0.42" y="0.59" w="0.15"  h="0.12" alpha="0.7" call="setLights()"        >Boost</pushbutton  >
+		<pushbutton  x="0.42" y="0.72" w="0.15"  h="0.12" alpha="0.7" colour="var"              >RetroBoost</pushbutton  >
+		<slider      x="0.58" y="0.04" w="0.02"  h="0.80" alpha="0.9" range="100" linear="true" >Activity</slider>
+		<pushbutton  x="0.60" y="0.06" w="0.10"  h="0.14" call="changeActivity(+0.01)"   >+</pushbutton>
+		<pushbutton  x="0.60" y="0.22" w="0.10"  h="0.14" call="changeActivity(-0.01)"   >-</pushbutton>
+		<text        x="0.60" y="0.38" w="0.10"  h="0.14" alpha="0.7" colour="white" frame="yes" >@activity</text>
+		<text        x="0.60" y="0.54" w="0.10"  h="0.14" alpha="0.7" colour="green"       >@realactivity</text>
+		<pushbutton  x="0.60" y="0.70" w="0.10"  h="0.14" call="setActivity()"           >set</pushbutton>
+
+<!-- Controle de la Vitesse -->
+		<text        x="0.44" y="0.85" w="0.08" h="0.14" alpha="0.7" pen="green" background="no"   >Speed</text>
+		<text        x="0.50" y="0.85" w="0.15" h="0.14" alpha="0.7" pen="green" background="no"   >@speed</text>
+		<text        x="0.64" y="0.85" w="0.05" h="0.14" alpha="0.7" pen="green" background="no"   >@speedunit</text>
+
+<!-- Controle du mode -->
+		<text        x="0.74" y="0.03" w="0.13" h="0.10" alpha="0.7" pen="green" background="no"  >@getModeName(1)</text>
+		<text        x="0.74" y="0.13" w="0.13" h="0.10" alpha="0.7" pen="green" background="no"  >@getModeName(2)</text>
+		<text        x="0.73" y="0.27" w="0.26" h="0.15" alpha="0.7" colour="white" id="101" frame="yes">@selectedmode</text>
+		<listbox     x="0.73" y="0.42" w="0.26" h="0.33" alpha="0.7" textID="101"     >@menuMode</listbox>
+		<pushbutton  x="0.74" y="0.80" w="0.13" h="0.14" alpha="0.7" call="setMode()" >set mode</pushbutton>
+
+<!-- Autres Controles -->
+		<pushbutton  x="0.89" y="0.03" w="0.09" h="0.14" alpha="0.7" call="nextWindow()" >Prog</pushbutton>
+		<pushbutton  x="0.89" y="0.18" w="0.04" h="0.08" alpha="0.7" call="setLights()"  >L</pushbutton>
+		<pushbutton  x="0.94" y="0.18" w="0.04" h="0.08" alpha="0.7" call="setpolari()"  >P</pushbutton>
+		<pushbutton  x="0.88" y="0.80" w="0.10" h="0.14" alpha="1.0" call="exitGUI()"    >Quit</pushbutton>
+
+	</mainWin>
+
+<!-- ====================================================================== -->
+<!-- ListBox en regime normal -->
+<!-- ====================================================================== -->
+	<menuMode colour="green" >
+		<item id="1" text="Idle Engines"              call="changeMode(IDLE_ENGINE)"      >- Engines Idle</item>
+		<item id="2" text="Asteroid Field Navigation" call="changeMode(ASTEROID_MODE)"    >- Asteroid Mode</item>
+		<item id="3" text="Planet Orbit Navigation"   call="changeMode(PLANETARY_MODE)"   >- Planetary Mode</item>
+		<item id="4" text="Solar System Navigation"   call="changeMode(SOLAR_MODE)"       >- Solar System</item>
+		<item id="5" text="Deep Space Navigation"     call="changeMode(SPACE)"            >- Deep Space Mode</item>
+		<item id="6" text="Deep Space Acceleration"   call="changeMode(FULL_ENGINE)"      >- Full Acceleration</item>
+	</menuMode>
+
+<!-- ====================================================================== -->
+<!-- ListBox quand les moteurs sont a l'arret -->
+<!-- ====================================================================== -->
+	<menuModeStopped>
+		<item id="10" >Engines de-activated.</item>
+	</menuModeStopped>
+
+<!-- ====================================================================== -->
+<!-- ListBox quand les moteurs sont en train de chauffer -->
+<!-- ====================================================================== -->
+	<menuModeHeating>
+		<item id="20" >Engines are warming up.</item>
+		<item id="21" >Please wait before</item>
+		<item id="22" >operating.</item>
+	</menuModeHeating>
+
+<!-- ====================================================================== -->
+<!-- ListBox quand les moteurs sont au repos et froids -->
+<!-- ====================================================================== -->
+	<menuModeCold>
+		<item id="30" >Engines are cold.</item>
+		<item id="31" >Please warm the engines</item>
+		<item id="32" >up. </item>
+	</menuModeCold>
+
+<!-- ====================================================================== -->
+<!-- Fenetre Annexe (detail sur le regime des moteurs) -->
+<!-- ====================================================================== -->
+	<DetailWin       x="0.65" y="0.19" w="0.31" h="0.40" alpha="0.6" >
+
+		<text        x="0.05" y="0.05" w="0.40" h="0.10"  background="no" pen="black">Engine 1</text>
+		<text        x="0.05" y="0.17" w="0.40" h="0.10"  alpha="0.8" >@getModeName(1)</text>
+		<text        x="0.05" y="0.29" w="0.40" h="0.10"  alpha="0.8" >@temperature(1)</text>
+		<text        x="0.05" y="0.41" w="0.40" h="0.20"  alpha="0.8" colour="green">@realactivity(1)</text>
+		<text        x="0.05" y="0.63" w="0.40" h="0.20"  alpha="0.8" colour="green">@push(1)</text>
+
+		<text        x="0.55" y="0.05" w="0.40" h="0.10"  background="no" pen="black">Engine 2</text>
+		<text        x="0.55" y="0.17" w="0.40" h="0.10"  alpha="0.8" >@getModeName(2)</text>
+		<text        x="0.55" y="0.29" w="0.40" h="0.10"  alpha="0.8" >@temperature(2)</text>
+		<text        x="0.55" y="0.41" w="0.40" h="0.20"  alpha="0.8" colour="green">@realactivity(2)</text>
+		<text        x="0.55" y="0.63" w="0.40" h="0.20"  alpha="0.8" colour="green">@push(2)</text>
+
+		<pushbutton  x="0.55" y="0.88" w="0.40" h="0.10" call="close()"           >Close</pushbutton>
+	</DetailWin>
+
+<!-- ====================================================================== -->
+<!-- Fenetre Annexe (Programmation des moteurs) -->
+<!-- ====================================================================== -->
+	<ProgWin         x="0.65" y="0.19" w="0.31" h="0.40" alpha="0.6" >
+		<text        x="0.05" y="0.05" w="0.90" h="0.10" background="no" pen="black" >Engine Programmator</text>
+		<text        x="0.05" y="0.18" w="0.90" h="0.40" colour="black" ></text>
+		<text        x="0.05" y="0.17" w="0.58" h="0.10" alpha="0.8" background="no" pen="white" >ACCELERATE during</text>
+		<text        x="0.05" y="0.26" w="0.20" h="0.10" alpha="0.8" background="no" pen="white" >NNNN</text>
+		<text        x="0.25" y="0.26" w="0.15" h="0.10" alpha="0.8" background="no" pen="white" >days,</text>
+		<text        x="0.05" y="0.35" w="0.75" h="0.10" alpha="0.8" background="no" pen="white" >until reaching a speed of</text>
+		<text        x="0.05" y="0.44" w="0.30" h="0.10" alpha="0.8" background="no" pen="white" >NNNNNNN.</text>
+		<slider      x="0.47" y="0.60" w="0.05" h="0.38" alpha="0.9" range="100" ></slider>
+		<pushbutton  x="0.05" y="0.60" w="0.40" h="0.10" call=""           >Accelerate</pushbutton>
+		<pushbutton  x="0.05" y="0.74" w="0.40" h="0.10" call=""           >Slow down</pushbutton>
+		<pushbutton  x="0.05" y="0.88" w="0.40" h="0.10" call=""           >Valid</pushbutton>
+		<pushbutton  x="0.55" y="0.88" w="0.40" h="0.10" call="close()"    >Close</pushbutton>
+	</ProgWin>
+
+<!-- ====================================================================== -->
+<!-- ====================================================================== -->
+	<CurveWin        x="0.65" y="0.19" w="0.31" h="0.40" alpha="0.6" >
+		<text        x="0.05" y="0.05" w="0.90" h="0.10" background="no" pen="black">Speed Evolution</text>
+		<text        x="0.05" y="0.18" w="0.85" h="0.65" colour="black" >Curve Speed-Time. Graphical View not operational.</text>
+		<slider      x="0.92" y="0.18" w="0.05" h="0.65" alpha="0.9" range="100" ></slider>
+		<text        x="0.05" y="0.84" w="0.50" h="0.10" background="no" pen="white" >Last NNNN days.</text>
+		<pushbutton  x="0.55" y="0.88" w="0.40" h="0.10" call="close()"              >Close</pushbutton>
+	</CurveWin>
+
+
+<!-- ====================================================================== -->
+<!-- ====================================================================== -->
+	<CompassWin      x="0.65" y="0.19" w="0.31" h="0.40" alpha="0.6" >
+		<text        x="0.05" y="0.05" w="0.90" h="0.10" background="no" pen="black">Force Vectors</text>
+		<text        x="0.05" y="0.18" w="0.90" h="0.65" colour="black"  >Graphical View of Acceleration Vector, Real Speed, Deviation/attraction. Not operational yet.</text>
+		<pushbutton  x="0.05" y="0.88" w="0.40" h="0.10" call=""         >Change View</pushbutton>
+		<pushbutton  x="0.55" y="0.88" w="0.40" h="0.10" call="close()"  >Close</pushbutton>
+	</CompassWin>
+
+<!-- ====================================================================== -->
+<!-- ====================================================================== -->
+	<BoostWin        x="0.65" y="0.19" w="0.31" h="0.40" alpha="0.6" >
+		<text        x="0.05" y="0.05" w="0.90" h="0.10" background="no" pen="black">Reactor's Thrust</text>
+		<text        x="0.05" y="0.18" w="0.90" h="0.65" colour="black" >Graphical View of Reactor's Thrust. Not operational yet.</text>
+		<pushbutton  x="0.55" y="0.88" w="0.40" h="0.10" call="close()"           >Close</pushbutton>
+	</BoostWin>
+
+
+</interface>
+

@@ -1,0 +1,37 @@
+<level number="4">
+
+	<scene file="level/4/scene_LifeLevel.xml"    position="0 0 0" source="DDL" >scene de test: Life Level</scene>
+
+<!-- 	<room name="Elevator4"       meshFile="elevator_base.mesh" position="0 -750 -1948" sound="antigravity.wav">Antigravity Elevator
+ 		<object name="Elevator S1" position="0 000  0"   class="simple" meshFile="elevator_tmp.mesh">Elevator Section tronquee</object>
+		<object name="Elevator S2" position="0 250  0"   class="simple" meshFile="elevator_tmp.mesh">Elevator Section tronquee</object>
+		<object name="Elevator S3" position="0 500  0"   class="simple" meshFile="elevatorSec.mesh">Elevator Section</object>
+		<object name="Elevator S4" position="0 750  0"   class="simple" meshFile="elevatorSec.mesh">Elevator Section</object>
+		<object name="Elevator S5" position="0 1000 0"   class="simple" meshFile="elevatorSec.mesh">Elevator Section</object>
+		<object name="Button UP2"  position="-25 300 45" rotation="-45" class="button" descfile="elev_button_UP.cfg" >Bouton UP 2</object>
+		<object name="Button UP3"  position="-55 545 85" rotation="-45" class="button" descfile="elev_button_UP.cfg" >Bouton UP 3</object>
+		<object name="Button UP4"  position="-55 790 85" rotation="-45" class="button" descfile="elev_button_UP.cfg" >Bouton UP 4</object>
+		<object name="Button DN3"  position="-55 525  85" rotation="-45" class="button" descfile="elev_button_DN.cfg" >Bouton DOWN 3</object>
+		<object name="Button DN4"  position="-55 775  85" rotation="-45" class="button" descfile="elev_button_DN.cfg" >Bouton DOWN 4</object>
+		<object name="Button DN5"  position="-55 1025 85" rotation="-45" class="button" descfile="elev_button_DN.cfg" >Bouton DOWN 5</object>
+		<light  type="point"       position="0 750 0"    colour="119 238 255" range="200"></light>
+	</room> -->
+
+<!-- 	<map>
+		<link nodename="Dome"            previous="Corridor_4A" />
+		<link nodename="Officers"        previous="Corridor_4A" />
+		<link nodename="Captain"         previous="Corridor_4A" />
+		<link nodename="Corridor_4A"     previous="Corridor_4B" />
+		<link nodename="Sports Hall"     previous="Corridor_4B" />
+		<link nodename="Dormitory"       previous="Corridor_4B" />
+		<link nodename="Corridor_4B"     previous="Corridor_4C" />
+		<link nodename="Evac2"           previous="Corridor_4C" />
+		<link nodename="Evac1"           previous="Corridor_4C" />
+		<link nodename="Corridor_4C"     previous="Elevator4" />
+	</map> -->
+
+</level>
+
+
+
+

@@ -1,0 +1,25 @@
+<!--  Description du Level 2
+ <scene>: Fichier DotScene decrivant le level. Position relative au Level
+ <room>: La position est relative au Level (optionel)
+ <object> et autres: les positions sont relatives a Room.position
+ <light>: la lumiere principale de la piece ne porte pas de "name"
+ <map>: La hierarchie des pieces du Level
+ -->
+<level number="2">
+
+	<scene file="level/2/scene_EngineLevel.xml"    position="0 25 -1925" source="ddl" >Engine Level</scene>
+
+<!-- 	<room name="Elevator2"       ref="Elevator4" >Antigravity Elevator reference dans un autre level
+		<light  name="L2" type="point"   position="0 500 0"    colour="119 238 255" range="200"></light>
+	</room> -->
+
+
+	<map>
+		<link nodename="engineRoom"       previous="Corridor2" />
+		<link nodename="MaintceRoom"        previous="Corridor2" />
+		<link nodename="CrystalRoom"        previous="Corridor2" />
+		<link nodename="Corridor2"   previous="elevatorFloor" />
+<!-- 		<link nodename="elevatorFloor"     previous="Elevator4" /> -->
+	</map>
+
+</level>

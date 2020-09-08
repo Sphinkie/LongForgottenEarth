@@ -1,0 +1,69 @@
+<interface>
+	<title></title>
+	<!-- La fenetre principale doit se nommer mainWin -->
+
+	<mainWin      x="0.0" y="0.0" w="1.0" h="1.0" background="no" frame="no" >
+		<image       x="0.30" y="0.10" w="0.60" h="0.20">logoLFE</image>
+		<pushbutton  x="0.04" y="0.15" w="0.20" h="0.09" font="Galant" call="showMemories()">MEMORIES</pushbutton>
+		<pushbutton  x="0.04" y="0.26" w="0.20" h="0.09" font="Galant" call="newGame()"     >NEW GAME</pushbutton>
+		<pushbutton  x="0.04" y="0.37" w="0.20" h="0.09" font="Galant" call="loadScreen()"  >LOAD GAME</pushbutton>
+		<pushbutton  x="0.04" y="0.48" w="0.20" h="0.09" font="Galant" call="showInfos()"   >INFOS</pushbutton>
+		<pushbutton  x="0.04" y="0.59" w="0.20" h="0.09" font="Galant" call="showCredits()" >CREDITS</pushbutton>
+		<pushbutton  x="0.04" y="0.70" w="0.20" h="0.09" font="Galant" call="exit()"        >EXIT</pushbutton>
+		<!-- Language choice -->
+		<pushbutton  x="0.04" y="0.85" w="0.045" h="0.04" call="setLanguage(fre)"   >fre</pushbutton>
+		<pushbutton  x="0.09" y="0.85" w="0.045" h="0.04" call="setLanguage(hun)"   >hun</pushbutton>
+		<pushbutton  x="0.14" y="0.85" w="0.045" h="0.04" call="setLanguage(deu)"   >deu</pushbutton>
+		<pushbutton  x="0.19" y="0.85" w="0.050" h="0.04" call="setLanguage(eng)"   >eng</pushbutton>
+		<text        x="0.82" y="0.84" w="0.16" h="0.08" colour="blue">@advice</text>
+	</mainWin>
+
+
+	<creditsWin   x="0.0" y="0.0" w="1.0" h="1.0" background="no" frame="yes" >
+		<image       x="0.20" y="0.10" w="0.60" h="0.20">logoLFE</image>
+		<text        x="0.20" y="0.30" w="0.60" h="0.36" colour="blue" alpha="0.6">@showCredits</text>
+		<pushbutton  x="0.04" y="0.85" w="0.20" h="0.09" font="Galant" call="back()" >Menu</pushbutton>
+	</creditsWin>
+
+
+	<memoriesWin  x="0.0" y="0.0" w="1.0" h="1.0" background="no" frame="no" >
+		<image       x="0.20" y="0.10" w="0.60" h="0.20">logoLFE</image>
+		<text        x="0.07" y="0.28" w="0.50" h="0.50" colour="black" alpha="0.6">@showMemoriesText</text>
+		<pushbutton  x="0.04" y="0.85" w="0.20" h="0.09" font="Galant" call="back()"            >Menu</pushbutton>
+		<pushbutton  x="0.76" y="0.85" w="0.20" h="0.09" font="Galant" call="showNextMemories()">Next</pushbutton>
+	</memoriesWin>
+
+	<infosWin     x="0.0" y="0.0" w="1.0" h="1.0" background="no" frame="yes">
+		<image       x="0.20" y="0.05" w="0.60" h="0.20">logoLFE</image>
+		<text        x="0.16" y="0.24" w="0.72" h="0.60" colour="black" alpha="0.6">@showInfos</text>
+		<pushbutton  x="0.04" y="0.85" w="0.20" h="0.09" font="Galant" call="back()" >Menu</pushbutton>
+	</infosWin>
+
+	<loadingWin   x="0.0" y="0.0" w="1.0" h="1.0" background="no" frame="yes">
+		<image       x="0.20" y="0.10" w="0.60" h="0.20">logoLFE</image>
+		<text        x="0.16" y="0.30" w="0.68" h="0.10" font="Galant" colour="grey">LOAD GAME</text>
+		<pushbutton  x="0.16" y="0.45" w="0.30" h="0.08" call="loadGame(1)" >starting slot</pushbutton>
+		<pushbutton  x="0.16" y="0.55" w="0.30" h="0.08" call="loadGame(2)" >empty slot</pushbutton>
+		<pushbutton  x="0.16" y="0.65" w="0.30" h="0.08" call="loadGame(3)" >empty slot</pushbutton>
+		<pushbutton  x="0.50" y="0.48" w="0.30" h="0.08" call="loadGame(5)" >empty slot</pushbutton>
+		<pushbutton  x="0.50" y="0.58" w="0.30" h="0.08" call="loadGame(6)" >empty slot</pushbutton>
+		<pushbutton  x="0.50" y="0.68" w="0.30" h="0.08" call="loadGame(7)" >empty slot</pushbutton>
+		<pushbutton  x="0.04" y="0.85" w="0.20" h="0.09" font="Galant" call="back()" >Menu</pushbutton>
+	</loadingWin>
+
+ 	<enlistForm   x="0.00" y="0.00" w="1.00" h="1.00" background="no" frame="no">
+		<image       x="0.20" y="0.10" w="0.60" h="0.20">logoLFE</image>
+		<text        x="0.07" y="0.28" w="0.50" h="0.50" colour="black" >@showMemoriesText</text>
+		<pushbutton  x="0.04" y="0.85" w="0.20" h="0.09" font="Galant" call="back()"            >Menu</pushbutton>
+<!-- 		Le formulaire -->
+		<image       x="0.60" y="0.25" w="0.35" h="0.60">enlistForm</image>
+		<text        x="0.65" y="0.38" w="0.10" h="0.06" pen="black" background="no">Name:</text>
+		<edit        x="0.76" y="0.38" w="0.15" h="0.06" pen="blue"></edit>
+		<text        x="0.65" y="0.44" w="0.10" h="0.06" pen="black" background="no">City of birth:</text>
+		<edit        x="0.76" y="0.44" w="0.15" h="0.06" pen="blue"></edit>
+		<text        x="0.61" y="0.51" w="0.33" h="0.30" colour="white" background="no" pen="black">@showEnlist</text>
+		<pushbutton  x="0.72" y="0.77" w="0.14" h="0.06" call="submit()" >accept</pushbutton>
+	</enlistForm>
+
+</interface>
+

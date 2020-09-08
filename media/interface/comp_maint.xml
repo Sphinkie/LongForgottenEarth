@@ -1,0 +1,23 @@
+<interface>
+
+	<imageset file="../media/gui/Computer.imageset" name="ComputerImagery"></imageset>
+	<title></title>
+
+	<mainWin x="0.1" y="0.42" w="0.65" h="0.45" alpha="0.6">
+		<image x="0" y="0" w="1" h="1">maintenance</image>
+
+		<text  x="0.15" y="0.10" w="0.70" h="0.10" colour="green" >Sphinx SpaceShip Maintenance Computer</text>
+		<text  x="0.22" y="0.22" w="0.56" h="0.60" pen="green" background="no" >@menu</text>
+		<text  x="0.22" y="0.22" w="0.56" h="0.60" pen="green" background="no" >@data</text>
+		<!-- Mettre @data en dernier car il peut contenir un ascenseur -->
+
+		<pushbutton  x="0.02" y="0.25" w="0.18" h="0.14" call="showMenu()">Menu</pushbutton>
+		<pushbutton  x="0.02" y="0.45" w="0.18" h="0.14" call="getShipStatus()">Ship Status</pushbutton>
+		<pushbutton  x="0.02" y="0.65" w="0.18" h="0.14" call="callRobot()">Call Robot</pushbutton>
+		<pushbutton  x="0.81" y="0.25" w="0.18" h="0.14" call="showAvailableSP()">Stock</pushbutton>
+		<pushbutton  x="0.81" y="0.45" w="0.18" h="0.14" call="showMissingSP()">Missing SP</pushbutton>
+		<pushbutton  x="0.81" y="0.65" w="0.18" h="0.14" call="exitGUI()">Close</pushbutton>
+	</mainWin>
+
+</interface>
+

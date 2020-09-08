@@ -1,0 +1,11 @@
+<body mesh="momie.mesh">
+	<status
+   		bones_ok="DEAD"
+		radia_ok="DEAD"
+		necro_ok="DEAD"
+		wound_ok="DEAD"
+		lastchance="0"
+	/>
+</body>
+
+
