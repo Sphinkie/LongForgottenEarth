@@ -1,0 +1,130 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: LFE - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\David\LOCALS~1\Temp\RSP90.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /I "E:\SDK\OgreSDK\include" /I "E:\SDK\fmod\api\inc" /I "E:\SDK\xerces-c_2_6_0\include" /I "E:\SDK\OgreSDK\include\CEGUI" /I "E:\sphinx\libnoise\include" /I "E:\sphinx\LFE\lib_ois\includes" /I "E:\SDK\OgreOpcode\include" /I "E:\SDK\OgreOpcode\opcode132" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/LFE.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\sphinx\LFE\mainApplication.cpp"
+"E:\sphinx\LFE\mainApplicationListener.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\David\LOCALS~1\Temp\RSP90.tmp" 
+Creating temporary file "C:\DOCUME~1\David\LOCALS~1\Temp\RSP93.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib ogreMain.lib fmodvc.lib CEGUIbase.lib OgreGUIRenderer.lib xerces-c_2.lib libnoise.lib dinput8.lib dxguid.lib OgreOpcode.lib Opcode.lib /nologo /subsystem:windows /incremental:no /pdb:"E:\sphinx\Release/LFE.pdb" /machine:I386 /out:"E:\sphinx\Release/LFE.exe" /libpath:"E:\sdk\OgreSDK\lib" /libpath:"E:\sdk\OgreOpcode\lib" /libpath:"E:\sphinx\libnoise\lib" /libpath:"E:\SDK\OgreOpcode\Opcode132\lib" /libpath:"E:\SDK\fmod\api\lib" /libpath:"E:\SDK\xerces-c_2_6_0\lib" 
+.\Release\SG_Atmosphere.obj
+.\Release\SG_File.obj
+.\Release\SG_File_TXT.obj
+.\Release\SG_File_XML.obj
+.\Release\SG_FileWriter.obj
+.\Release\SG_Gas.obj
+.\Release\SG_Planet.obj
+.\Release\SG_SolarSystem.obj
+.\Release\SG_Star.obj
+.\Release\SG_Stardust.obj
+.\Release\SG_utils.obj
+.\Release\CatalogStar.obj
+.\Release\constellation.obj
+.\Release\StarsDatabase.obj
+.\Release\tinystr.obj
+.\Release\tinyxml.obj
+.\Release\tinyxmlerror.obj
+.\Release\tinyxmlparser.obj
+.\Release\OISEffect.obj
+.\Release\OISForceFeedback.obj
+.\Release\OISInputManager.obj
+.\Release\OISKeyboard.obj
+.\Release\OISObject.obj
+.\Release\Win32ForceFeedback.obj
+.\Release\Win32InputManager.obj
+.\Release\Win32JoyStick.obj
+.\Release\Win32KeyBoard.obj
+.\Release\Win32Mouse.obj
+.\Release\AnimatedObject.obj
+.\Release\Body.obj
+.\Release\Button.obj
+.\Release\Circle3D.obj
+.\Release\Clock.obj
+.\Release\Computer.obj
+.\Release\Computer_Base.obj
+.\Release\Computer_Control.obj
+.\Release\Computer_logs.obj
+.\Release\Computer_Maintenance.obj
+.\Release\Computer_Navigation.obj
+.\Release\Door.obj
+.\Release\DynamicLines.obj
+.\Release\DynamicRenderable.obj
+.\Release\GalaxyBox.obj
+.\Release\Gradient.obj
+.\Release\Hibernation.obj
+.\Release\Hibernation_Interface.obj
+.\Release\Interface.obj
+.\Release\Interface_XMLparser.obj
+.\Release\KeyboardTranslator.obj
+.\Release\LensFlare.obj
+.\Release\Line3d.obj
+.\Release\mainApplication.obj
+.\Release\mainApplicationListener.obj
+.\Release\MovableText.obj
+.\Release\noiseutils.obj
+.\Release\NPC_Manager.obj
+.\Release\PlanetTexturer.obj
+.\Release\PlanetTexturer_Complex.obj
+.\Release\PlanetTexturer_Gas.obj
+.\Release\PlanetTexturer_Granit.obj
+.\Release\PlanetTexturer_ice.obj
+.\Release\PlanetTexturer_Rock.obj
+.\Release\PlanetTexturer_Venusian.obj
+.\Release\Player.obj
+.\Release\Robot.obj
+.\Release\Robot_Interface.obj
+.\Release\Room.obj
+.\Release\Scene_XMLparser.obj
+.\Release\ShipElement.obj
+.\Release\ShipEngine.obj
+.\Release\ShipLevel.obj
+.\Release\ShipLevel_XMLparser.obj
+.\Release\ShipLight.obj
+.\Release\Simple_Interface.obj
+.\Release\SoundManager.obj
+.\Release\SpaceShip.obj
+.\Release\specialFX.obj
+.\Release\ss_Archipel.obj
+.\Release\ss_Asteroide.obj
+.\Release\ss_Planet.obj
+.\Release\ss_SolarSystem.obj
+.\Release\ss_Star.obj
+.\Release\Stargen_XMLparser.obj
+.\Release\TextList.obj
+.\Release\TheShip.obj
+.\Release\WaypointNetwork.obj
+.\Release\WinMain.obj
+.\Release\XMLparser.obj
+.\Release\XMLparser_T.obj
+.\Release\lfe.res
+\sphinx\libnoise\lib\libnoise.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\David\LOCALS~1\Temp\RSP93.tmp"
+<h3>Output Window</h3>
+Compiling...
+mainApplication.cpp
+E:\SDK\OgreOpcode\include\OgreHash.h(143) : warning C4355: 'this' : used in base member initializer list
+E:\SDK\OgreOpcode\include\OgreHash.h(154) : warning C4355: 'this' : used in base member initializer list
+Using OPCODE
+mainApplicationListener.cpp
+E:\SDK\OgreOpcode\include\OgreHash.h(143) : warning C4355: 'this' : used in base member initializer list
+E:\SDK\OgreOpcode\include\OgreHash.h(154) : warning C4355: 'this' : used in base member initializer list
+Using OPCODE
+Linking...
+
+
+
+<h3>Results</h3>
+LFE.exe - 0 error(s), 4 warning(s)
+</pre>
+</body>
+</html>

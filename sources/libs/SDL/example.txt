@@ -1,0 +1,63 @@
+// Initialisation example, but I still got the "window problem" with Ogre.
+
+
+/* -------------------------------------------------------------------------- */
+// File       : mainFrameListener.h
+/* -------------------------------------------------------------------------- */
+#include "lib_SDL/InputEngine.h"
+void initSDLSystem();
+InputEngine* mSDL;
+
+
+
+
+
+/* -------------------------------------------------------------------------- */
+// File       : mainFrameListener.cpp
+/* -------------------------------------------------------------------------- */
+// For SDL Library
+#include "windows.h"
+#include "SDL_getenv.h"
+
+
+
+/* -------------------------------------------------------------------------- */
+/// Initialize the SDL library.
+/** 
+SDL is a library for input management (keyboard, mouse, joystick).
+On Windows, SDL wants to create its own window. With Ogre also creating its own window, 
+you end up having 2 windows where you can choose to either see something, or have input. 
+To get both, we need SDL and Ogre in 1 window. You can put Ogre in an SDL window, but 
+that doesn't work very well, so we tell SDL to use the Ogre window. This is done by 
+setting an "SDL_WINDOWID" environment variable.
+*/
+/* -------------------------------------------------------------------------- */
+void mainFrameListener::initSDLSystem()
+{
+	TRACE(">> initSDLSystem()");
+
+	HWND hWnd; 
+
+	mWindow->getCustomAttribute("HWND", &hWnd); 	// Method proposed by Sinbad.
+	// hWnd = FindWindow("OGRE Render Window",0);   // Old method 
+
+	// Set the SDL_WINDOWID environment variable
+	char EnvVar[64];
+	sprintf(EnvVar, "SDL_WINDOWID=%d", hWnd);
+	putenv(EnvVar);
+
+	if (!mWindow->isFullScreen())
+	{
+		// This is necessary to allow the window to move on WIN32 systems. 
+		// Without this, the window resets to the smallest possible size after moving.
+		mSDL = new InputEngine(mWindow->getWidth(), mWindow->getHeight());
+		//mSDL->initialise(mWindow->getWidth(), mWindow->getHeight());
+		TRACE("  SDL running in windowed window ");
+	}
+	else
+	{
+		mSDL = new InputEngine(0,0);
+		// mSDL->initialise(0,0);
+		TRACE("  SDL running in fullscreen window ");
+	}
+}

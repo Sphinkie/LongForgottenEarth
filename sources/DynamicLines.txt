@@ -1,0 +1,51 @@
+Here's an example of how to use it.
+
+In initialization somewhere, create the initial lines object: 
+
+-----------------------------
+      DynamicLines *lines = new DynamicLines(RenderOperation::OT_LINE_LIST);
+      for (i=0; i<somePoints.size(); i++)
+	  {
+        lines->addPoint(somePoints[i]);
+      }
+      lines->update();
+      SceneNode *linesNode = mScene->getRootSceneNode()->createChildSceneNode("lines");
+      linesNode->attachObject(lines);
+
+-----------------------------
+ Then later on when you want to update the lines:
+
+    SceneNode *lnode = dynamic_cast<SceneNode*>(mScene->getRootSceneNode()->getChild("lines"));
+    DynamicLines *lines = dynamic_cast<DynamicLines*>(lnode->getAttachedObject(0));
+
+    if (lines->getNumPoints()!= myPoints.size()) {
+      // Oh no!  Size changed, just recreate the list from scratch
+      lines->clear();
+      for (int i=0; i<myPoints.size(); ++i) {
+        lines->addPoint(myPoints[i]);
+      }
+    }
+    else {
+      // Just values have changed, use 'setPoint' instead of 'addPoint'
+      for (int i=0; i<myPoints.size(); ++i) {
+        lines->setPoint(i,cvt(ppos[c->m_p1]));
+      }
+    }
+    lines->update();
+
+-----------------------------
+A word about the bounding box :
+
+The inherited mBox member is used to decide whether or not the object is in view and therefore should be drawn.
+It is not supposed to be dynamic, so you must take an extra step to get Ogre to notice whatever changes were made to it.
+
+You will want to keep a pointer to the scene node you attached the DynamicLines instance to, and call the following
+whenever mBox changes :
+
+    linesNode->needUpdate();
+
+-----------------------------
+Hope you find this useful. 
+-- baxissimo
+Récupéré de « http://www.ogre3d.org/wiki/index.php/DynamicLineDrawing »
+
