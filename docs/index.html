@@ -8,63 +8,86 @@
 	</head>
 
 	<body>
+		<!-- Zone I : Titre -->
 		<div class="header">
 			<img src="pages/images/LFE-banner.jpg" alt="" />
 			<h1>Long Forgotten Earth</h1>
-			<h2>L'odyssée du Sphinx</h2>
-			<h3>Navigate with your spaceship and find your way back to the lost Earth planet...</h3>
+			<h2>"L'odyssée du Sphinx"</h2>
+			<h3>An adventure space simulator game</h3>
 		</div>
-		<div class="row">
-			<div class="menu">
-			<p>Players</p>
-				<ul>
-					<a href="pages/fre/index.html"><li>English</li></a>
-					<a href="pages/eng/index.html"><li>Français</li></a>
-				</ul>
-			</div>
-			<div class="content" >
-				<img src="pages/images/homepage.jpg" alt="" />
-			</div>
-			<div class="light" style="text-align:center;">
-				<h1>Developper Corner</h1>
-				<p>
-				We provide a <a href="https://sphinkie.github.io/LongForgottenEarth/doxygen/html/index.html">Doxygen documentation</a> describing the C++ classes of the source code.<br/>
-				Other usefull documentation and scripts  can be found on <a href="https://github.com/Sphinkie/LongForgottenEarth/Tutorials/">this GitHub sub-repository.</a>
-				</p>
-				<br/>
-			</div>
-			<div class="dark">
-				<h2>Credits</h2>
-				<img src="pages/images/ogrebanner2020.png" style="max-width: 739px;" />
-				<p>
-				<img src="pages/images/fleche.gif" class="pastille" /> <a href="http://www.ogre3d.org" target="new">Ogre website</a> : Official web site of the OGRE Game Engine.<br/>
-				<img src="pages/images/fleche.gif" class="pastille" /> <a target="new" href="http://www.ogre3d.org/docs/manual">Online OGRE manual</a> : The official OGRE documenatation.<br/>
-				<img src="pages/images/fleche.gif" class="pastille" /> <a href="http://www.eldacur.com/~brons/NerdCorner/StarGen/StarGen.html" target="new">StarGen website</a> : Realistic Solar Systems Generator.<br/>
-				<img src="pages/images/fleche.gif" class="pastille" /> <a href="http://www.sourceforge.net/projects/tinyxml" target="new">TinyXML at SourceForge</a> : Tiny XML Parser library.<br/>
-				<img src="pages/images/fleche.gif" class="pastille" /> <a href="http://libnoise.sourceforge.net" target="new">LibNoise at SourceForge</a> : Coherent Noise library.<br/>
-				<img src="pages/images/fleche.gif" class="pastille" /> <a href="http://www.ogre3d.org/phpBB2/" target="new">Ogre Forum</a> : Forum for OGRE developpers.<br/>
-				<img src="pages/images/fleche.gif" class="pastille" /> <a href="http://www.lua.org" target="new">LUA language</a> : Scripting Engine<br/>
-				<img src="pages/images/fleche.gif" class="pastille" /> <a href="http://www.fmod.com" target="new">FMOD library</a> : Audio Engine.<br/>
-				</p>
-			</div>
-			<div class="light">
-				<h2>Inspiration</h2>
-				<p class="light">
-				<img src="pages/images/arrow2.gif" class="pastille" /> <a href="https://en.wikipedia.org/wiki/The_Forever_War" target="new">The Forever War (Joe Halderman)</a> : Book by Joe Halderman (BD by Marvano "La guerre éternelle")<br/>
-				<img src="pages/images/arrow2.gif" class="pastille" /> <a href="http://www.siderealgames.com" target="new">FreeHauler</a> : Space trader from the "Orion Arm" family.<br/>
-				<img src="pages/images/arrow2.gif" class="pastille" /> <a href="http://mostlyharmless.sourceforge.net" target="new">Mostly Harmless</a> (by Marc Griffith)<br/>
-				<img src="pages/images/arrow2.gif" class="pastille" /> <a href="http://users.bigpond.com/alexp1/index.htm" target="new">SAO: Sierra Alpha One</a> (cancelled)<br/>
-				<img src="pages/images/arrow2.gif" class="pastille" /> <a href="http://anywherebb.com/postline/posts.php?f=15&t=409" target="new">Noctis</a> (oldies)<br/>
-				<img src="pages/images/arrow2.gif" class="pastille" /> <a href="http://vegastrike.sourceforge.net/" target="new">Vega Strike</a> : A 3D Space Simulator that allows you to trade and bounty hunt in a vast universe.<br/>
-				<img src="pages/images/arrow2.gif" class="pastille" /> <a href="https://www.jeuxvideo.com/jeux/pc/00005367-edge-of-chaos-independence-war-2.htm" target="new">I-War and I-war2</a> ... de bons souvenirs...<br/>
-				<img src="pages/images/arrow2.gif" class="pastille" /> <a href="https://en.wikipedia.org/wiki/Wing_Commander:_Privateer" target="new">Privateer</a> (I used to play a lot with it).
-				</p>
-			</div>
+		
+		<!-- Zone II : Image + résumé -->
+		<div style="position:relative;">
+			<a href="pages/fre/index.html">
+				<div style="z-index:1">
+					<img src="pages/images/homepage.jpg" alt="" />
+				</div>
+				<div style="position:absolute; top:200px; z-index:2; padding-left:20%; padding-right:20%;">
+					<h4>Navigate with your spaceship and find your way back to the lost Earth planet...</h4>
+				</div>
+			</a>
 		</div>
+		
+		<!-- Zone III : Developpeurs -->
+		<div class="light" style="text-align:center;">
+			<h1>Developper Corner</h1>
+			<p>
+				We provide a <a href="https://sphinkie.github.io/LongForgottenEarth/doxygen/html/index.html">Doxygen documentation</a> explaibing the C++ classes of the source code.<br/>
+				The star positions are all real, and come from the <a href="http://celestia.fr">Celestia</a> database.<br/>
+				<b>The detailled characteristics of solar systems</b> (star type, planets, atmosphere, temperature, etc) are realistic too, and <b>generated by <a href="https://github.com/sphinkie/StarGen-II">StarGen II</a>.</b><br/>
+				Other usefull documentation and scripts  can be found on <a href="https://github.com/Sphinkie/LongForgottenEarth/tree/master/Tutorials/">this GitHub sub-repository.</a>
+			</p>
+			<br/>
+		</div>
+		<div class="dark">
+			<h2>Credits</h2>
+			<img src="pages/images/ogrebanner2020.png" style="max-width: 480px;" />
+			<p>
+				<img src="pages/images/fleche.gif" class="pastille" />
+				<a href="http://www.ogre3d.org" target="new">Ogre website</a> : Official web site of the OGRE Game Engine.<br/>
+				<img src="pages/images/fleche.gif" class="pastille" />
+				<a target="new" href="http://www.ogre3d.org/docs/manual">Online OGRE manual</a> : The official OGRE documenatation.<br/>
+				<img src="pages/images/fleche.gif" class="pastille" />
+				<a href="http://www.eldacur.com/~brons/NerdCorner/StarGen/StarGen.html" target="new">StarGen website</a> : Realistic Solar Systems Generator.<br/>
+				<img src="pages/images/fleche.gif" class="pastille" />
+				<a href="http://www.sourceforge.net/projects/tinyxml" target="new">TinyXML at SourceForge</a> : Tiny XML Parser library.<br/>
+				<img src="pages/images/fleche.gif" class="pastille" />
+				<a href="http://libnoise.sourceforge.net" target="new">LibNoise at SourceForge</a> : Coherent Noise library.<br/>
+				<img src="pages/images/fleche.gif" class="pastille" />
+				<a href="http://www.ogre3d.org/phpBB2/" target="new">Ogre Forum</a> : Forum for OGRE developpers.<br/>
+				<img src="pages/images/fleche.gif" class="pastille" />
+				<a href="http://www.lua.org" target="new">LUA language</a> : Scripting Engine<br/>
+				<img src="pages/images/fleche.gif" class="pastille" />
+				<a href="http://www.fmod.com" target="new">FMOD library</a> : Audio Engine.<br/>
+			</p>
+		</div>
+		<div class="light">
+			<h2>Inspiration</h2>
+			<p class="light">
+				<img src="pages/images/arrow2.gif" class="pastille" />
+				<a href="https://en.wikipedia.org/wiki/The_Forever_War" target="new">The Forever War (Joe Halderman)</a> : Book by Joe Halderman (BD by Marvano "La guerre éternelle")<br/>
+				<img src="pages/images/arrow2.gif" class="pastille" />
+				<a href="http://www.siderealgames.com" target="new">FreeHauler</a> : Space trader from the "Orion Arm" family.<br/>
+				<img src="pages/images/arrow2.gif" class="pastille" />
+				<a href="http://mostlyharmless.sourceforge.net" target="new">Mostly Harmless</a> (by Marc Griffith)<br/>
+				<img src="pages/images/arrow2.gif" class="pastille" />
+				<a href="http://users.bigpond.com/alexp1/index.htm" target="new">SAO: Sierra Alpha One</a> (cancelled)<br/>
+				<img src="pages/images/arrow2.gif" class="pastille" />
+				<!-- <a href="http://anywherebb.com/postline/posts.php?f=15&t=409" target="new">Noctis</a> (oldies)<br/> -->
+				<img src="pages/images/arrow2.gif" class="pastille" />
+				<a href="http://vegastrike.sourceforge.net/" target="new">Vega Strike</a> : A 3D Space Simulator that allows you to trade and bounty hunt in a vast universe.<br/>
+				<img src="pages/images/arrow2.gif" class="pastille" />
+				<a href="https://www.jeuxvideo.com/jeux/pc/00005367-edge-of-chaos-independence-war-2.htm" target="new">I-War and I-war2</a> ... de bons souvenirs...<br/>
+				<img src="pages/images/arrow2.gif" class="pastille" />
+				<a href="https://en.wikipedia.org/wiki/Wing_Commander:_Privateer" target="new">Privateer</a> (I used to play a lot with it).
+			</p>
+		</div>
+		<!--/div-->
 		<div class="footer">
-		<footer padding="20px">
-			<p>Long Forgotten Earth maintained by <a href="https://sphinkie.github.io/">David de Lorenzo</a></p>
-			<p>Published with GitHub Pages</p>
+			<footer padding="20px">
+				<p>Long Forgotten Earth maintained by <a href="https://sphinkie.github.io/">David de Lorenzo</a>
+				</p>
+				<p>Published with GitHub Pages</p>
 			</footer>
 		</div>
 	</body>
