@@ -1,0 +1,70 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: libnoise - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Computer\LOCALS~1\Temp\RSPD6.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /I ".\include" /I ".\include\model" /I ".\include\module" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /Fp"./win32/Release/libnoise.pch" /YX /Fo"./win32/Release/" /Fd"./win32/Release/" /FD /c 
+"E:\sphinx\libnoise\src\module\crater.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Computer\LOCALS~1\Temp\RSPD6.tmp" 
+Creating temporary file "C:\DOCUME~1\Computer\LOCALS~1\Temp\RSPD7.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /dll /incremental:no /pdb:"./lib/libnoise.pdb" /map:"./win32/Release/libnoise.map" /machine:I386 /def:".\src\win32\libnoise.def" /out:"./lib/libnoise.dll" /implib:"./lib/libnoise.lib" 
+.\win32\Release\abs.obj
+.\win32\Release\add.obj
+.\win32\Release\billow.obj
+.\win32\Release\blend.obj
+.\win32\Release\cache.obj
+.\win32\Release\checkerboard.obj
+.\win32\Release\clamp.obj
+.\win32\Release\const.obj
+.\win32\Release\crater.obj
+.\win32\Release\curve.obj
+.\win32\Release\cylinders.obj
+.\win32\Release\displace.obj
+.\win32\Release\exponent.obj
+.\win32\Release\invert.obj
+.\win32\Release\max.obj
+.\win32\Release\min.obj
+.\win32\Release\modulebase.obj
+.\win32\Release\multiply.obj
+.\win32\Release\perlin.obj
+.\win32\Release\power.obj
+.\win32\Release\ridgedmulti.obj
+.\win32\Release\rotatepoint.obj
+.\win32\Release\scalebias.obj
+.\win32\Release\scalepoint.obj
+.\win32\Release\select.obj
+.\win32\Release\spheres.obj
+.\win32\Release\terrace.obj
+.\win32\Release\translatepoint.obj
+.\win32\Release\turbulence.obj
+.\win32\Release\voronoi.obj
+.\win32\Release\cylinder.obj
+.\win32\Release\line.obj
+.\win32\Release\plane.obj
+.\win32\Release\sphere.obj
+.\win32\Release\dllmain.obj
+.\win32\Release\latlon.obj
+.\win32\Release\noisegen.obj
+.\win32\Release\noise.res
+]
+Creating command line "link.exe @C:\DOCUME~1\Computer\LOCALS~1\Temp\RSPD7.tmp"
+<h3>Output Window</h3>
+Compiling...
+crater.cpp
+Linking...
+   Creating library ./lib/libnoise.lib and object ./lib/libnoise.exp
+
+
+
+<h3>Results</h3>
+libnoise.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

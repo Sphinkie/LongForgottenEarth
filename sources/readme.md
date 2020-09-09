@@ -1,7 +1,5 @@
 # Sources files for "Long Forgotten Earth"
 
-
-
 There are 4 source folders, as there are 4 executables to compile:
 
 * **Config** : To be run first, it will analyze your hardware configuration. Here you can select the audio device , and the video output (DirectX or OpenGL).
