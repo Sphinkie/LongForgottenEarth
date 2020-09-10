@@ -1,0 +1,72 @@
+material computer/dyn/idle
+{
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                anim_texture comp_idle1.jpg comp_idle2.jpg 3.5
+            }
+        }
+    }
+}
+
+material computer/dyn/broken
+{
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                anim_texture comp_blank.jpg comp_malfunction.jpg 2.5
+            }
+        }
+    }
+}
+
+material computer/dyn/maintenance
+{
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                anim_texture comp_maint1.jpg comp_maint2.jpg 11.2
+            }
+        }
+    }
+}
+
+material computer/dyn/maintenance/menu
+{
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture comp_maint3.jpg
+            }
+        }
+    }
+}
+
+material computer/dyn/blank
+{
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture comp__blank.jpg
+            }
+        }
+    }
+}
+
+
+

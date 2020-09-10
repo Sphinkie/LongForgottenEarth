@@ -1,0 +1,39 @@
+material elevator/hull
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.847059 0.847059 1.0
+            diffuse 0.866667 0.866667 1.0
+            specular 0.0 0.0 0.0 0.0
+            emissive 0.0 0.0 0.0
+            texture_unit
+            {
+                texture hull.jpg 
+            }
+        }
+    }
+}
+
+material elevator/rail
+{
+    technique
+    {
+        pass
+        {
+        	lighting off
+            ambient 1.0 1.0 1.0
+            diffuse 1.0 1.0 1.0
+            texture_unit
+            {
+                texture rail_C.jpg
+            }
+            texture_unit
+            {
+                anim_texture rail_L1.jpg rail_L2.jpg rail_L3.jpg rail_L4.jpg rail_L5.jpg rail_L6.jpg 2
+            }
+        }
+    }
+}
+

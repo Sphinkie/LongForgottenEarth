@@ -1,0 +1,114 @@
+material hibernation/steel
+{
+    technique
+    {
+        pass
+        {
+        	lighting on
+            ambient 0.2 0.2 0.2
+            texture_unit
+            {
+                texture Stainless_Steel.jpg
+            }
+        }
+    }
+}
+
+material hibernation/radiator
+{
+    technique
+    {
+        pass
+        {
+        	lighting on
+            ambient 0.1 0.1 0.1
+            texture_unit
+            {
+                texture radiator.jpg
+            }
+        }
+    }
+}
+
+material hibernation/blue_alu
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.2 0.2 0.2
+            texture_unit
+            {
+                texture Sky_Aluminium.jpg
+            }
+        }
+    }
+}
+
+material hibernation/metalscape
+{
+    technique
+    {
+        pass
+        {
+        	lighting on
+            ambient 0.1 0.1 0.1
+            texture_unit
+            {
+                texture Metalscape.jpg
+            }
+        }
+    }
+}
+
+material hibernation/chrome
+{
+    technique
+    {
+        pass
+        {
+            depth_write off
+        	scene_blend alpha_blend
+            ambient 0.9 0.9 0.9
+            diffuse 1.0 1.0 1.0
+            texture_unit
+            {
+                texture t-chrome.tga
+            }
+        }
+    }
+}
+
+
+material hibernation/screen
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.1 0.1 0.1
+            texture_unit
+            {
+                texture screen_empty.jpg
+            }
+        }
+    }
+}
+
+
+material hibernation/pipe
+{
+    technique
+    {
+        pass
+        {
+        	lighting on
+            ambient 0.3 0.3 0.3
+            texture_unit
+            {
+                texture chromepipeY.jpg
+            }
+        }
+    }
+}
+

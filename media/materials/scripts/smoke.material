@@ -1,0 +1,41 @@
+
+material Smoke
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_write off
+
+			texture_unit
+			{
+				texture smoke02.png
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+
+
+material Spark
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+//			scene_blend alpha_blend
+			scene_blend add
+			depth_write off
+
+			texture_unit
+			{
+//				texture lightning.png
+				texture spark.png
+				tex_address_mode clamp
+			}
+		}
+	}
+}

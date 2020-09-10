@@ -1,0 +1,85 @@
+<mesh>
+	<submeshes>
+		<submesh material="roomWall" usesharedvertices="false" use32bitindexes="false" operationtype="triangle_list">
+			<faces count="4">
+				<face v1="0" v2="1" v3="3"/>
+				<face v1="3" v2="1" v3="2"/>
+				<face v1="4" v2="5" v3="7"/>
+				<face v1="7" v2="5" v3="6"/>
+			</faces>
+			<geometry vertexcount="8">
+				<vertexbuffer positions="true" normals="true">
+					<vertex>
+						<position x="-0.000031" y="37.429352" z="-54.540588"/>
+						<normal x="0.000000" y="-1.000000" z="0.000000"/>
+					</vertex>
+					<vertex>
+						<position x="36.221893" y="42.198093" z="-54.538742"/>
+						<normal x="0.130500" y="-0.991448" z="0.000000"/>
+					</vertex>
+					<vertex>
+						<position x="36.221893" y="42.198093" z="36.461258"/>
+						<normal x="0.130500" y="-0.991448" z="0.000000"/>
+					</vertex>
+					<vertex>
+						<position x="-0.000031" y="37.429352" z="36.459412"/>
+						<normal x="0.000000" y="-1.000000" z="0.000000"/>
+					</vertex>
+					<vertex>
+						<position x="-0.000031" y="37.429352" z="36.459412"/>
+						<normal x="0.000000" y="-1.000000" z="0.000000"/>
+					</vertex>
+					<vertex>
+						<position x="-36.219147" y="42.197720" z="36.459412"/>
+						<normal x="-0.130500" y="-0.991448" z="0.000000"/>
+					</vertex>
+					<vertex>
+						<position x="-36.219147" y="42.197720" z="-54.540588"/>
+						<normal x="-0.130500" y="-0.991448" z="0.000000"/>
+					</vertex>
+					<vertex>
+						<position x="-0.000031" y="37.429352" z="-54.540588"/>
+						<normal x="0.000000" y="-1.000000" z="0.000000"/>
+					</vertex>
+				</vertexbuffer>
+				<vertexbuffer texture_coord_dimensions_0="2" texture_coords="1">
+					<vertex>
+						<texcoord u="0.476563" v="0.164063"/>
+					</vertex>
+					<vertex>
+						<texcoord u="0.156250" v="0.164063"/>
+					</vertex>
+					<vertex>
+						<texcoord u="0.156250" v="0.007813"/>
+					</vertex>
+					<vertex>
+						<texcoord u="0.476563" v="0.007813"/>
+					</vertex>
+					<vertex>
+						<texcoord u="0.476563" v="0.164063"/>
+					</vertex>
+					<vertex>
+						<texcoord u="0.476563" v="0.007813"/>
+					</vertex>
+					<vertex>
+						<texcoord u="0.820313" v="0.007813"/>
+					</vertex>
+					<vertex>
+						<texcoord u="0.820313" v="0.164063"/>
+					</vertex>
+				</vertexbuffer>
+			</geometry>
+			<boneassignments>
+				<vertexboneassignment vertexindex="0" boneindex="0" weight="1.000000"/>
+				<vertexboneassignment vertexindex="1" boneindex="0" weight="1.000000"/>
+				<vertexboneassignment vertexindex="2" boneindex="0" weight="1.000000"/>
+				<vertexboneassignment vertexindex="3" boneindex="0" weight="1.000000"/>
+				<vertexboneassignment vertexindex="4" boneindex="0" weight="1.000000"/>
+				<vertexboneassignment vertexindex="5" boneindex="0" weight="1.000000"/>
+				<vertexboneassignment vertexindex="6" boneindex="0" weight="1.000000"/>
+				<vertexboneassignment vertexindex="7" boneindex="0" weight="1.000000"/>
+			</boneassignments>
+		</submesh>
+	</submeshes>
+	<skeletonlink name="maintRoomDoor-maintRoomArm1.skeleton"/>
+</mesh>

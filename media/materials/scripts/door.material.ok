@@ -1,0 +1,144 @@
+material Door/contour
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.117647 0.117647 0.117647
+            diffuse 1.0 1.0 1.0
+            specular 0.0 0.0 0.0 0.0
+            emissive 0.0 0.0 0.0
+            texture_unit
+            {
+                texture Stainless_Steel.jpg 
+            }
+        }
+    }
+}
+
+material Door/porteD
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.156863 0.156863 0.156863
+            diffuse 1.0 1.0 1.0
+            specular 0.0 0.0 0.0 0.0
+            emissive 0.0 0.0 0.0
+            texture_unit
+            {
+                texture door.jpg 
+            }
+        }
+    }
+}
+
+material Door/screen1
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.501961 0.501961 0.501961
+            diffuse 1.0 1.0 1.0
+            specular 0.0 0.0 0.0 0.0
+            emissive 0.0 0.0 0.0
+            texture_unit
+            {
+                texture door-nominal.jpg 
+            }
+        }
+    }
+}
+
+material Door/screen2
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.501961 0.501961 0.501961
+            diffuse 1.0 1.0 1.0
+            specular 0.0 0.0 0.0 0.0
+            emissive 0.0 0.0 0.0
+            texture_unit
+            {
+                texture door-locked.jpg 
+            }
+        }
+    }
+}
+
+material Door/PorteG
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.156863 0.156863 0.156863
+            diffuse 1.0 1.0 1.0
+            specular 0.0 0.0 0.0 0.0
+            emissive 0.0 0.0 0.0
+            texture_unit
+            {
+                texture door.jpg 
+            }
+        }
+    }
+}
+
+material Door/Hull
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.156863 0.156863 0.156863
+            diffuse 1.0 1.0 1.0
+            specular 0.0 0.0 0.0 0.0
+            emissive 0.0 0.0 0.0
+            texture_unit
+            {
+                texture hull.jpg 
+            }
+        }
+    }
+}
+
+material Door/PorteH
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.156863 0.156863 0.156863
+            diffuse 1.0 1.0 1.0
+            specular 0.0 0.0 0.0 0.0
+            emissive 0.0 0.0 0.0
+            texture_unit
+            {
+                texture door.jpg 
+            }
+        }
+    }
+}
+
+material Door/PorteB
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.156863 0.156863 0.156863
+            diffuse 1.0 1.0 1.0
+            specular 0.0 0.0 0.0 0.0
+            emissive 0.0 0.0 0.0
+            texture_unit
+            {
+                texture door.jpg 
+            }
+        }
+    }
+}
+

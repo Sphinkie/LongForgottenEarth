@@ -1,0 +1,164 @@
+<scene formatVersion="0.2.0">
+  <nodes>
+      <node name="TestRoom">
+      <position x="0"   y="-10" z="0"/>
+      <rotation qx="0" qy="0" qz="0" qw="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="TestRoom" meshFile="room_maps.mesh"/>
+      <userData>
+        <property type="STRING" name="CLASS" data="room"/>
+        <property type="STRING" name="DESCFILE" data="RoomMaint.cfg"/>
+      </userData>
+
+    <node name="axisZ180">
+      <position x="60.000000" y="-60.000000" z="0.000000"/>
+      <rotation qx="0.000000" qy="0.000000" qz="1.000000" qw="0.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="axisZ180" meshFile="axisVirtual.mesh"/>
+    </node>
+    <node name="axisY270">
+      <position x="90.000000" y="-30.000000" z="0.000000"/>
+      <rotation qx="0.000000" qy="-0.707107" qz="0.000000" qw="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="axisY270" meshFile="axisVirtual.mesh"/>
+    </node>
+    <node name="axisX90">
+      <position x="30.000000" y="0.000000" z="0.000000"/>
+      <rotation qx="-0.707107" qy="0.000000" qz="0.000000" qw="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="axisX90" meshFile="axisVirtual.mesh"/>
+    </node>
+    <node name="axisX180">
+      <position x="60.000000" y="0.000000" z="0.000000"/>
+      <rotation qx="1.000000" qy="0.000000" qz="0.000000" qw="0.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="axisX180" meshFile="axisVirtual.mesh"/>
+    </node>
+    <node name="axisX0">
+      <position x="0.000000" y="0.000000" z="0.000000"/>
+      <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="axisX0" meshFile="axisVirtual.mesh"/>
+    </node>
+    <node name="axisY0">
+      <position x="0.000000" y="-30.000000" z="0.000000"/>
+      <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="axisY0" meshFile="axisVirtual.mesh"/>
+    </node>
+    <node name="axisY180">
+      <position x="60.000000" y="-30.000000" z="0.000000"/>
+      <rotation qx="0.000000" qy="1.000000" qz="-0.000000" qw="0.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="axisY180" meshFile="axisVirtual.mesh"/>
+    </node>
+    <node name="axisZ270">
+      <position x="90.000000" y="-60.000000" z="0.000000"/>
+      <rotation qx="0.000000" qy="0.000000" qz="0.707107" qw="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="axisZ270" meshFile="axisVirtual.mesh"/>
+    </node>
+    <node name="axisY90">
+      <position x="30.000000" y="-30.000000" z="0.000000"/>
+      <rotation qx="0.000000" qy="0.707107" qz="-0.000000" qw="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="axisY90" meshFile="axisVirtual.mesh"/>
+    </node>
+    <node name="axisZ0">
+      <position x="0.000000" y="-60.000000" z="0.000000"/>
+      <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="axisZ0" meshFile="axisVirtual.mesh"/>
+    </node>
+    <node name="axisX270">
+      <position x="90.000000" y="0.000000" z="0.000000"/>
+      <rotation qx="0.707107" qy="0.000000" qz="0.000000" qw="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="axisX270" meshFile="axisVirtual.mesh"/>
+    </node>
+    <node name="axisZ90">
+      <position x="30.000000" y="-60.000000" z="0.000000"/>
+      <rotation qx="0.000000" qy="0.000000" qz="-0.707107" qw="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="axisZ90" meshFile="axisVirtual.mesh"/>
+    </node>
+
+			<node name="Test Door">
+				<entity name="Test Door" meshFile="door.mesh"/>
+				<position x="+275" y="0" z="-13"/>
+				<rotation qx="0.000000" qy="0.7070" qz="0.000000" qw="0.7070"/><!-- rotation="90" -->
+				<userData>
+					<property type="STRING" name="CLASS" data="door"/>
+					<property type="STRING" name="ANIMATION" data="open"/>
+					<property type="STRING" name="DESCFILE" data="door.cfg"/>
+				</userData>
+			</node>
+
+
+
+
+         <node name="Elevator5">
+         <entity name="Elevator5" meshFile="elevatorSec.mesh" />
+         <position x="0" y="0" z="-1948" />
+         <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000" />
+         <userData>
+            <property type="STRING" name="CLASS" data="room" />
+            <property type="STRING" name="DESCFILE" data="elevator.cfg" />
+         </userData>
+
+         <node name="L5">
+            <position x="0" y="0" z="0" />
+            <light name="L5" type="point">
+               <colourDiffuse r="0.46666666" g="0.9333333" b="1" />
+            </light>
+            <userData>
+               <property type="INT" name="RANGE" data="200" />
+            </userData>
+         </node>
+
+<!--          <node name="Button UP5">
+            <entity name="Button UP5" meshFile="elev_button.mesh" />
+            <position x="-55" y="40 " z="85" />
+            <rotation qx="0.000000" qy="-0.258819" qz="0.000000" qw="0.965925" />
+            <userData>
+               <property type="STRING" name="CLASS" data="button" />
+               <property type="STRING" name="DESCFILE" data="elev_button_UP.cfg" />
+            </userData>
+         </node> -->
+
+         <node name="Button DN5">
+            <entity name="Button DN5" meshFile="elev_button.mesh" />
+            <position x="-55" y="25 " z="85" />
+            <rotation qx="0.000000" qy="-0.258819" qz="0.000000" qw="0.965925" /><!-- rotation="-45" -->
+            <userData>
+               <property type="STRING" name="CLASS" data="button" />
+               <property type="STRING" name="DESCFILE" data="elev_button_DN.cfg" />
+            </userData>
+         </node>
+      </node>
+
+   </node>
+
+
+   <node name="Camera">
+      <position x="0" y="0" z="0"/>
+      <rotation qx="0.552144" qy="-0.518127" qz="-0.482245" qw="0.440592"/>
+      <scale x="60.000008" y="59.999996" z="59.999985"/>
+      <camera name="Camera" fov="64.366587" projectionType="perspective">
+        <normal x="0.0" y="0.0" z="-1.0"/>
+        <clipping near="0.100000" far="500.000000"/>
+      </camera>
+    </node>
+
+  </nodes>
+
+  <externals>
+    <item type="material">
+      <file name="Scene.material"/>
+    </item>
+  </externals>
+  <environment>
+    <colourAmbient r="0.000000" g="0.000000" b="0.000000"/>
+    <colourBackground r="0.056563" g="0.220815" b="0.400000"/>
+  </environment>
+</scene>

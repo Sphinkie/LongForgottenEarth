@@ -1,0 +1,28 @@
+material planet/basic
+{
+	technique
+	{
+		pass
+		{
+			//depth_write off for background static or tranparent objects
+			depth_write on
+		    // if dynamic lighting is off, object is fully lit
+			lighting on
+			// if ON,	000=black  - 111=white
+			// ambient est la lumière générale ambiante, elle évite des contrastes trop tranchés entre zone éclairée et zone d'ombre
+			ambient 0.6 0.6 0.6
+//			ambient 0.15 0.15 0.15
+			// diffuse est la couleur pour la partie éclairée (comme un filtre posé devant la lumière venant du Light)
+			diffuse 1.0 1.0 1.0
+			// specular est la couleur des reflets (aspect métal).
+			// Pour les voir, il faut baisser la lumière ambiante, et avoir paramétré un setSpecularColor sur la Light
+            emissive 0.0 0.0 0.0
+            specular 0.0 0.0 0.0 0.0
+			texture_unit
+			{
+ 				texture earth.jpg
+			}
+
+		}
+	}
+}

@@ -1,0 +1,87 @@
+<mesh>
+	<submeshes>
+		<submesh material="elevDoor" usesharedvertices="false" use32bitindexes="false" operationtype="triangle_list">
+			<faces count="12">
+				<face v1="0" v2="1" v3="3"/>
+				<face v1="3" v2="1" v3="2"/>
+				<face v1="4" v2="5" v3="7"/>
+				<face v1="7" v2="5" v3="6"/>
+				<face v1="4" v2="2" v3="5"/>
+				<face v1="5" v2="2" v3="1"/>
+				<face v1="8" v2="2" v3="9"/>
+				<face v1="9" v2="2" v3="4"/>
+				<face v1="10" v2="9" v3="4"/>
+				<face v1="4" v2="7" v3="10"/>
+				<face v1="2" v2="8" v3="3"/>
+				<face v1="3" v2="8" v3="11"/>
+			</faces>
+			<geometry vertexcount="12">
+				<vertexbuffer positions="true" normals="true">
+					<vertex>
+						<position x="-29.113354" y="-70.285942" z="59.999973"/>
+						<normal x="-0.180734" y="-0.908674" z="-0.376361"/>
+					</vertex>
+					<vertex>
+						<position x="-24.525742" y="-59.210442" z="31.058266"/>
+						<normal x="-0.188454" y="-0.947519" z="-0.258251"/>
+					</vertex>
+					<vertex>
+						<position x="0.000022" y="-64.088890" z="31.058266"/>
+						<normal x="0.000000" y="-0.964808" z="-0.262955"/>
+					</vertex>
+					<vertex>
+						<position x="0.000030" y="-76.076920" z="59.999973"/>
+						<normal x="0.000000" y="-0.923880" z="-0.382682"/>
+					</vertex>
+					<vertex>
+						<position x="0.000019" y="-59.999966" z="-0.000027"/>
+						<normal x="0.000000" y="-1.000000" z="0.000000"/>
+					</vertex>
+					<vertex>
+						<position x="-22.960985" y="-55.432777" z="-0.000027"/>
+						<normal x="-0.195077" y="-0.980788" z="0.000000"/>
+					</vertex>
+					<vertex>
+						<position x="-24.525745" y="-59.210442" z="-31.058298"/>
+						<normal x="-0.193462" y="-0.972714" z="0.128059"/>
+					</vertex>
+					<vertex>
+						<position x="0.000017" y="-64.088890" z="-31.058298"/>
+						<normal x="0.000000" y="-0.991448" z="0.130500"/>
+					</vertex>
+					<vertex>
+						<position x="24.525778" y="-59.210407" z="31.058266"/>
+						<normal x="0.188454" y="-0.947519" z="-0.258251"/>
+					</vertex>
+					<vertex>
+						<position x="22.961010" y="-55.432739" z="-0.000027"/>
+						<normal x="0.195077" y="-0.980788" z="0.000000"/>
+					</vertex>
+					<vertex>
+						<position x="24.525770" y="-59.210407" z="-31.058298"/>
+						<normal x="0.193462" y="-0.972714" z="0.128059"/>
+					</vertex>
+					<vertex>
+						<position x="29.113405" y="-70.285896" z="59.999973"/>
+						<normal x="0.180734" y="-0.908674" z="-0.376361"/>
+					</vertex>
+				</vertexbuffer>
+			</geometry>
+			<boneassignments>
+				<vertexboneassignment vertexindex="0" boneindex="0" weight="1.000000"/>
+				<vertexboneassignment vertexindex="1" boneindex="0" weight="1.000000"/>
+				<vertexboneassignment vertexindex="2" boneindex="0" weight="1.000000"/>
+				<vertexboneassignment vertexindex="3" boneindex="0" weight="1.000000"/>
+				<vertexboneassignment vertexindex="4" boneindex="0" weight="1.000000"/>
+				<vertexboneassignment vertexindex="5" boneindex="0" weight="1.000000"/>
+				<vertexboneassignment vertexindex="6" boneindex="0" weight="1.000000"/>
+				<vertexboneassignment vertexindex="7" boneindex="0" weight="1.000000"/>
+				<vertexboneassignment vertexindex="8" boneindex="0" weight="1.000000"/>
+				<vertexboneassignment vertexindex="9" boneindex="0" weight="1.000000"/>
+				<vertexboneassignment vertexindex="10" boneindex="0" weight="1.000000"/>
+				<vertexboneassignment vertexindex="11" boneindex="0" weight="1.000000"/>
+			</boneassignments>
+		</submesh>
+	</submeshes>
+	<skeletonlink name="engineCorrDoor3-engineCorrArm3.skeleton"/>
+</mesh>

@@ -1,0 +1,39 @@
+// ------------------------------------------------------
+// Fond pour la ligne des messages
+// ------------------------------------------------------
+material message/background/grey
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_check off
+			texture_unit
+			{
+				texture background_grey.png
+			}
+		}
+	}
+}
+
+// ------------------------------------------------------
+// Autre fond: transparent
+// ------------------------------------------------------
+material message/background/empty
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_check off
+			texture_unit
+			{
+				texture background_empty.png
+			}
+		}
+	}
+}

@@ -1,0 +1,44 @@
+<mesh>
+	<submeshes>
+		<submesh material="cellWallSq" usesharedvertices="false" use32bitindexes="false" operationtype="triangle_list">
+			<faces count="2">
+				<face v1="0" v2="1" v3="3"/>
+				<face v1="3" v2="1" v3="2"/>
+			</faces>
+			<geometry vertexcount="4">
+				<vertexbuffer positions="true" normals="true">
+                    <vertex>
+                        <position x="-311.876862" y="-331.297241" z="-103.459099"/>
+                        <normal x="-0.728126" y="0.685443" z="0.000000"/>
+                    </vertex>
+                    <vertex>
+                        <position x="-490.092133" y="-520.609924" z="-103.459045"/>
+                        <normal x="-0.728126" y="0.685443" z="0.000000"/>
+                    </vertex>
+                    <vertex>
+                        <position x="-490.092072" y="-520.609985" z="130.000061"/>
+                        <normal x="-0.728126" y="0.685443" z="0.000000"/>
+                    </vertex>
+                    <vertex>
+                        <position x="-311.876801" y="-331.297241" z="130.000046"/>
+                        <normal x="-0.728126" y="0.685443" z="0.000000"/>
+                    </vertex>
+				</vertexbuffer>
+				<vertexbuffer texture_coord_dimensions_0="2" texture_coords="1">
+                    <vertex>
+                        <texcoord u="0.058828" v="0.990000"/>
+                    </vertex>
+                    <vertex>
+                        <texcoord u="0.938789" v="0.990000"/>
+                    </vertex>
+                    <vertex>
+                        <texcoord u="0.938789" v="0.010000"/>
+                    </vertex>
+                    <vertex>
+                        <texcoord u="0.058828" v="0.010000"/>
+                    </vertex>
+				</vertexbuffer>
+			</geometry>
+		</submesh>
+	</submeshes>
+</mesh>

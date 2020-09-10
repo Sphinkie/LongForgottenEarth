@@ -1,0 +1,227 @@
+//-----------------------------------------------------------------------------
+// ps14_BumpSpecular.sha
+// 
+// Uses the alpha channel of the normal map to get a per pixel specular exponent
+// of the material.  The N.H is used as one dimention and the K is used in the
+// other of a 2d map that returns the specular highlight intensity.
+//
+//    Chris Brennan - ATI Research, Inc. - 2001
+//-----------------------------------------------------------------------------
+
+matrix  mWVP;
+matrix  mW;
+vector  pOL;
+vector  pOV;
+vector  cLgt;
+vector  cnst;
+
+texture tBase;       // Base texture
+texture tNormal;     // Normal Map
+texture tNormalizer; // Cubic Normalizer map
+texture tSpecNHxK;   // Function lookup for N.H on one axis, and K on another.
+
+DWord cAmbient = 0x40404040;
+
+//--------------------------------------------------------------
+// Specular bump mapping with per pixel falloff
+//--------------------------------------------------------------
+vertexshader vTexTLightTEye = 
+	decl
+	{
+		stream 0;
+		float    v0[3];  // Position
+		D3DCOLOR v3;     // Normal
+		float    v7[2];  // Tex coord 0
+		D3DCOLOR v8;     // Binormal
+		D3DCOLOR v9;     // Tangent
+	}
+	asm
+	{
+        ; Constants:
+        ; 16..19 - Composite World-View-Projection Matrix
+        ; 24..27 - World Matrix
+        ; 31     - World Space Light Position
+        ; 32     - Object Space Light Position
+        ; 33     - {1/light range, light range, 1/attenuation2, attenuation2}
+        ; 34     - Object Space Eye Position
+        ; 95     - {0.0, 0.5, 1.0, 2.0}
+
+        vs.1.0
+
+        m4x4 oPos, v0, c16
+        mov  oT0.xy, v7.xy   ; Base Texture
+
+        ;convert from D3DColor to -1 to 1 range
+        mad  r3, v3, c95.wwwz, -c95.zzzx ; Normal = (v3*2.0)-1.0
+        mad  r9, v8, c95.wwwz, -c95.zzzx ; TangentU = (v8*2.0)-1.0
+        mad  r8, v9, c95.wwwz, -c95.zzzx ; TangentV = (v9*2.0)-1.0
+
+        ;tangent space light vector 
+        sub  r1, c32, v0       ; Object space light direction
+        dp3  r2.x, r9, r1
+        dp3  r2.y, r8, r1
+        dp3  r2.z, r3, r1
+        mov  oT1.xyz, r2.xyz   ; Tangent Space Light vector
+        dp3	 r11.x, r2, r2	   ; magnitude^2
+        rsq	 r11.y, r11.x	   ; 1/mag
+        mul	 r4.xyz, r2, r11.y ; normalize
+
+        ;tangent space halfangle vector 
+        sub  r5, c34, v0        ; Object space Eye vector
+        dp3  r6.x, r9, r5
+        dp3  r6.y, r8, r5
+        dp3  r6.z, r3, r5       ; Tangent Space Eye vector
+        dp3	 r11.x, r6, r6	    ; magnitude^2
+        rsq	 r11.y, r11.x	    ; 1/mag
+        mul	 r7.xyz, r6, r11.y  ; normalize
+        add  r8.xyz, r4, r7     ; Halfangle = Light + Eye
+        dp3	 r11.x, r8, r8	    ; magnitude^2
+        rsq	 r11.y, r11.x	    ; 1/mag
+        mul	 oT2.xyz, r8, r11.y ; normalized tangent space halfangle vector
+	};
+
+pixelshader ps14_Bump_Diffuse_Specular_PixelK = asm
+{
+    ps.1.4
+    texld  r1, t0      ; Normal
+    texld  r2, t1      ; Cubic Normalized Tangent Space Light Direction
+    texcrd r3.rgb, t2  ; Tangent Space Halfangle vector
+
+    dp3_sat r5.xyz, r1_bx2, r2_bx2  ; N.L
+    dp3_sat r2.xyz, r1_bx2, r3      ; N.H
+    mov     r2.y, r1.a              ; K = Specular Exponent
+
+    phase
+
+    texld  r0, t0  ; Base
+    texld  r3, r2  ; Specular NHxK map
+
+    add       r4.rgb, r5, c7     ; += ambient
+    mul       r0.rgb, r0, r4     ; base * (ambient + N.L))
+   +mul_x2    r0.a, r0.a, r3.b   ; Gloss map * specular highlight
+    add       r0.rgb, r0, r0.a   ; (base*(ambient+N.L)) + (Gloss*Highlight)
+};
+
+String ps14_Bump_Diffuse_Specular_PixelK_desc = "PS 1.4 - Bumped Diffuse and Specular Lighting with per pixel Specular Exponent";
+
+technique ps14_Bump_Diffuse_Specular_PixelK
+{
+    pass P0
+    {
+        VertexShaderConstant[16] = <mWVP>;  // World*View*Proj Matrix
+        VertexShaderConstant[24] = <mW>;    // World Matrix
+        VertexShaderConstant[32] = <pOL>;   // Object Space Light
+        VertexShaderConstant[33] = <cLgt>;  // Light constants
+        VertexShaderConstant[34] = <pOV>;   // Object Space Viewer Position
+        VertexShaderConstant[95] = <cnst>;  // Common constants
+
+        vertexshader = <vTexTLightTEye>;
+
+        // Base Color
+	    Texture[0]       = <tBase>;
+	    AddressU[0]      = Wrap;
+	    AddressV[0]      = Wrap;
+	    MinFilter[0]     = Linear;
+	    MagFilter[0]     = Linear;
+	    MipFilter[0]     = Linear;
+
+        // Normal Map
+        Texture[1]       = <tNormal>;
+        AddressU[1]      = Wrap;
+        AddressV[1]      = Wrap;
+        MinFilter[1]     = Linear;
+        MagFilter[1]     = Linear;
+        MipFilter[1]     = Linear;
+
+        // Cubic Normalizer Map
+	    Texture[2]   = <tNormalizer>;
+	    AddressU[2]  = Clamp;
+	    AddressV[2]  = Clamp;
+	    MinFilter[2] = Linear;
+	    MagFilter[2] = Linear;
+	    MipFilter[2] = Point;
+
+        // Specular highlight function map
+	    Texture[3]   = <tSpecNHxK>;
+	    AddressU[3]  = Clamp;
+	    AddressV[3]  = Clamp;
+	    MinFilter[3] = Linear;
+	    MagFilter[3] = Linear;
+	    MipFilter[3] = Point;
+
+        PixelShaderConstant[7] = <cAmbient>;
+        PixelShader = <ps14_Bump_Diffuse_Specular_PixelK>;
+    }
+}
+
+pixelshader ps14_Bump_Specular_PixelK = asm
+{
+    ps.1.4
+    texld  r1, t0      ; Normal
+    texld  r2, t1      ; Cubic Normalized Tangent Space Light Direction
+    texcrd r3.rgb, t2  ; Tangent Space Halfangle vector
+
+    dp3_sat r5.xyz, r1_bx2, r2_bx2  ; N.L
+    dp3_sat r2.xyz, r1_bx2, r3      ; N.H
+    mov     r2.y, r1.a              ; K = Specular Exponent
+
+    phase
+
+    texld  r0, t0  ; Base
+    texld  r3, r2  ; Specular NHxK map
+
+    mul_x2    r0, r0.a, r3.b   ; Gloss map * specular highlight
+};
+
+String ps14_Bump_Specular_PixelK_desc = "PS 1.4 - Bumped Specular Lighting with per pixel Specular Exponent";
+
+technique ps14_Bump_Specular_PixelK
+{
+    pass P0
+    {
+        VertexShaderConstant[16] = <mWVP>;  // World*View*Proj Matrix
+        VertexShaderConstant[24] = <mW>;    // World Matrix
+        VertexShaderConstant[32] = <pOL>;   // Object Space Light
+        VertexShaderConstant[33] = <cLgt>;  // Light constants
+        VertexShaderConstant[34] = <pOV>;   // Object Space Viewer Position
+        VertexShaderConstant[95] = <cnst>;  // Common constants
+
+        vertexshader = <vTexTLightTEye>;	
+
+        // Base Color
+	    Texture[0]       = <tBase>;
+	    AddressU[0]      = Wrap;
+	    AddressV[0]      = Wrap;
+	    MinFilter[0]     = Linear;
+	    MagFilter[0]     = Linear;
+	    MipFilter[0]     = Linear;
+
+        // Normal Map
+        Texture[1]       = <tNormal>;
+        AddressU[1]      = Wrap;
+        AddressV[1]      = Wrap;
+        MinFilter[1]     = Linear;
+        MagFilter[1]     = Linear;
+        MipFilter[1]     = Linear;
+
+        // Cubic Normalizer Map
+	    Texture[2]   = <tNormalizer>;
+	    AddressU[2]  = Clamp;
+	    AddressV[2]  = Clamp;
+	    MinFilter[2] = Linear;
+	    MagFilter[2] = Linear;
+	    MipFilter[2] = Point;
+
+        // Specular highlight function map
+	    Texture[3]   = <tSpecNHxK>;
+	    AddressU[3]  = Clamp;
+	    AddressV[3]  = Clamp;
+	    MinFilter[3] = Linear;
+	    MagFilter[3] = Linear;
+	    MipFilter[3] = Point;
+
+        PixelShaderConstant[7] = <cAmbient>;
+        PixelShader = <ps14_Bump_Specular_PixelK>;
+    }
+}
+

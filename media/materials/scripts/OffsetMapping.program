@@ -1,0 +1,30 @@
+// --------------------------------------------------------------
+// Bumpmap with Parallax Offset: Vertex-program
+// Video card must support this feature
+// --------------------------------------------------------------
+vertex_program Examples/OffsetMappingVP cg
+{
+   source OffsetMapping.cg
+   entry_point main_vp
+   profiles vs_1_1 arbvp1
+}
+
+// --------------------------------------------------------------
+// Bumpmap with Parallax : Fragment-program
+// --------------------------------------------------------------
+fragment_program Examples/OffsetMappingFP cg
+{
+   source OffsetMapping.cg
+   entry_point main_fp
+   profiles ps_2_0 arbfp1
+}
+
+// --------------------------------------------------------------
+// Bumpmap with Parallax: Fragment-program
+// --------------------------------------------------------------
+fragment_program Examples/OffsetMappingPS asm
+{
+   source OffsetMapping_specular.asm
+   syntax ps_1_4
+}
+

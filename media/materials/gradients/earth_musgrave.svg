@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://inkscape.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="100%"
+   height="100%"
+   id="Eath Musgrave Colormap"
+   sodipodi:version="0.32"
+   inkscape:version="0.42"
+   sodipodi:docname="EARTH_~1.SVG"
+   sodipodi:docbase="E:\sphinx\media\MATERI~1\GRADIE~1">
+  <metadata
+     id="metadata41">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     inkscape:window-height="625"
+     inkscape:window-width="1018"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     inkscape:zoom="2.2850087"
+     inkscape:cx="0.00041961670"
+     inkscape:cy="1052.2981"
+     inkscape:window-x="1174"
+     inkscape:window-y="194"
+     inkscape:current-layer="Eath Musgrave Colormap" />
+  <defs
+     id="defs3">
+    <linearGradient
+       id="MapGradient"
+       x1="-3.6954505"
+       y1="224.96887"
+       x2="451.99509"
+       y2="223.64122"
+       spreadMethod="pad"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.440825,0.000000,0.000000,0.418507,-99.46466,-143.3164)">
+      <stop
+         style="stop-color:rgb(2,24,125)"
+         offset="0.0000"
+         id="deep sea" />
+      <stop
+         style="stop-color:rgb(6,58,127)"
+         offset="0.4800"
+         id="medium sea" />
+      <stop
+         style="stop-color:rgb(14,112,192)"
+         offset="0.4900"
+         id="coastal sea" />
+      <stop
+         style="stop-color:rgb(222,176 ,100)"
+         offset="0.5000"
+         id="sand1" />
+      <stop
+         style="stop-color:rgb(222,176 ,100)"
+         offset="0.5451"
+         id="sand2" />
+      <stop
+         style="stop-color:rgb(199,172 ,119)"
+         offset="0.5471"
+         id="ground1" />
+      <stop
+         style="stop-color:rgb(150,115 ,56)"
+         offset="0.5824"
+         id="ground2" />
+      <stop
+         style="stop-color:rgb(84 ,81 ,39)"
+         offset="0.6412"
+         id="grass" />
+      <stop
+         style="stop-color:rgb(19 ,47 ,23)"
+         offset="0.7314"
+         id="forest1" />
+      <stop
+         style="stop-color:rgb(21 ,47 ,28)"
+         offset="0.7608"
+         id="forest2" />
+      <stop
+         style="stop-color:rgb(23 ,52 ,30)"
+         offset="0.7961"
+         id="forest3" />
+      <stop
+         style="stop-color:rgb(69 ,69 ,69 )"
+         offset="0.8314"
+         id="rock1" />
+      <stop
+         style="stop-color:rgb(71 ,70 ,70 )"
+         offset="0.8451"
+         id="rock2" />
+      <stop
+         style="stop-color:rgb(84 ,62 ,61 )"
+         offset="0.8765"
+         id="rock3" />
+      <stop
+         style="stop-color:#b9c9c9;stop-opacity:1.0000000;"
+         offset="0.97000003"
+         id="snow" />
+      <stop
+         style="stop-color:#e2e2e2;stop-opacity:1.0000000;"
+         offset="1.0000000"
+         id="ice" />
+    </linearGradient>
+  </defs>
+  <rect
+     width="199.57132"
+     height="99.570099"
+     rx="0.00000000"
+     ry="0.00000000"
+     x="-99.785240"
+     y="-49.720982"
+     style="fill:url(#MapGradient);stroke:none;stroke-width:0.42952132;fill-opacity:1.0"
+     id="rect38"
+     inkscape:export-filename="E:\sphinx\media\MATERI~1\GRADIE~1\earth_musgrave.png"
+     inkscape:export-xdpi="90.000000"
+     inkscape:export-ydpi="90.000000" />
+</svg>

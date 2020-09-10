@@ -1,0 +1,514 @@
+<scene formatVersion="0.2.0">
+	<nodes>
+		<node name="Dome">
+			<position x="14" y="-10" z="-143"/>
+			<rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+			<entity name="room_dome" meshFile="room_dome.mesh"/>
+			<userData>
+				<property type="STRING" name="CLASS" data="room"/>
+				<property type="STRING" name="DESCFILE" data="roomDome.cfg"/>
+			</userData>
+			<node name="L1">
+				<position x="0" y="70" z="40"/>
+				<light name="L1" type="point">
+					<colourDiffuse r="0.46666666" g="0.9333333" b="1"/>
+				</light>
+				<userData>
+					<property type="INT" name="RANGE" data="300"/>
+					<property type="BOOL" name="MAINLIGHT" data="1"/>
+				</userData>
+			</node>
+			<node name="ramb_dome">
+				<position x="0" y="0" z="100"/>
+				<entity name="rambarde_C" meshFile="rambarde_C.mesh"/>
+				<rotation qx="0.000000" qy="0.7070" qz="0.000000" qw="0.7070"/><!-- rotation="90" -->
+				<userData>
+					<property type="STRING" name="CLASS" data="simple"/>
+				</userData>
+			</node>
+			<node name="testNM">
+				<entity name="_athene" meshFile="_athene.mesh"/>
+				<position x="0" y="50" z="10"/>
+				<userData>
+					<property type="STRING" name="CLASS" data="normalmap"/>
+				</userData>
+			</node>
+			<node name="comp_maps">
+				<entity name="computer_map" meshFile="computer_map.mesh"/>
+				<position x="120" y="0 " z="-120"/>
+				<rotation qx="0.000000" qy="-0.258819" qz="0.000000" qw="0.965925"/><!-- rotation="-45" -->
+				<userData>
+					<property type="STRING" name="CLASS" data="computer/basic"/>
+					<property type="STRING" name="DESCFILE" data="comp_maps.cfg"/>
+				</userData>
+			</node>
+		</node>
+		<node name="Officers">
+			<entity name="room_dormitory" meshFile="room_dormitory.mesh"/>
+			<position x="-85" y="0 " z="-640"/>
+			<rotation qx="0.000000" qy="1.000000" qz="0.000000" qw="0.000000"/><!-- rotation="180" -->
+			<userData>
+				<property type="STRING" name="CLASS" data="room"/>
+				<property type="STRING" name="DESCFILE" data="RoomOfficers.cfg"/>
+			</userData>
+			<node name="L2">
+				<position x="-40" y="60" z="0"/>
+				<light name="L2" type="point">
+					<colourDiffuse r="0.46666666" g="0.9333333" b="1"/>
+				</light>
+				<userData>
+					<property type="INT" name="RANGE" data="600"/>
+					<property type="BOOL" name="MAINLIGHT" data="1"/>
+				</userData>
+			</node>
+			<node name="wall_T">
+				<rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+				<entity name="wall_T" meshFile="wall_T.mesh"/>
+				<position x="0" y="0 " z="0"/>
+			</node>
+			<node name="Bed 6">
+				<entity name="f_bed" meshFile="f_bed.mesh"/>
+				<position x="200" y="0 " z="-100"/>
+				<rotation qx="0.000000" qy="-0.707107" qz="0.000000" qw="0.707107"/><!-- rotation="-90"-->
+			</node>
+			<node name="Bed 7">
+				<entity name="f_bed" meshFile="f_bed.mesh"/>
+				<position x="200" y="0" z="100"/>
+				<rotation qx="0.000000" qy="0.707107" qz="0.000000" qw="0.707107"/><!-- rotation="90" -->
+			</node>
+		</node>
+		<node name="Captain">
+			<entity name="room_office" meshFile="room_office.mesh"/>
+			<rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+			<position x="85" y="0 " z="-640"/>
+			<userData>
+				<property type="STRING" name="CLASS" data="room"/>
+				<property type="STRING" name="DESCFILE" data="RoomCaptain.cfg"/>
+			</userData>
+			<node name="L3">
+				<position x="120" y="60" z="0"/>
+				<light name="L3" type="point">
+					<colourDiffuse r="0.46666666" g="0.9333333" b="1"/>
+				</light>
+				<userData>
+					<property type="INT" name="RANGE" data="600"/>
+					<property type="BOOL" name="MAINLIGHT" data="1"/>
+				</userData>
+			</node>
+			<node name="wall-1">
+				<position x="0" y="0 " z="0"/>
+				<entity name="wall_I" meshFile="wall_I.mesh"/>
+			</node>
+			<node name="cap_desk">
+				<position x="100" y="0" z="70"/>
+				<rotation qx="0.000000" qy="0.707107" qz="0.000000" qw="0.707107"/><!-- rotation="90" -->
+				<entity name="f_desk" meshFile="f_desk.mesh"/>
+			</node>
+			<node name="Bed 8">
+				<position x="350" y="0" z="0"/>
+				<rotation qx="0.000000" qy="1.000000" qz="0.000000" qw="0.000000"/>
+				<entity name="f_bed" meshFile="f_bed.mesh"/>
+			</node>
+			<node name="comp_logs">
+				<position x="105" y="26" z="60"/>
+				<entity name="computer_E" meshFile="computer_E.mesh"/>
+				<rotation qx="0.000000" qy="0.707107" qz="0.000000" qw="0.707107"/><!-- rotation="90" -->
+				<userData>
+					<property type="STRING" name="CLASS" data="computer/logs"/>
+					<property type="STRING" name="DESCFILE" data="comp_logs.cfg"/>
+				</userData>
+			</node>
+		</node>
+		<node name="Corridor_4A">
+			<entity name="corridor_3A" meshFile="corridor_3A.mesh"/>
+			<position x="0" y="0 " z="-620"/>
+			<rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+			<userData>
+				<property type="STRING" name="CLASS" data="room"/>
+				<property type="STRING" name="DESCFILE" data="Corridor4.cfg"/>
+			</userData>
+			<node name="L4">
+				<position x="0" y="60" z="0"/>
+				<light name="L4" type="point">
+					<colourDiffuse r="0.46666666" g="0.9333333" b="1.000000"/>
+				</light>
+				<userData>
+					<property type="INT" name="RANGE" data="600"/>
+					<property type="BOOL" name="MAINLIGHT" data="1"/>
+				</userData>
+			</node>
+		</node>
+		<node name="Sports Hall">
+			<entity name="room_dormitory" meshFile="room_dormitory.mesh"/>
+			<position x="+86" y="0 " z="-1120"/>
+			<rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+			<node name="L5">
+				<position x="120" y="60" z="0"/>
+				<light name="L5" type="point">
+					<colourDiffuse r="0.46666666" g="0.9333333" b="1"/>
+				</light>
+				<userData>
+					<property type="INT" name="RANGE" data="600"/>
+					<property type="BOOL" name="MAINLIGHT" data="1"/>
+				</userData>
+			</node>
+			<userData>
+				<property type="STRING" name="CLASS" data="room"/>
+				<property type="STRING" name="DESCFILE" data="RoomSport.cfg"/>
+			</userData>
+		</node>
+		<node name="Dormitory">
+			<entity name="room_dormitory" meshFile="room_dormitory.mesh"/>
+			<position x="-86" y="0 " z="-1120"/>
+			<rotation qx="0.000000" qy="1.000000" qz="0.000000" qw="0.000000"/><!-- rotation="180"  -->
+			<userData>
+				<property type="STRING" name="CLASS" data="room"/>
+				<property type="STRING" name="DESCFILE" data="RoomDorm.cfg"/>
+			</userData>
+			<node name="Bed 1">
+				<position x="200" y="0" z="160"/>
+				<rotation qx="0.000000" qy="1.000000" qz="0.000000" qw="0.000000"/><!-- rotation="180" -->
+				<entity name="f_bed1" meshFile="f_bed.mesh"/>
+			</node>
+			<node name="Bed 2">
+				<position x="200" y="0" z="80"/>
+				<rotation qx="0.000000" qy="1.000000" qz="0.000000" qw="0.000000"/><!-- rotation="180" -->
+				<entity name="f_bed2" meshFile="f_bed.mesh"/>
+			</node>
+			<node name="Bed 3">
+				<position x="200" y="0" z="0"/>
+				<rotation qx="0.000000" qy="1.000000" qz="0.000000" qw="0.000000"/><!-- rotation="180" -->
+				<entity name="f_bed3" meshFile="f_bed.mesh"/>
+			</node>
+			<node name="Bed 4">
+				<position x="200" y="0 " z="-100"/>
+				<rotation qx="0.000000" qy="1.000000" qz="0.000000" qw="0.000000"/><!-- rotation="180" -->
+				<entity name="f_bed4" meshFile="f_bed.mesh"/>
+			</node>
+			<node name="Bed 5">
+				<position x="200" y="0 " z="-200"/>
+				<rotation qx="0.000000" qy="1.000000" qz="0.000000" qw="0.000000"/><!-- rotation="180" -->
+				<entity name="f_bed5" meshFile="f_bed.mesh"/>
+			</node>
+			<node name="Lockers">
+				<position x="80" y="0 " z="-230"/>
+				<entity name="f_lockers" meshFile="f_lockers.mesh"/>
+			</node>
+			<node name="L6">
+				<position x="-120" y="60" z="0"/>
+				<light name="L6" type="point">
+					<colourDiffuse r="0.46666666" g="0.9333333" b="1.00000"/>
+				</light>
+				<userData>
+					<property type="INT" name="RANGE" data="600"/>
+					<property type="BOOL" name="MAINLIGHT" data="1"/>
+				</userData>
+			</node>
+		</node>
+		<node name="Corridor_4B">
+			<entity name="corridor_3A" meshFile="corridor_3A.mesh"/>
+			<position x="0" y="0 " z="-1103"/>
+			<rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="0.000000"/>
+			<userData>
+				<property type="STRING" name="DESCFILE" data="Corridor4.cfg"/>
+				<property type="STRING" name="CLASS" data="room"/>
+			</userData>
+			<node name="L7">
+				<position x="0" y="60" z="0"/>
+				<light name="L7" type="point">
+					<colourDiffuse r="0.46666666" g="0.9333333" b="1"/>
+				</light>
+				<userData>
+					<property type="INT" name="RANGE" data="600"/>
+					<property type="BOOL" name="MAINLIGHT" data="1"/>
+				</userData>
+			</node>
+		</node>
+		<node name="Evac2">
+			<entity name="room_pod" meshFile="room_pod.mesh"/>
+			<position x="-85" y="0" z="-1600"/>
+			<rotation qx="0.000000" qy="-1.000000" qz="0.000000" qw="0.000000"/><!-- rotation="180" -->
+			<userData>
+				<property type="STRING" name="CLASS" data="room"/>
+				<property type="STRING" name="DESCFILE" data="RoomEvac.cfg"/>
+			</userData>
+			<node name="L0">
+				<position x="-90" y="30" z="0"/>
+				<light name="L0" type="point">
+					<colourDiffuse r="0.196078" g="0.196078" b="0.98039"/>
+				</light>
+				<userData>
+					<property type="INT" name="RANGE" data="100"/>
+					<property type="BOOL" name="MAINLIGHT" data="1"/>
+				</userData>
+			</node> --&gt;
+			<node name="pod-2GB">
+				<position x="10" y="0 " z="-40"/>
+				<rotation qx="0.000000" qy="0.707107" qz="0.000000" qw="0.707107"/><!-- rotation="90" -->
+				<userData>
+					<property type="STRING" name="CLASS" data="hibernation"/>
+					<property type="STRING" name="DESCFILE" data="hibernation.cfg"/>
+				</userData>
+				<entity name="hib_pod1" meshFile="hib_pod.mesh"/>
+			</node>
+			<node name="pod-2DB">
+				<position x="135" y="0 " z="40"/>
+				<rotation qx="0.000000" qy="-0.707107" qz="0.000000" qw="0.707107"/><!-- rotation="-90" -->
+				<userData>
+					<property type="STRING" name="CLASS" data="hibernation"/>
+					<property type="STRING" name="DESCFILE" data="hibernation.cfg"/>
+				</userData>
+				<entity name="hib_pod2" meshFile="hib_pod.mesh"/>
+			</node>
+			<node name="pod-2GH">
+				<position x="10" y="23 " z="-52"/>
+				<rotation qx="0.000000" qy="0.707107" qz="0.000000" qw="0.707107"/><!-- rotation="90" -->
+				<entity name="hib_pod3" meshFile="hib_pod.mesh"/>
+			</node>
+			<node name="pod-2DH">
+				<position x="135" y="23 " z="52"/>
+				<rotation qx="0.000000" qy="-0.707107" qz="0.000000" qw="0.707107"/><!-- rotation="-90" -->
+				<entity name="hib_pod4" meshFile="hib_pod.mesh"/>
+			</node>
+		</node>
+		<node name="Evac1">
+			<entity name="room_pod" meshFile="room_pod.mesh"/>
+			<position x="85" y="5 " z="-1600"/>
+			<rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+			<userData>
+				<property type="STRING" name="CLASS" data="room"/>
+				<property type="STRING" name="DESCFILE" data="RoomEvac.cfg"/>
+			</userData>
+			<node name="L8">
+				<position x="90" y="30" z="0"/>
+				<light name="L8" type="point">
+					<colourDiffuse r="0.196078" g="0.196078" b="0.98039"/>
+				</light>
+				<userData>
+					<property type="INT" name="RANGE" data="100"/>
+					<property type="BOOL" name="MAINLIGHT" data="1"/>
+				</userData>
+			</node>
+			<node name="pod-1GB">
+				<position x="10" y="0 " z="-40"/>
+				<rotation qx="0.000000" qy="0.707107" qz="0.000000" qw="0.707107"/><!-- rotation="90" -->
+				<userData>
+					<property type="STRING" name="CLASS" data="hibernation"/>
+					<property type="STRING" name="DESCFILE" data="hibernation.cfg"/>
+				</userData>
+				<entity name="hib_pod5" meshFile="hib_pod.mesh"/>
+			</node>
+			<node name="pod-1DB">
+				<position x="135" y="0 " z="40"/>
+				<rotation qx="0.000000" qy="-0.707107" qz="0.000000" qw="0.707107"/><!-- rotation="-90" -->
+				<userData>
+					<property type="STRING" name="CLASS" data="hibernation"/>
+					<property type="STRING" name="DESCFILE" data="hibernation.cfg"/>
+				</userData>
+				<entity name="hib_pod6" meshFile="hib_pod.mesh"/>
+			</node>
+			<node name="pod-1GH">
+				<position x="10" y="23 " z="-52"/>
+				<rotation qx="0.000000" qy="0.707107" qz="0.000000" qw="0.707107"/><!-- rotation="90" -->
+				<entity name="hib_pod7" meshFile="hib_pod.mesh"/>
+			</node>
+			<node name="pod-1DH">
+				<position x="135" y="23 " z="52"/>
+				<rotation qx="0.000000" qy="-0.707107" qz="0.000000" qw="0.707107"/><!-- rotation="-90" -->
+				<entity name="hib_pod8" meshFile="hib_pod.mesh"/>
+			</node>
+		</node>
+		<node name="Corridor_4C">
+			<entity name="corridor_3A" meshFile="corridor_3A.mesh"/>
+			<position x="0" y="0 " z="-1590"/>
+			<rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="0.000000"/>
+			<userData>
+				<property type="STRING" name="CLASS" data="room"/>
+				<property type="STRING" name="DESCFILE" data="Corridor4.cfg"/>
+			</userData>
+			<node name="L9">
+				<position x="0" y="60" z="0"/>
+				<light name="L9" type="point">
+					<colourDiffuse r="0.46666666" g="0.9333333" b="1"/>
+				</light>
+				<userData>
+					<property type="INT" name="RANGE" data="600"/>
+					<property type="BOOL" name="MAINLIGHT" data="1"/>
+				</userData>
+			</node>
+		</node>
+		<node name="Elevator4">
+			<entity name="Elevator4" meshFile="elevatorSec.mesh"/>
+			<position x="0" y="0" z="-1948"/>
+			<rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+			<userData>
+				<property type="STRING" name="CLASS" data="room"/>
+				<property type="STRING" name="DESCFILE" data="elevator.cfg"/>
+			</userData>
+			<node name="L10">
+				<position x="0" y="0" z="0"/>
+				<light name="L10" type="point">
+					<colourDiffuse r="0.46666666" g="0.9333333" b="1"/>
+				</light>
+				<userData>
+					<property type="INT" name="RANGE" data="200"/>
+					<property type="BOOL" name="MAINLIGHT" data="1"/>
+				</userData>
+			</node>
+			<node name="Button UP4">
+				<entity name="Button UP4" meshFile="elev_button.mesh"/>
+				<position x="-55" y="40 " z="85"/>
+				<rotation qx="0.000000" qy="-0.258819" qz="0.000000" qw="0.965925"/><!-- rotation="-45" -->
+				<userData>
+					<property type="STRING" name="CLASS" data="button"/>
+					<property type="STRING" name="DESCFILE" data="elev_button_UP.cfg"/>
+				</userData>
+			</node>
+			<node name="Button DN4">
+				<entity name="Button DN4" meshFile="elev_button.mesh"/>
+				<position x="-55" y="25 " z="85"/>
+				<rotation qx="0.000000" qy="-0.258819" qz="0.000000" qw="0.965925"/><!-- rotation="-45" -->
+				<userData>
+					<property type="STRING" name="CLASS" data="button"/>
+					<property type="STRING" name="DESCFILE" data="elev_button_DN.cfg"/>
+				</userData>
+			</node>
+		</node>
+		<node name="Camera">
+			<position x="0" y="0" z="0"/>
+			<rotation qx="0.552144" qy="-0.518127" qz="-0.482245" qw="0.440592"/>
+			<camera name="Camera" fov="64.366587" projectionType="perspective">
+				<normal x="0.0" y="0.0" z="-1.0"/>
+				<clipping near="0.100000" far="500.000000"/>
+			</camera>
+		</node>
+		<node name="Door 4A.0">
+			<entity name="Door 4A.0" meshFile="door.mesh"/>
+			<rotation qx="0.000000" qy="1.000000" qz="0.000000" qw="0.000000"/><!-- rotation="180" -->
+<!-- 			<position x="0" y="0 " z="-257"/> -->
+			<position x="0" y="0 " z="-400"/>
+			<userData>
+				<property type="STRING" name="CLASS" data="door"/>
+				<property type="STRING" name="ANIMATION" data="open"/>
+				<property type="STRING" name="DESCFILE"  data="door.cfg"/>
+				<property type="STRING" name="INSIDE"    data="Dome"/>
+				<property type="STRING" name="OUTSIDE"   data="Corridor_4A"/>
+			</userData>
+		</node>
+		<node name="Door 4A.2">
+			<entity name="Door 4A.2" meshFile="door.mesh"/>
+			<userData>
+				<property type="STRING" name="CLASS" data="door"/>
+				<property type="STRING" name="ANIMATION" data="open"/>
+				<property type="STRING" name="DESCFILE" data="door.cfg"/>
+				<property type="STRING" name="INSIDE"    data="Officers"/>
+				<property type="STRING" name="OUTSIDE"   data="Corridor_4A"/>
+			</userData>
+			<rotation qx="0.000000" qy="0.707107" qz="0.000000" qw="0.707107"/><!-- rotation="90"-->
+			<position x="-85" y="0 " z="-640"/>
+<!-- 			<position x="0" y="0 " z="0"/> -->
+		</node>
+		<node name="Door 4A.1">
+			<entity name="Door 4A.1" meshFile="door.mesh"/>
+			<userData>
+				<property type="STRING" name="CLASS"     data="door"/>
+				<property type="STRING" name="ANIMATION" data="open"/>
+				<property type="STRING" name="DESCFILE"  data="door.cfg"/>
+				<property type="STRING" name="INSIDE"    data="Captain"/>
+				<property type="STRING" name="OUTSIDE"   data="Corridor_4A"/>
+			</userData>
+			<position x="85" y="0 " z="-640"/>
+<!-- 			<position x="0" y="0 " z="0"/> -->
+			<rotation qx="0.000000" qy="-0.707107" qz="0.000000" qw="0.707107"/><!-- rotation="-90" -->
+		</node>
+		<node name="Door 4B">
+			<entity name="Door 4B" meshFile="door.mesh"/>
+			<userData>
+				<property type="STRING" name="CLASS"     data="door"/>
+				<property type="STRING" name="ANIMATION" data="open"/>
+				<property type="STRING" name="DESCFILE"  data="door.cfg"/>
+				<property type="STRING" name="INSIDE"    data="Corridor_4A"/>
+				<property type="STRING" name="OUTSIDE"   data="Corridor_4B"/>
+			</userData>
+			<position x="0" y="-1" z="-870"/>
+<!-- 			<position x="0" y="-1" z="-250"/> -->
+			<rotation qx="0.000000" qy="1.000000" qz="0.000000" qw="0.000000"/><!-- rotation="180" -->
+		</node>
+		<node name="Door 4B.1">
+			<entity name="Door 4B.1" meshFile="door.mesh"/>
+			<userData>
+				<property type="STRING" name="CLASS"     data="door"/>
+				<property type="STRING" name="ANIMATION" data="open"/>
+				<property type="STRING" name="DESCFILE"  data="door.cfg"/>
+				<property type="STRING" name="INSIDE"    data="Sports Hall"/>
+				<property type="STRING" name="OUTSIDE"   data="Corridor_4B"/>
+			</userData>
+<!-- 			<position x="0" y="0 " z="0"/> -->
+			<position x="85" y="0 " z="-1120"/>
+			<rotation qx="0.000000" qy="-0.707107" qz="0.000000" qw="0.707107"/><!-- rotation="-90" -->
+		</node>
+		<node name="Door 4B.2">
+			<entity name="Door 4B.2" meshFile="door.mesh"/>
+			<userData>
+				<property type="STRING" name="CLASS" data="door"/>
+				<property type="STRING" name="ANIMATION" data="open"/>
+				<property type="STRING" name="DESCFILE" data="door.cfg"/>
+				<property type="STRING" name="INSIDE"    data="Dormitory"/>
+				<property type="STRING" name="OUTSIDE"   data="Corridor_4B"/>
+			</userData>
+<!-- 			<position x="0" y="0" z="0"/> -->
+			<position x="-85" y="0" z="-1120"/>
+			<rotation qx="0.000000" qy="0.707107" qz="0.000000" qw="0.707107"/><!-- rotation="90" -->
+		</node>
+		<node name="Door 4C">
+			<entity name="Door 4C" meshFile="door.mesh"/>
+			<userData>
+				<property type="STRING" name="CLASS"     data="door"/>
+				<property type="STRING" name="ANIMATION" data="open"/>
+				<property type="STRING" name="DESCFILE"  data="door.cfg"/>
+				<property type="STRING" name="INSIDE"    data="Corridor_4B"/>
+				<property type="STRING" name="OUTSIDE"   data="Corridor_4C"/>
+			</userData>
+<!-- 			<position x="0" y="-1" z="-255"/> -->
+			<position x="0" y="-1" z="-1362"/>
+		</node>
+		<node name="Evac2 Door">
+			<entity name="door_8" meshFile="door_8.mesh"/>
+			<userData>
+				<property type="STRING" name="CLASS"     data="door"/>
+				<property type="STRING" name="ANIMATION" data="open"/>
+				<property type="STRING" name="DESCFILE"  data="door.cfg"/>
+				<property type="STRING" name="INSIDE"    data="Evac2"/>
+				<property type="STRING" name="OUTSIDE"   data="Corridor_4C"/>
+			</userData>
+<!-- 			<position x="0" y="0 " z="0"/> -->
+			<position x="-85" y="0 " z="-1600"/>
+			<rotation qx="0.000000" qy="0.707107" qz="0.000000" qw="0.707107"/><!-- rotation="90" -->
+		</node>
+		<node name="Evac1 Door">
+			<entity name="door_8" meshFile="door_8.mesh"/>
+			<userData>
+				<property type="STRING" name="CLASS"     data="door"/>
+				<property type="STRING" name="ANIMATION" data="open"/>
+				<property type="STRING" name="DESCFILE"  data="door.cfg"/>
+				<property type="STRING" name="INSIDE"    data="Evac1"/>
+				<property type="STRING" name="OUTSIDE"   data="Corridor_4C"/>
+			</userData>
+<!-- 			<position x="0" y="0 " z="0"/> -->
+			<position x="85" y="0 " z="-1600"/>
+			<rotation qx="0.000000" qy="-0.707107" qz="0.000000" qw="0.707107"/><!-- rotation="-90" -->
+		</node>
+		<node name="Elevator Door 4">
+			<entity name="door_8" meshFile="door_8.mesh"/>
+<!-- 			<position x="-4" y="-2" z="-244"/> -->
+			<position x="-4" y="-2" z="-1834"/>
+			<userData>
+				<property type="STRING" name="CLASS"     data="door"/>
+				<property type="STRING" name="ANIMATION" data="open"/>
+				<property type="STRING" name="DESCFILE"  data="ElevatorDoor.cfg"/>
+				<property type="STRING" name="INSIDE"    data="Corridor_4C"/>
+				<property type="STRING" name="OUTSIDE"   data="Elevator4"/>
+			</userData>
+		</node>
+	</nodes>
+</scene>

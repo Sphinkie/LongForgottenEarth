@@ -1,0 +1,3884 @@
+
+
+
+
+
+<!doctype html public "-//W3C//DTD HTML 4.0 Transitional//EN"
+"http://www.w3.org/TR/REC-html40/loose.dtd">
+<!-- ViewCVS -- http://viewcvs.sourceforge.net/
+by Greg Stein -- mailto:gstein@lyra.org -->
+<html>
+<head>
+<title>SourceForge.net CVS Repository - log - cvs: celestia/celestia/data/extrasolar.ssc</title>
+<link rel="stylesheet" href="/viewcvs.py/*docroot*/styles.css" type="text/css">
+</head>
+<body>
+<center>
+<iframe SRC="http://ads.osdn.com/?op=iframe&position=1&allpositions=1&site_id=2&section=cvs" width="728" height="90" frameborder="0" border="0" MARGINWIDTH="0" MARGINHEIGHT="0" SCROLLING="no"></iframe>
+<!-- image audit code -->
+<script LANGUAGE="JAVASCRIPT">
+<!--
+now = new Date();
+tail = now.getTime();
+document.write("<IMG SRC='http://images-aud.sourceforge.net/pc.gif?l,");
+document.write(tail);
+document.write("' WIDTH=1 HEIGHT=1 BORDER=0>");
+//-->
+</SCRIPT>
+<noscript>
+<img src="http://images-aud.sourceforge.net/pc.gif?l,81677"
+WIDTH=1 HEIGHT=1 BORDER=0>
+</noscript>
+<!-- end audit code -->
+</center>
+<div class="vc_navheader">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td align="left"><a href="/viewcvs.py/#dirlist">[cvs]</a> / <a href="/viewcvs.py/celestia/#dirlist">celestia</a> / <a href="/viewcvs.py/celestia/celestia/#dirlist">celestia</a> / <a href="/viewcvs.py/celestia/celestia/data/#dirlist">data</a> / extrasolar.ssc</h1></td>
+<td align="right">
+
+&nbsp;
+
+</td>
+</tr>
+</table>
+</div>
+<table width="100%">
+<tr><td><h1>cvs: celestia/celestia/data/extrasolar.ssc</h1></td>
+<td align=right><a href="http://sourceforge.net"><img src="/sourceforge_whitebg.gif" alt="(logo)" border=0 width=136 height=79></a></td></tr>
+</table>
+
+<hr noshade>
+
+Default branch: MAIN
+<br>
+Bookmark a link to HEAD:
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?view=markup">view</a>)
+(<a href="/viewcvs.py/*checkout*/celestia/celestia/data/extrasolar.ssc">download</a>)
+
+
+<br>
+
+
+
+ 
+
+
+
+<hr size=1 noshade>
+
+
+<a name="rev1.63"></a>
+<a name="HEAD"></a>
+
+
+Revision <b>1.63</b>
+ -
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?rev=1.63&view=markup">view</a>)
+(<a href="/viewcvs.py/*checkout*/celestia/celestia/data/extrasolar.ssc?rev=1.63">download</a>)
+
+
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?annotate=1.63">annotate</a>)
+
+
+- <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.63">[select for diffs]</a>
+
+
+
+
+<br>
+
+<i>Thu Oct 13 23:24:29 2005 UTC</i> (3 weeks, 2 days ago) by <i>granthutchison</i>
+
+<br>Branch:
+
+<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?only_with_tag=MAIN"><b>MAIN</b></a>
+
+
+
+<br>CVS Tags:
+
+<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?only_with_tag=HEAD"><b>HEAD</b></a>
+
+
+
+
+
+
+<br>Changes since <b>1.62: +676 -198 lines</b>
+
+
+
+
+
+
+
+<br>Diff to <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.62&amp;r2=1.63">previous 1.62</a>
+
+
+
+
+
+
+
+
+
+
+<pre>*** Completely revised to use chaos syndrome's EGP textures ***
+</pre>
+
+<hr size=1 noshade>
+
+
+<a name="rev1.62"></a>
+
+
+Revision <b>1.62</b>
+ -
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?rev=1.62&view=markup">view</a>)
+(<a href="/viewcvs.py/*checkout*/celestia/celestia/data/extrasolar.ssc?rev=1.62">download</a>)
+
+
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?annotate=1.62">annotate</a>)
+
+
+- <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.62">[select for diffs]</a>
+
+
+
+
+<br>
+
+<i>Fri Oct  7 15:21:48 2005 UTC</i> (4 weeks, 1 day ago) by <i>granthutchison</i>
+
+<br>Branch:
+
+<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?only_with_tag=MAIN"><b>MAIN</b></a>
+
+
+
+
+
+
+
+<br>Changes since <b>1.61: +48 -13 lines</b>
+
+
+
+
+
+
+
+<br>Diff to <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.61&amp;r2=1.62">previous 1.61</a>
+
+
+
+
+
+
+
+
+
+
+<pre>Added transiter HD 189733
+</pre>
+
+<hr size=1 noshade>
+
+
+<a name="rev1.61"></a>
+
+
+Revision <b>1.61</b>
+ -
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?rev=1.61&view=markup">view</a>)
+(<a href="/viewcvs.py/*checkout*/celestia/celestia/data/extrasolar.ssc?rev=1.61">download</a>)
+
+
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?annotate=1.61">annotate</a>)
+
+
+- <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.61">[select for diffs]</a>
+
+
+
+
+<br>
+
+<i>Mon Sep 26 22:52:00 2005 UTC</i> (5 weeks, 5 days ago) by <i>granthutchison</i>
+
+<br>Branch:
+
+<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?only_with_tag=MAIN"><b>MAIN</b></a>
+
+
+
+
+
+
+
+<br>Changes since <b>1.60: +339 -92 lines</b>
+
+
+
+
+
+
+
+<br>Diff to <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.60&amp;r2=1.61">previous 1.60</a>
+
+
+
+
+
+
+
+
+
+
+<pre>Added planets for HD 212301, 188753, 149143, 109749, 4308, 208487, 33564
+</pre>
+
+<hr size=1 noshade>
+
+
+<a name="rev1.60"></a>
+
+
+Revision <b>1.60</b>
+ -
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?rev=1.60&view=markup">view</a>)
+(<a href="/viewcvs.py/*checkout*/celestia/celestia/data/extrasolar.ssc?rev=1.60">download</a>)
+
+
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?annotate=1.60">annotate</a>)
+
+
+- <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.60">[select for diffs]</a>
+
+
+
+
+<br>
+
+<i>Fri Jul  1 18:04:45 2005 UTC</i> (4 months ago) by <i>granthutchison</i>
+
+<br>Branch:
+
+<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?only_with_tag=MAIN"><b>MAIN</b></a>
+
+
+
+
+
+
+
+<br>Changes since <b>1.59: +45 -10 lines</b>
+
+
+
+
+
+
+
+<br>Diff to <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.59&amp;r2=1.60">previous 1.59</a>
+
+
+
+
+
+
+
+
+
+
+<pre>Added HD 149026 b
+</pre>
+
+<hr size=1 noshade>
+
+
+<a name="rev1.59"></a>
+
+
+Revision <b>1.59</b>
+ -
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?rev=1.59&view=markup">view</a>)
+(<a href="/viewcvs.py/*checkout*/celestia/celestia/data/extrasolar.ssc?rev=1.59">download</a>)
+
+
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?annotate=1.59">annotate</a>)
+
+
+- <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.59">[select for diffs]</a>
+
+
+
+
+<br>
+
+<i>Fri Jun 24 16:57:09 2005 UTC</i> (4 months, 1 week ago) by <i>granthutchison</i>
+
+<br>Branch:
+
+<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?only_with_tag=MAIN"><b>MAIN</b></a>
+
+
+
+
+
+
+
+<br>Changes since <b>1.58: +272 -160 lines</b>
+
+
+
+
+
+
+
+<br>Diff to <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.58&amp;r2=1.59">previous 1.58</a>
+
+
+
+
+
+
+
+
+
+
+<pre>Added HD 217107 c, HD 190360 c, HD 37124 d, HD 108874 c
+</pre>
+
+<hr size=1 noshade>
+
+
+<a name="rev1.58"></a>
+
+
+Revision <b>1.58</b>
+ -
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?rev=1.58&view=markup">view</a>)
+(<a href="/viewcvs.py/*checkout*/celestia/celestia/data/extrasolar.ssc?rev=1.58">download</a>)
+
+
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?annotate=1.58">annotate</a>)
+
+
+- <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.58">[select for diffs]</a>
+
+
+
+
+<br>
+
+<i>Mon Jun 13 22:59:35 2005 UTC</i> (4 months, 3 weeks ago) by <i>granthutchison</i>
+
+<br>Branch:
+
+<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?only_with_tag=MAIN"><b>MAIN</b></a>
+
+
+
+
+
+
+
+<br>Changes since <b>1.57: +25 -2 lines</b>
+
+
+
+
+
+
+
+<br>Diff to <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.57&amp;r2=1.58">previous 1.57</a>
+
+
+
+
+
+
+
+
+
+
+<pre>Added Gliese 876 d
+</pre>
+
+<hr size=1 noshade>
+
+
+<a name="rev1.57"></a>
+
+
+Revision <b>1.57</b>
+ -
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?rev=1.57&view=markup">view</a>)
+(<a href="/viewcvs.py/*checkout*/celestia/celestia/data/extrasolar.ssc?rev=1.57">download</a>)
+
+
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?annotate=1.57">annotate</a>)
+
+
+- <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.57">[select for diffs]</a>
+
+
+
+
+<br>
+
+<i>Wed Jun  1 22:36:34 2005 UTC</i> (5 months ago) by <i>granthutchison</i>
+
+<br>Branch:
+
+<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?only_with_tag=MAIN"><b>MAIN</b></a>
+
+
+
+
+
+
+
+<br>Changes since <b>1.56: +219 -216 lines</b>
+
+
+
+
+
+
+
+<br>Diff to <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.56&amp;r2=1.57">previous 1.56</a>
+
+
+
+
+
+
+
+
+
+
+<pre>Fix all InfoURLs to match revised Extrasolar Planets Catalog
+</pre>
+
+<hr size=1 noshade>
+
+
+<a name="rev1.56"></a>
+
+
+Revision <b>1.56</b>
+ -
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?rev=1.56&view=markup">view</a>)
+(<a href="/viewcvs.py/*checkout*/celestia/celestia/data/extrasolar.ssc?rev=1.56">download</a>)
+
+
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?annotate=1.56">annotate</a>)
+
+
+- <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.56">[select for diffs]</a>
+
+
+
+
+<br>
+
+<i>Sat May 28 20:47:23 2005 UTC</i> (5 months, 1 week ago) by <i>granthutchison</i>
+
+<br>Branch:
+
+<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?only_with_tag=MAIN"><b>MAIN</b></a>
+
+
+
+
+
+
+
+<br>Changes since <b>1.55: +74 -46 lines</b>
+
+
+
+
+
+
+
+<br>Diff to <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.55&amp;r2=1.56">previous 1.55</a>
+
+
+
+
+
+
+
+
+
+
+<pre>Add Eta2 Hyi b
+</pre>
+
+<hr size=1 noshade>
+
+
+<a name="rev1.55"></a>
+
+
+Revision <b>1.55</b>
+ -
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?rev=1.55&view=markup">view</a>)
+(<a href="/viewcvs.py/*checkout*/celestia/celestia/data/extrasolar.ssc?rev=1.55">download</a>)
+
+
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?annotate=1.55">annotate</a>)
+
+
+- <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.55">[select for diffs]</a>
+
+
+
+
+<br>
+
+<i>Sat Apr  9 15:58:53 2005 UTC</i> (6 months, 3 weeks ago) by <i>granthutchison</i>
+
+<br>Branch:
+
+<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?only_with_tag=MAIN"><b>MAIN</b></a>
+
+
+
+
+
+
+
+<br>Changes since <b>1.54: +25 -0 lines</b>
+
+
+
+
+
+
+
+<br>Diff to <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.54&amp;r2=1.55">previous 1.54</a>
+
+
+
+
+
+
+
+
+
+
+<pre>Added HD 8673 b
+</pre>
+
+<hr size=1 noshade>
+
+
+<a name="rev1.54"></a>
+
+
+Revision <b>1.54</b>
+ -
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?rev=1.54&view=markup">view</a>)
+(<a href="/viewcvs.py/*checkout*/celestia/celestia/data/extrasolar.ssc?rev=1.54">download</a>)
+
+
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?annotate=1.54">annotate</a>)
+
+
+- <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.54">[select for diffs]</a>
+
+
+
+
+<br>
+
+<i>Tue Apr  5 17:35:28 2005 UTC</i> (7 months ago) by <i>granthutchison</i>
+
+<br>Branch:
+
+<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?only_with_tag=MAIN"><b>MAIN</b></a>
+
+
+
+
+
+
+
+<br>Changes since <b>1.53: +37 -8 lines</b>
+
+
+
+
+
+
+
+<br>Diff to <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.53&amp;r2=1.54">previous 1.53</a>
+
+
+
+
+
+
+
+
+
+
+<pre>Added HD 13189 b, some minor data updates
+</pre>
+
+<hr size=1 noshade>
+
+
+<a name="rev1.53"></a>
+
+
+Revision <b>1.53</b>
+ -
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?rev=1.53&view=markup">view</a>)
+(<a href="/viewcvs.py/*checkout*/celestia/celestia/data/extrasolar.ssc?rev=1.53">download</a>)
+
+
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?annotate=1.53">annotate</a>)
+
+
+- <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.53">[select for diffs]</a>
+
+
+
+
+<br>
+
+<i>Sun Mar 27 23:19:43 2005 UTC</i> (7 months, 1 week ago) by <i>granthutchison</i>
+
+<br>Branch:
+
+<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?only_with_tag=MAIN"><b>MAIN</b></a>
+
+
+
+
+
+
+
+<br>Changes since <b>1.52: +2 -2 lines</b>
+
+
+
+
+
+
+
+<br>Diff to <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.52&amp;r2=1.53">previous 1.52</a>
+
+
+
+
+
+
+
+
+
+
+<pre>Fixed entry for TrES-1 (it's the planet's designation, not the star's)
+</pre>
+
+<hr size=1 noshade>
+
+
+<a name="rev1.52"></a>
+
+
+Revision <b>1.52</b>
+ -
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?rev=1.52&view=markup">view</a>)
+(<a href="/viewcvs.py/*checkout*/celestia/celestia/data/extrasolar.ssc?rev=1.52">download</a>)
+
+
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?annotate=1.52">annotate</a>)
+
+
+- <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.52">[select for diffs]</a>
+
+
+
+
+<br>
+
+<i>Sat Mar 26 22:28:46 2005 UTC</i> (7 months, 1 week ago) by <i>granthutchison</i>
+
+<br>Branch:
+
+<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?only_with_tag=MAIN"><b>MAIN</b></a>
+
+
+
+
+
+
+
+<br>Changes since <b>1.51: +10 -10 lines</b>
+
+
+
+
+
+
+
+<br>Diff to <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.51&amp;r2=1.52">previous 1.51</a>
+
+
+
+
+
+
+
+
+
+
+<pre>Correctly calculate MeanLongitude if pericentre is undefined in original data
+</pre>
+
+<hr size=1 noshade>
+
+
+<a name="rev1.51"></a>
+
+
+Revision <b>1.51</b>
+ -
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?rev=1.51&view=markup">view</a>)
+(<a href="/viewcvs.py/*checkout*/celestia/celestia/data/extrasolar.ssc?rev=1.51">download</a>)
+
+
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?annotate=1.51">annotate</a>)
+
+
+- <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.51">[select for diffs]</a>
+
+
+
+
+<br>
+
+<i>Thu Mar 24 23:38:45 2005 UTC</i> (7 months, 1 week ago) by <i>granthutchison</i>
+
+<br>Branch:
+
+<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?only_with_tag=MAIN"><b>MAIN</b></a>
+
+
+
+
+
+
+
+<br>Changes since <b>1.50: +306 -284 lines</b>
+
+
+
+
+
+
+
+<br>Diff to <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.50&amp;r2=1.51">previous 1.50</a>
+
+
+
+
+
+
+
+
+
+
+<pre>Rho1 Cnc system revision, plus other data updates
+</pre>
+
+<hr size=1 noshade>
+
+
+<a name="rev1.50"></a>
+
+
+Revision <b>1.50</b>
+ -
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?rev=1.50&view=markup">view</a>)
+(<a href="/viewcvs.py/*checkout*/celestia/celestia/data/extrasolar.ssc?rev=1.50">download</a>)
+
+
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?annotate=1.50">annotate</a>)
+
+
+- <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.50">[select for diffs]</a>
+
+
+
+
+<br>
+
+<i>Fri Feb 11 05:05:49 2005 UTC</i> (8 months, 3 weeks ago) by <i>cjlaurel</i>
+
+<br>Branch:
+
+<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?only_with_tag=MAIN"><b>MAIN</b></a>
+
+
+
+
+
+
+
+<br>Changes since <b>1.49: +41 -2 lines</b>
+
+
+
+
+
+
+
+<br>Diff to <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.49&amp;r2=1.50">previous 1.49</a>
+
+
+
+
+
+
+
+
+
+
+<pre>- Rederived radii for new Geneva group planets based on criteria described by Grant in extrasolar.ssc header comment.
+- Added newly discovered very low mass companion of PSR 1257+12
+</pre>
+
+<hr size=1 noshade>
+
+
+<a name="rev1.49"></a>
+
+
+Revision <b>1.49</b>
+ -
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?rev=1.49&view=markup">view</a>)
+(<a href="/viewcvs.py/*checkout*/celestia/celestia/data/extrasolar.ssc?rev=1.49">download</a>)
+
+
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?annotate=1.49">annotate</a>)
+
+
+- <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.49">[select for diffs]</a>
+
+
+
+
+<br>
+
+<i>Wed Feb  9 16:56:07 2005 UTC</i> (8 months, 3 weeks ago) by <i>cjlaurel</i>
+
+<br>Branch:
+
+<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?only_with_tag=MAIN"><b>MAIN</b></a>
+
+
+
+
+
+
+
+<br>Changes since <b>1.48: +162 -0 lines</b>
+
+
+
+
+
+
+
+<br>Diff to <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.48&amp;r2=1.49">previous 1.48</a>
+
+
+
+
+
+
+
+
+
+
+<pre>Added six new planets discovered by the Geneva group
+</pre>
+
+<hr size=1 noshade>
+
+
+<a name="rev1.48"></a>
+
+
+Revision <b>1.48</b>
+ -
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?rev=1.48&view=markup">view</a>)
+(<a href="/viewcvs.py/*checkout*/celestia/celestia/data/extrasolar.ssc?rev=1.48">download</a>)
+
+
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?annotate=1.48">annotate</a>)
+
+
+- <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.48">[select for diffs]</a>
+
+
+
+
+<br>
+
+<i>Mon Dec 20 19:03:26 2004 UTC</i> (10 months, 2 weeks ago) by <i>granthutchison</i>
+
+<br>Branch:
+
+<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?only_with_tag=MAIN"><b>MAIN</b></a>
+
+
+
+
+
+
+
+<br>Changes since <b>1.47: +17 -18 lines</b>
+
+
+
+
+
+
+
+<br>Diff to <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.47&amp;r2=1.48">previous 1.47</a>
+
+
+
+
+
+
+
+
+
+
+<pre>Update OGLE-TR-10 b; some other minor updates
+</pre>
+
+<hr size=1 noshade>
+
+
+<a name="rev1.47"></a>
+
+
+Revision <b>1.47</b>
+ -
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?rev=1.47&view=markup">view</a>)
+(<a href="/viewcvs.py/*checkout*/celestia/celestia/data/extrasolar.ssc?rev=1.47">download</a>)
+
+
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?annotate=1.47">annotate</a>)
+
+
+- <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.47">[select for diffs]</a>
+
+
+
+
+<br>
+
+<i>Thu Nov 18 20:34:32 2004 UTC</i> (11 months, 2 weeks ago) by <i>granthutchison</i>
+
+<br>Branch:
+
+<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?only_with_tag=MAIN"><b>MAIN</b></a>
+
+
+
+
+
+
+
+<br>Changes since <b>1.46: +68 -6 lines</b>
+
+
+
+
+
+
+
+<br>Diff to <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.46&amp;r2=1.47">previous 1.46</a>
+
+
+
+
+
+
+
+
+
+
+<pre>Added HD 202206 system; Color definitions added for brown dwarfs
+</pre>
+
+<hr size=1 noshade>
+
+
+<a name="rev1.46"></a>
+
+
+Revision <b>1.46</b>
+ -
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?rev=1.46&view=markup">view</a>)
+(<a href="/viewcvs.py/*checkout*/celestia/celestia/data/extrasolar.ssc?rev=1.46">download</a>)
+
+
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?annotate=1.46">annotate</a>)
+
+
+- <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.46">[select for diffs]</a>
+
+
+
+
+<br>
+
+<i>Tue Nov  2 19:15:16 2004 UTC</i> (12 months ago) by <i>granthutchison</i>
+
+<br>Branch:
+
+<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?only_with_tag=MAIN"><b>MAIN</b></a>
+
+
+
+
+
+
+
+<br>Changes since <b>1.45: +1 -0 lines</b>
+
+
+
+
+
+
+
+<br>Diff to <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.45&amp;r2=1.46">previous 1.45</a>
+
+
+
+
+
+
+
+
+
+
+<pre>Added glowing night-side for Rho1 Cnc e
+</pre>
+
+<hr size=1 noshade>
+
+
+<a name="rev1.45"></a>
+
+
+Revision <b>1.45</b>
+ -
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?rev=1.45&view=markup">view</a>)
+(<a href="/viewcvs.py/*checkout*/celestia/celestia/data/extrasolar.ssc?rev=1.45">download</a>)
+
+
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?annotate=1.45">annotate</a>)
+
+
+- <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.45">[select for diffs]</a>
+
+
+
+
+<br>
+
+<i>Mon Oct 25 19:00:55 2004 UTC</i> (12 months, 1 week ago) by <i>granthutchison</i>
+
+<br>Branch:
+
+<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?only_with_tag=MAIN"><b>MAIN</b></a>
+
+
+
+
+
+
+
+<br>Changes since <b>1.44: +318 -45 lines</b>
+
+
+
+
+
+
+
+<br>Diff to <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.44&amp;r2=1.45">previous 1.44</a>
+
+
+
+
+
+
+
+
+
+
+<pre>11 new extrasolar planets
+</pre>
+
+<hr size=1 noshade>
+
+
+<a name="rev1.44"></a>
+
+
+Revision <b>1.44</b>
+ -
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?rev=1.44&view=markup">view</a>)
+(<a href="/viewcvs.py/*checkout*/celestia/celestia/data/extrasolar.ssc?rev=1.44">download</a>)
+
+
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?annotate=1.44">annotate</a>)
+
+
+- <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.44">[select for diffs]</a>
+
+
+
+
+<br>
+
+<i>Fri Oct 15 19:50:36 2004 UTC</i> (12 months, 3 weeks ago) by <i>granthutchison</i>
+
+<br>Branch:
+
+<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?only_with_tag=MAIN"><b>MAIN</b></a>
+
+
+
+
+
+
+
+<br>Changes since <b>1.43: +39 -0 lines</b>
+
+
+
+
+
+
+
+<br>Diff to <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.43&amp;r2=1.44">previous 1.43</a>
+
+
+
+
+
+
+
+
+
+
+<pre>Added OGLE-TR-10 b
+</pre>
+
+<hr size=1 noshade>
+
+
+<a name="rev1.43"></a>
+
+
+Revision <b>1.43</b>
+ -
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?rev=1.43&view=markup">view</a>)
+(<a href="/viewcvs.py/*checkout*/celestia/celestia/data/extrasolar.ssc?rev=1.43">download</a>)
+
+
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?annotate=1.43">annotate</a>)
+
+
+- <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.43">[select for diffs]</a>
+
+
+
+
+<br>
+
+<i>Thu Sep 16 23:04:48 2004 UTC</i> (13 months, 2 weeks ago) by <i>granthutchison</i>
+
+<br>Branch:
+
+<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?only_with_tag=MAIN"><b>MAIN</b></a>
+
+
+
+
+
+
+
+<br>Changes since <b>1.42: +113 -13 lines</b>
+
+
+
+
+
+
+
+<br>Diff to <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.42&amp;r2=1.43">previous 1.42</a>
+
+
+
+
+
+
+
+
+
+
+<pre>New planets for HD 154857, 117618, 102117 &amp; 208487
+</pre>
+
+<hr size=1 noshade>
+
+
+<a name="rev1.42"></a>
+
+
+Revision <b>1.42</b>
+ -
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?rev=1.42&view=markup">view</a>)
+(<a href="/viewcvs.py/*checkout*/celestia/celestia/data/extrasolar.ssc?rev=1.42">download</a>)
+
+
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?annotate=1.42">annotate</a>)
+
+
+- <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.42">[select for diffs]</a>
+
+
+
+
+<br>
+
+<i>Tue Sep  7 21:33:40 2004 UTC</i> (13 months, 4 weeks ago) by <i>granthutchison</i>
+
+<br>Branch:
+
+<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?only_with_tag=MAIN"><b>MAIN</b></a>
+
+
+
+
+
+
+
+<br>Changes since <b>1.41: +115 -87 lines</b>
+
+
+
+
+
+
+
+<br>Diff to <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.41&amp;r2=1.42">previous 1.41</a>
+
+
+
+
+
+
+
+
+
+
+<pre>Add HD 88133
+</pre>
+
+<hr size=1 noshade>
+
+
+<a name="rev1.41"></a>
+
+
+Revision <b>1.41</b>
+ -
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?rev=1.41&view=markup">view</a>)
+(<a href="/viewcvs.py/*checkout*/celestia/celestia/data/extrasolar.ssc?rev=1.41">download</a>)
+
+
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?annotate=1.41">annotate</a>)
+
+
+- <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.41">[select for diffs]</a>
+
+
+
+
+<br>
+
+<i>Tue Aug 31 19:16:37 2004 UTC</i> (14 months ago) by <i>granthutchison</i>
+
+<br>Branch:
+
+<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?only_with_tag=MAIN"><b>MAIN</b></a>
+
+
+
+
+
+
+
+<br>Changes since <b>1.40: +132 -80 lines</b>
+
+
+
+
+
+
+
+<br>Diff to <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.40&amp;r2=1.41">previous 1.40</a>
+
+
+
+
+
+
+
+
+
+
+<pre>added Rho Cnc e and GJ 436 b
+</pre>
+
+<hr size=1 noshade>
+
+
+<a name="rev1.40"></a>
+
+
+Revision <b>1.40</b>
+ -
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?rev=1.40&view=markup">view</a>)
+(<a href="/viewcvs.py/*checkout*/celestia/celestia/data/extrasolar.ssc?rev=1.40">download</a>)
+
+
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?annotate=1.40">annotate</a>)
+
+
+- <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.40">[select for diffs]</a>
+
+
+
+
+<br>
+
+<i>Mon Aug 30 00:34:53 2004 UTC</i> (14 months, 1 week ago) by <i>granthutchison</i>
+
+<br>Branch:
+
+<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?only_with_tag=MAIN"><b>MAIN</b></a>
+
+
+
+
+
+
+
+<br>Changes since <b>1.39: +40 -5 lines</b>
+
+
+
+
+
+
+
+<br>Diff to <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.39&amp;r2=1.40">previous 1.39</a>
+
+
+
+
+
+
+
+
+
+
+<pre>Add OGLE-TR-111 b
+</pre>
+
+<hr size=1 noshade>
+
+
+<a name="rev1.39"></a>
+
+
+Revision <b>1.39</b>
+ -
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?rev=1.39&view=markup">view</a>)
+(<a href="/viewcvs.py/*checkout*/celestia/celestia/data/extrasolar.ssc?rev=1.39">download</a>)
+
+
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?annotate=1.39">annotate</a>)
+
+
+- <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.39">[select for diffs]</a>
+
+
+
+
+<br>
+
+<i>Thu Aug 26 22:53:23 2004 UTC</i> (14 months, 1 week ago) by <i>granthutchison</i>
+
+<br>Branch:
+
+<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?only_with_tag=MAIN"><b>MAIN</b></a>
+
+
+
+
+
+
+
+<br>Changes since <b>1.38: +381 -323 lines</b>
+
+
+
+
+
+
+
+<br>Diff to <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.38&amp;r2=1.39">previous 1.38</a>
+
+
+
+
+
+
+
+
+
+
+<pre>Add TrES-1 b, Mu Ara d; wildcard file type for all texture declarations
+</pre>
+
+<hr size=1 noshade>
+
+
+<a name="rev1.38"></a>
+
+
+Revision <b>1.38</b>
+ -
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?rev=1.38&view=markup">view</a>)
+(<a href="/viewcvs.py/*checkout*/celestia/celestia/data/extrasolar.ssc?rev=1.38">download</a>)
+
+
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?annotate=1.38">annotate</a>)
+
+
+- <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.38">[select for diffs]</a>
+
+
+
+
+<br>
+
+<i>Wed Aug 25 22:00:51 2004 UTC</i> (14 months, 1 week ago) by <i>granthutchison</i>
+
+<br>Branch:
+
+<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?only_with_tag=MAIN"><b>MAIN</b></a>
+
+
+
+
+
+
+
+<br>Changes since <b>1.37: +3 -3 lines</b>
+
+
+
+
+
+
+
+<br>Diff to <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.37&amp;r2=1.38">previous 1.37</a>
+
+
+
+
+
+
+
+
+
+
+<pre>Fix AltSurface for PSR 1257+12 planets
+</pre>
+
+<hr size=1 noshade>
+
+
+<a name="rev1.37"></a>
+
+
+Revision <b>1.37</b>
+ -
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?rev=1.37&view=markup">view</a>)
+(<a href="/viewcvs.py/*checkout*/celestia/celestia/data/extrasolar.ssc?rev=1.37">download</a>)
+
+
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?annotate=1.37">annotate</a>)
+
+
+- <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.37">[select for diffs]</a>
+
+
+
+
+<br>
+
+<i>Wed Aug 25 15:11:58 2004 UTC</i> (14 months, 1 week ago) by <i>granthutchison</i>
+
+<br>Branch:
+
+<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?only_with_tag=MAIN"><b>MAIN</b></a>
+
+
+
+
+
+
+
+<br>Changes since <b>1.36: +3 -5 lines</b>
+
+
+
+
+
+
+
+<br>Diff to <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.36&amp;r2=1.37">previous 1.36</a>
+
+
+
+
+
+
+
+
+
+
+<pre>Correct letter designations for PSR 1257+12 planets
+</pre>
+
+<hr size=1 noshade>
+
+
+<a name="rev1.36"></a>
+<a name="ver1_3_2"></a>
+
+
+Revision <b>1.36</b>
+ -
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?rev=1.36&view=markup">view</a>)
+(<a href="/viewcvs.py/*checkout*/celestia/celestia/data/extrasolar.ssc?rev=1.36">download</a>)
+
+
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?annotate=1.36">annotate</a>)
+
+
+- <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.36">[select for diffs]</a>
+
+
+
+
+<br>
+
+<i>Fri Jul 23 14:28:27 2004 UTC</i> (15 months, 2 weeks ago) by <i>granthutchison</i>
+
+<br>Branch:
+
+<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?only_with_tag=MAIN"><b>MAIN</b></a>
+
+
+
+<br>CVS Tags:
+
+<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?only_with_tag=ver1_3_2"><b>ver1_3_2</b></a>
+
+
+
+
+
+
+<br>Changes since <b>1.35: +757 -1 lines</b>
+
+
+
+
+
+
+
+<br>Diff to <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.35&amp;r2=1.36">previous 1.35</a>
+
+
+
+
+
+
+
+
+
+
+<pre>Plain grey LOK textures for all extrasolars
+</pre>
+
+<hr size=1 noshade>
+
+
+<a name="rev1.35"></a>
+
+
+Revision <b>1.35</b>
+ -
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?rev=1.35&view=markup">view</a>)
+(<a href="/viewcvs.py/*checkout*/celestia/celestia/data/extrasolar.ssc?rev=1.35">download</a>)
+
+
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?annotate=1.35">annotate</a>)
+
+
+- <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.35">[select for diffs]</a>
+
+
+
+
+<br>
+
+<i>Wed Jul 14 22:44:26 2004 UTC</i> (15 months, 3 weeks ago) by <i>granthutchison</i>
+
+<br>Branch:
+
+<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?only_with_tag=MAIN"><b>MAIN</b></a>
+
+
+
+
+
+
+
+<br>Changes since <b>1.34: +125 -12 lines</b>
+
+
+
+
+
+
+
+<br>Diff to <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.34&amp;r2=1.35">previous 1.34</a>
+
+
+
+
+
+
+
+
+
+
+<pre>Added pulsar planets
+</pre>
+
+<hr size=1 noshade>
+
+
+<a name="rev1.34"></a>
+
+
+Revision <b>1.34</b>
+ -
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?rev=1.34&view=markup">view</a>)
+(<a href="/viewcvs.py/*checkout*/celestia/celestia/data/extrasolar.ssc?rev=1.34">download</a>)
+
+
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?annotate=1.34">annotate</a>)
+
+
+- <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.34">[select for diffs]</a>
+
+
+
+
+<br>
+
+<i>Fri Jul  9 22:13:35 2004 UTC</i> (15 months, 3 weeks ago) by <i>granthutchison</i>
+
+<br>Branch:
+
+<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?only_with_tag=MAIN"><b>MAIN</b></a>
+
+
+
+
+
+
+
+<br>Changes since <b>1.33: +515 -344 lines</b>
+
+
+
+
+
+
+
+<br>Diff to <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.33&amp;r2=1.34">previous 1.33</a>
+
+
+
+
+
+
+
+
+
+
+<pre>Added HD 37605 b, plus spin-down and oblateness calcs
+</pre>
+
+<hr size=1 noshade>
+
+
+<a name="rev1.33"></a>
+
+
+Revision <b>1.33</b>
+ -
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?rev=1.33&view=markup">view</a>)
+(<a href="/viewcvs.py/*checkout*/celestia/celestia/data/extrasolar.ssc?rev=1.33">download</a>)
+
+
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?annotate=1.33">annotate</a>)
+
+
+- <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.33">[select for diffs]</a>
+
+
+
+
+<br>
+
+<i>Tue May  4 17:44:31 2004 UTC</i> (18 months ago) by <i>granthutchison</i>
+
+<br>Branch:
+
+<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?only_with_tag=MAIN"><b>MAIN</b></a>
+
+
+
+
+
+
+
+<br>Changes since <b>1.32: +0 -22 lines</b>
+
+
+
+
+
+
+
+<br>Diff to <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.32&amp;r2=1.33">previous 1.32</a>
+
+
+
+
+
+
+
+
+
+
+<pre>Removed spurious planet BD -02 5917 B b
+</pre>
+
+<hr size=1 noshade>
+
+
+<a name="rev1.32"></a>
+
+
+Revision <b>1.32</b>
+ -
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?rev=1.32&view=markup">view</a>)
+(<a href="/viewcvs.py/*checkout*/celestia/celestia/data/extrasolar.ssc?rev=1.32">download</a>)
+
+
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?annotate=1.32">annotate</a>)
+
+
+- <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.32">[select for diffs]</a>
+
+
+
+
+<br>
+
+<i>Fri Apr 16 16:47:51 2004 UTC</i> (18 months, 2 weeks ago) by <i>granthutchison</i>
+
+<br>Branch:
+
+<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?only_with_tag=MAIN"><b>MAIN</b></a>
+
+
+
+
+
+
+
+<br>Changes since <b>1.31: +90 -24 lines</b>
+
+
+
+
+
+
+
+<br>Diff to <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.31&amp;r2=1.32">previous 1.31</a>
+
+
+
+
+
+
+
+
+
+
+<pre>Added OGLE-TR-113 &amp; OGLE-TR-132, some revisions
+</pre>
+
+<hr size=1 noshade>
+
+
+<a name="rev1.31"></a>
+
+
+Revision <b>1.31</b>
+ -
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?rev=1.31&view=markup">view</a>)
+(<a href="/viewcvs.py/*checkout*/celestia/celestia/data/extrasolar.ssc?rev=1.31">download</a>)
+
+
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?annotate=1.31">annotate</a>)
+
+
+- <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.31">[select for diffs]</a>
+
+
+
+
+<br>
+
+<i>Wed Feb 25 18:34:42 2004 UTC</i> (20 months, 1 week ago) by <i>granthutchison</i>
+
+<br>Branch:
+
+<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?only_with_tag=MAIN"><b>MAIN</b></a>
+
+
+
+
+
+
+
+<br>Changes since <b>1.30: +22 -21 lines</b>
+
+
+
+
+
+
+
+<br>Diff to <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.30&amp;r2=1.31">previous 1.30</a>
+
+
+
+
+
+
+
+
+
+
+<pre>Minor revisions to the masses and elements of several extrasolar planets
+</pre>
+
+<hr size=1 noshade>
+
+
+<a name="rev1.30"></a>
+
+
+Revision <b>1.30</b>
+ -
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?rev=1.30&view=markup">view</a>)
+(<a href="/viewcvs.py/*checkout*/celestia/celestia/data/extrasolar.ssc?rev=1.30">download</a>)
+
+
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?annotate=1.30">annotate</a>)
+
+
+- <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.30">[select for diffs]</a>
+
+
+
+
+<br>
+
+<i>Tue Feb 10 20:09:04 2004 UTC</i> (20 months, 3 weeks ago) by <i>granthutchison</i>
+
+<br>Branch:
+
+<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?only_with_tag=MAIN"><b>MAIN</b></a>
+
+
+
+
+
+
+
+<br>Changes since <b>1.29: +18 -0 lines</b>
+
+
+
+
+
+
+
+<br>Diff to <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.29&amp;r2=1.30">previous 1.29</a>
+
+
+
+
+
+
+
+
+
+
+<pre>Added HD 330075 b
+</pre>
+
+<hr size=1 noshade>
+
+
+<a name="rev1.29"></a>
+<a name="ver_1_3_1"></a>
+
+
+Revision <b>1.29</b>
+ -
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?rev=1.29&view=markup">view</a>)
+(<a href="/viewcvs.py/*checkout*/celestia/celestia/data/extrasolar.ssc?rev=1.29">download</a>)
+
+
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?annotate=1.29">annotate</a>)
+
+
+- <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.29">[select for diffs]</a>
+
+
+
+
+<br>
+
+<i>Sun Nov 16 02:31:27 2003 UTC</i> (23 months, 3 weeks ago) by <i>granthutchison</i>
+
+<br>Branch:
+
+<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?only_with_tag=MAIN"><b>MAIN</b></a>
+
+
+
+<br>CVS Tags:
+
+<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?only_with_tag=ver_1_3_1"><b>ver_1_3_1</b></a>
+
+
+
+
+
+
+<br>Changes since <b>1.28: +35 -1 lines</b>
+
+
+
+
+
+
+
+<br>Diff to <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.28&amp;r2=1.29">previous 1.28</a>
+
+
+
+
+
+
+
+
+
+
+<pre>Added Psi1 Aqr b and HD 59686 b
+</pre>
+
+<hr size=1 noshade>
+
+
+<a name="rev1.28"></a>
+
+
+Revision <b>1.28</b>
+ -
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?rev=1.28&view=markup">view</a>)
+(<a href="/viewcvs.py/*checkout*/celestia/celestia/data/extrasolar.ssc?rev=1.28">download</a>)
+
+
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?annotate=1.28">annotate</a>)
+
+
+- <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.28">[select for diffs]</a>
+
+
+
+
+<br>
+
+<i>Mon Oct 27 20:07:20 2003 UTC</i> (2 years ago) by <i>granthutchison</i>
+
+<br>Branch:
+
+<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?only_with_tag=MAIN"><b>MAIN</b></a>
+
+
+
+
+
+
+
+<br>Changes since <b>1.27: +2 -2 lines</b>
+
+
+
+
+
+
+
+<br>Diff to <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.27&amp;r2=1.28">previous 1.27</a>
+
+
+
+
+
+
+
+
+
+
+<pre>Correct handling of HD 219542 B b
+</pre>
+
+<hr size=1 noshade>
+
+
+<a name="rev1.27"></a>
+
+
+Revision <b>1.27</b>
+ -
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?rev=1.27&view=markup">view</a>)
+(<a href="/viewcvs.py/*checkout*/celestia/celestia/data/extrasolar.ssc?rev=1.27">download</a>)
+
+
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?annotate=1.27">annotate</a>)
+
+
+- <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.27">[select for diffs]</a>
+
+
+
+
+<br>
+
+<i>Thu Oct 23 19:11:10 2003 UTC</i> (2 years ago) by <i>uid114024</i>
+
+<br>Branch:
+
+<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?only_with_tag=MAIN"><b>MAIN</b></a>
+
+
+
+
+
+
+
+<br>Changes since <b>1.26: +1 -1 lines</b>
+
+
+
+
+
+
+
+<br>Diff to <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.26&amp;r2=1.27">previous 1.26</a>
+
+
+
+
+
+
+
+
+
+
+<pre>Correct 16 Cyg B b
+</pre>
+
+<hr size=1 noshade>
+
+
+<a name="rev1.26"></a>
+
+
+Revision <b>1.26</b>
+ -
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?rev=1.26&view=markup">view</a>)
+(<a href="/viewcvs.py/*checkout*/celestia/celestia/data/extrasolar.ssc?rev=1.26">download</a>)
+
+
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?annotate=1.26">annotate</a>)
+
+
+- <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.26">[select for diffs]</a>
+
+
+
+
+<br>
+
+<i>Sun Oct 19 17:40:07 2003 UTC</i> (2 years ago) by <i>granthutchison</i>
+
+<br>Branch:
+
+<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?only_with_tag=MAIN"><b>MAIN</b></a>
+
+
+
+
+
+
+
+<br>Changes since <b>1.25: +1414 -1345 lines</b>
+
+
+
+
+
+
+
+<br>Diff to <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.25&amp;r2=1.26">previous 1.25</a>
+
+
+
+
+
+
+
+
+
+
+<pre>Incorporated ArgOfPericenter and MeanAnomaly for most bodies; glowing nightside for bodies at &gt;1000K
+</pre>
+
+<hr size=1 noshade>
+
+
+<a name="rev1.25"></a>
+
+
+Revision <b>1.25</b>
+ -
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?rev=1.25&view=markup">view</a>)
+(<a href="/viewcvs.py/*checkout*/celestia/celestia/data/extrasolar.ssc?rev=1.25">download</a>)
+
+
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?annotate=1.25">annotate</a>)
+
+
+- <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.25">[select for diffs]</a>
+
+
+
+
+<br>
+
+<i>Tue Sep 23 20:43:47 2003 UTC</i> (2 years, 1 month ago) by <i>granthutchison</i>
+
+<br>Branch:
+
+<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?only_with_tag=MAIN"><b>MAIN</b></a>
+
+
+
+
+
+
+
+<br>Changes since <b>1.24: +7 -4 lines</b>
+
+
+
+
+
+
+
+<br>Diff to <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.24&amp;r2=1.25">previous 1.24</a>
+
+
+
+
+
+
+
+
+
+
+<pre>Added elements for HD 209458 b, giving correct transit events
+</pre>
+
+<hr size=1 noshade>
+
+
+<a name="rev1.24"></a>
+
+
+Revision <b>1.24</b>
+ -
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?rev=1.24&view=markup">view</a>)
+(<a href="/viewcvs.py/*checkout*/celestia/celestia/data/extrasolar.ssc?rev=1.24">download</a>)
+
+
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?annotate=1.24">annotate</a>)
+
+
+- <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.24">[select for diffs]</a>
+
+
+
+
+<br>
+
+<i>Fri Jul  4 10:58:35 2003 UTC</i> (2 years, 4 months ago) by <i>cjlaurel</i>
+
+<br>Branch:
+
+<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?only_with_tag=MAIN"><b>MAIN</b></a>
+
+
+
+
+
+
+
+<br>Changes since <b>1.23: +18 -0 lines</b>
+
+
+
+
+
+
+
+<br>Diff to <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.23&amp;r2=1.24">previous 1.23</a>
+
+
+
+
+
+
+
+
+
+
+<pre>Added new extrasolar planet orbiting HD 70642
+</pre>
+
+<hr size=1 noshade>
+
+
+<a name="rev1.23"></a>
+
+
+Revision <b>1.23</b>
+ -
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?rev=1.23&view=markup">view</a>)
+(<a href="/viewcvs.py/*checkout*/celestia/celestia/data/extrasolar.ssc?rev=1.23">download</a>)
+
+
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?annotate=1.23">annotate</a>)
+
+
+- <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.23">[select for diffs]</a>
+
+
+
+
+<br>
+
+<i>Wed Jul  2 18:24:51 2003 UTC</i> (2 years, 4 months ago) by <i>cjlaurel</i>
+
+<br>Branch:
+
+<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?only_with_tag=MAIN"><b>MAIN</b></a>
+
+
+
+
+
+
+
+<br>Changes since <b>1.22: +1 -1 lines</b>
+
+
+
+
+
+
+
+<br>Diff to <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.22&amp;r2=1.23">previous 1.22</a>
+
+
+
+
+
+
+
+
+
+
+<pre>Fixed name confusion with HD 104985 b
+</pre>
+
+<hr size=1 noshade>
+
+
+<a name="rev1.22"></a>
+
+
+Revision <b>1.22</b>
+ -
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?rev=1.22&view=markup">view</a>)
+(<a href="/viewcvs.py/*checkout*/celestia/celestia/data/extrasolar.ssc?rev=1.22">download</a>)
+
+
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?annotate=1.22">annotate</a>)
+
+
+- <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.22">[select for diffs]</a>
+
+
+
+
+<br>
+
+<i>Wed Jul  2 17:21:38 2003 UTC</i> (2 years, 4 months ago) by <i>cjlaurel</i>
+
+<br>Branch:
+
+<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?only_with_tag=MAIN"><b>MAIN</b></a>
+
+
+
+
+
+
+
+<br>Changes since <b>1.21: +151 -0 lines</b>
+
+
+
+
+
+
+
+<br>Diff to <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.21&amp;r2=1.22">previous 1.21</a>
+
+
+
+
+
+
+
+
+
+
+<pre>Added eight newly discovered extrasolar planets.
+</pre>
+
+<hr size=1 noshade>
+
+
+<a name="rev1.21"></a>
+
+
+Revision <b>1.21</b>
+ -
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?rev=1.21&view=markup">view</a>)
+(<a href="/viewcvs.py/*checkout*/celestia/celestia/data/extrasolar.ssc?rev=1.21">download</a>)
+
+
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?annotate=1.21">annotate</a>)
+
+
+- <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.21">[select for diffs]</a>
+
+
+
+
+<br>
+
+<i>Mon Apr 21 16:40:08 2003 UTC</i> (2 years, 6 months ago) by <i>cjlaurel</i>
+
+<br>Branch:
+
+<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?only_with_tag=MAIN"><b>MAIN</b></a>
+
+
+
+
+
+
+
+<br>Changes since <b>1.20: +17 -0 lines</b>
+
+
+
+
+
+
+
+<br>Diff to <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.20&amp;r2=1.21">previous 1.20</a>
+
+
+
+
+
+
+
+
+
+
+<pre>Added newly discovered hot Jupiter HD 73256 b
+</pre>
+
+<hr size=1 noshade>
+
+
+<a name="rev1.20"></a>
+<a name="ver_1_3_0"></a>
+
+
+Revision <b>1.20</b>
+ -
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?rev=1.20&view=markup">view</a>)
+(<a href="/viewcvs.py/*checkout*/celestia/celestia/data/extrasolar.ssc?rev=1.20">download</a>)
+
+
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?annotate=1.20">annotate</a>)
+
+
+- <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.20">[select for diffs]</a>
+
+
+
+
+<br>
+
+<i>Thu Feb 13 04:07:48 2003 UTC</i> (2 years, 8 months ago) by <i>cjlaurel</i>
+
+<br>Branch:
+
+<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?only_with_tag=MAIN"><b>MAIN</b></a>
+
+
+
+<br>CVS Tags:
+
+<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?only_with_tag=ver_1_3_0"><b>ver_1_3_0</b></a>
+
+
+
+
+
+
+<br>Changes since <b>1.19: +15 -0 lines</b>
+
+
+
+
+
+
+
+<br>Diff to <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.19&amp;r2=1.20">previous 1.19</a>
+
+
+
+
+
+
+
+
+
+
+<pre>Added recently discovered companion of K giant HD 47536
+</pre>
+
+<hr size=1 noshade>
+
+
+<a name="rev1.19"></a>
+
+
+Revision <b>1.19</b>
+ -
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?rev=1.19&view=markup">view</a>)
+(<a href="/viewcvs.py/*checkout*/celestia/celestia/data/extrasolar.ssc?rev=1.19">download</a>)
+
+
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?annotate=1.19">annotate</a>)
+
+
+- <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.19">[select for diffs]</a>
+
+
+
+
+<br>
+
+<i>Sun Sep 29 03:04:38 2002 UTC</i> (3 years, 1 month ago) by <i>cjlaurel</i>
+
+<br>Branch:
+
+<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?only_with_tag=MAIN"><b>MAIN</b></a>
+
+
+
+
+
+
+
+<br>Changes since <b>1.18: +203 -15 lines</b>
+
+
+
+
+
+
+
+<br>Diff to <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.18&amp;r2=1.19">previous 1.18</a>
+
+
+
+
+
+
+
+
+
+
+<pre>Added InfoURLs for all extrasolar planets
+</pre>
+
+<hr size=1 noshade>
+
+
+<a name="rev1.18"></a>
+
+
+Revision <b>1.18</b>
+ -
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?rev=1.18&view=markup">view</a>)
+(<a href="/viewcvs.py/*checkout*/celestia/celestia/data/extrasolar.ssc?rev=1.18">download</a>)
+
+
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?annotate=1.18">annotate</a>)
+
+
+- <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.18">[select for diffs]</a>
+
+
+
+
+<br>
+
+<i>Sat Sep 28 08:27:52 2002 UTC</i> (3 years, 1 month ago) by <i>cjlaurel</i>
+
+<br>Branch:
+
+<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?only_with_tag=MAIN"><b>MAIN</b></a>
+
+
+
+
+
+
+
+<br>Changes since <b>1.17: +31 -2 lines</b>
+
+
+
+
+
+
+
+<br>Diff to <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.17&amp;r2=1.18">previous 1.17</a>
+
+
+
+
+
+
+
+
+
+
+<pre>Added newly discovered planets of Tau Guis and Gamma Cephei
+</pre>
+
+<hr size=1 noshade>
+
+
+<a name="rev1.17"></a>
+
+
+Revision <b>1.17</b>
+ -
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?rev=1.17&view=markup">view</a>)
+(<a href="/viewcvs.py/*checkout*/celestia/celestia/data/extrasolar.ssc?rev=1.17">download</a>)
+
+
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?annotate=1.17">annotate</a>)
+
+
+- <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.17">[select for diffs]</a>
+
+
+
+
+<br>
+
+<i>Tue Aug 27 16:20:52 2002 UTC</i> (3 years, 2 months ago) by <i>cjlaurel</i>
+
+<br>Branch:
+
+<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?only_with_tag=MAIN"><b>MAIN</b></a>
+
+
+
+
+
+
+
+<br>Changes since <b>1.16: +14 -0 lines</b>
+
+
+
+
+
+
+
+<br>Diff to <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.16&amp;r2=1.17">previous 1.16</a>
+
+
+
+
+
+
+
+
+
+
+<pre>Added planetary companion of HD 76700
+</pre>
+
+<hr size=1 noshade>
+
+
+<a name="rev1.16"></a>
+
+
+Revision <b>1.16</b>
+ -
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?rev=1.16&view=markup">view</a>)
+(<a href="/viewcvs.py/*checkout*/celestia/celestia/data/extrasolar.ssc?rev=1.16">download</a>)
+
+
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?annotate=1.16">annotate</a>)
+
+
+- <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.16">[select for diffs]</a>
+
+
+
+
+<br>
+
+<i>Wed Jul  3 15:56:14 2002 UTC</i> (3 years, 4 months ago) by <i>cjlaurel</i>
+
+<br>Branch:
+
+<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?only_with_tag=MAIN"><b>MAIN</b></a>
+
+
+
+
+
+
+
+<br>Changes since <b>1.15: +13 -0 lines</b>
+
+
+
+
+
+
+
+<br>Diff to <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.15&amp;r2=1.16">previous 1.15</a>
+
+
+
+
+
+
+
+
+
+
+<pre>Added newly discovered planet of HD 2039 b.
+</pre>
+
+<hr size=1 noshade>
+
+
+<a name="rev1.15"></a>
+
+
+Revision <b>1.15</b>
+ -
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?rev=1.15&view=markup">view</a>)
+(<a href="/viewcvs.py/*checkout*/celestia/celestia/data/extrasolar.ssc?rev=1.15">download</a>)
+
+
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?annotate=1.15">annotate</a>)
+
+
+- <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.15">[select for diffs]</a>
+
+
+
+
+<br>
+
+<i>Tue Jun 25 05:51:14 2002 UTC</i> (3 years, 4 months ago) by <i>cjlaurel</i>
+
+<br>Branch:
+
+<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?only_with_tag=MAIN"><b>MAIN</b></a>
+
+
+
+
+
+
+
+<br>Changes since <b>1.14: +128 -0 lines</b>
+
+
+
+
+
+
+
+<br>Diff to <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.14&amp;r2=1.15">previous 1.14</a>
+
+
+
+
+
+
+
+
+
+
+<pre>Added 8 new extrasolar planets detected by Geneva team
+</pre>
+
+<hr size=1 noshade>
+
+
+<a name="rev1.14"></a>
+
+
+Revision <b>1.14</b>
+ -
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?rev=1.14&view=markup">view</a>)
+(<a href="/viewcvs.py/*checkout*/celestia/celestia/data/extrasolar.ssc?rev=1.14">download</a>)
+
+
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?annotate=1.14">annotate</a>)
+
+
+- <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.14">[select for diffs]</a>
+
+
+
+
+<br>
+
+<i>Fri Jun 14 06:11:40 2002 UTC</i> (3 years, 4 months ago) by <i>cjlaurel</i>
+
+<br>Branch:
+
+<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?only_with_tag=MAIN"><b>MAIN</b></a>
+
+
+
+
+
+
+
+<br>Changes since <b>1.13: +244 -14 lines</b>
+
+
+
+
+
+
+
+<br>Diff to <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.13&amp;r2=1.14">previous 1.13</a>
+
+
+
+
+
+
+
+
+
+
+<pre>New exoplanet discoveries
+</pre>
+
+<hr size=1 noshade>
+
+
+<a name="rev1.13"></a>
+<a name="v124"></a>
+
+
+Revision <b>1.13</b>
+ -
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?rev=1.13&view=markup">view</a>)
+(<a href="/viewcvs.py/*checkout*/celestia/celestia/data/extrasolar.ssc?rev=1.13">download</a>)
+
+
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?annotate=1.13">annotate</a>)
+
+
+- <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.13">[select for diffs]</a>
+
+
+
+
+<br>
+
+<i>Fri Mar 29 02:19:52 2002 UTC</i> (3 years, 7 months ago) by <i>cjlaurel</i>
+
+<br>Branch:
+
+<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?only_with_tag=MAIN"><b>MAIN</b></a>
+
+
+
+<br>CVS Tags:
+
+<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?only_with_tag=v124"><b>v124</b></a>
+
+
+
+
+
+
+<br>Changes since <b>1.12: +2 -22 lines</b>
+
+
+
+
+
+
+
+<br>Diff to <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.12&amp;r2=1.13">previous 1.12</a>
+
+
+
+
+
+
+
+
+
+
+<pre>Removed duplicate entry for Iota Hor (aka HR 810)
+</pre>
+
+<hr size=1 noshade>
+
+
+<a name="rev1.12"></a>
+
+
+Revision <b>1.12</b>
+ -
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?rev=1.12&view=markup">view</a>)
+(<a href="/viewcvs.py/*checkout*/celestia/celestia/data/extrasolar.ssc?rev=1.12">download</a>)
+
+
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?annotate=1.12">annotate</a>)
+
+
+- <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.12">[select for diffs]</a>
+
+
+
+
+<br>
+
+<i>Tue Feb 12 00:52:57 2002 UTC</i> (3 years, 8 months ago) by <i>cjlaurel</i>
+
+<br>Branch:
+
+<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?only_with_tag=MAIN"><b>MAIN</b></a>
+
+
+
+
+
+
+
+<br>Changes since <b>1.11: +19 -1 lines</b>
+
+
+
+
+
+
+
+<br>Diff to <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.11&amp;r2=1.12">previous 1.11</a>
+
+
+
+
+
+
+
+
+
+
+<pre>Added newly discovered 'planet' of HD 136118
+</pre>
+
+<hr size=1 noshade>
+
+
+<a name="rev1.11"></a>
+
+
+Revision <b>1.11</b>
+ -
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?rev=1.11&view=markup">view</a>)
+(<a href="/viewcvs.py/*checkout*/celestia/celestia/data/extrasolar.ssc?rev=1.11">download</a>)
+
+
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?annotate=1.11">annotate</a>)
+
+
+- <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.11">[select for diffs]</a>
+
+
+
+
+<br>
+
+<i>Tue Jan  8 07:30:43 2002 UTC</i> (3 years, 9 months ago) by <i>cjlaurel</i>
+
+<br>Branch:
+
+<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?only_with_tag=MAIN"><b>MAIN</b></a>
+
+
+
+
+
+
+
+<br>Changes since <b>1.10: +13 -74 lines</b>
+
+
+
+
+
+
+
+<br>Diff to <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.10&amp;r2=1.11">previous 1.10</a>
+
+
+
+
+
+
+
+
+
+
+<pre>Added newly discovered companion of Iota Draconis.
+</pre>
+
+<hr size=1 noshade>
+
+
+<a name="rev1.10"></a>
+
+
+Revision <b>1.10</b>
+ -
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?rev=1.10&view=markup">view</a>)
+(<a href="/viewcvs.py/*checkout*/celestia/celestia/data/extrasolar.ssc?rev=1.10">download</a>)
+
+
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?annotate=1.10">annotate</a>)
+
+
+- <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.10">[select for diffs]</a>
+
+
+
+
+<br>
+
+<i>Tue Jan  8 02:05:34 2002 UTC</i> (3 years, 9 months ago) by <i>cjlaurel</i>
+
+<br>Branch:
+
+<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?only_with_tag=MAIN"><b>MAIN</b></a>
+
+
+
+
+
+
+
+<br>Changes since <b>1.9: +105 -341 lines</b>
+
+
+
+
+
+
+
+<br>Diff to <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.9&amp;r2=1.10">previous 1.9</a>
+
+
+
+
+
+
+
+
+
+
+<pre>Converted solar system catalogs to new 'flattened' format.
+</pre>
+
+<hr size=1 noshade>
+
+
+<a name="rev1.9"></a>
+
+
+Revision <b>1.9</b>
+ -
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?rev=1.9&view=markup">view</a>)
+(<a href="/viewcvs.py/*checkout*/celestia/celestia/data/extrasolar.ssc?rev=1.9">download</a>)
+
+
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?annotate=1.9">annotate</a>)
+
+
+- <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.9">[select for diffs]</a>
+
+
+
+
+<br>
+
+<i>Thu Nov 22 09:43:05 2001 UTC</i> (3 years, 11 months ago) by <i>cjlaurel</i>
+
+<br>Branch:
+
+<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?only_with_tag=MAIN"><b>MAIN</b></a>
+
+
+
+
+
+
+
+<br>Changes since <b>1.8: +3 -3 lines</b>
+
+
+
+
+
+
+
+<br>Diff to <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.8&amp;r2=1.9">previous 1.8</a>
+
+
+
+
+
+
+
+
+
+
+<pre>HD 46735 was listed as having a planetary system; should have been HD 46375
+</pre>
+
+<hr size=1 noshade>
+
+
+<a name="rev1.8"></a>
+
+
+Revision <b>1.8</b>
+ -
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?rev=1.8&view=markup">view</a>)
+(<a href="/viewcvs.py/*checkout*/celestia/celestia/data/extrasolar.ssc?rev=1.8">download</a>)
+
+
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?annotate=1.8">annotate</a>)
+
+
+- <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.8">[select for diffs]</a>
+
+
+
+
+<br>
+
+<i>Tue Nov  6 03:16:04 2001 UTC</i> (4 years ago) by <i>cjlaurel</i>
+
+<br>Branch:
+
+<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?only_with_tag=MAIN"><b>MAIN</b></a>
+
+
+
+
+
+
+
+<br>Changes since <b>1.7: +380 -228 lines</b>
+
+
+
+
+
+
+
+<br>Diff to <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.7&amp;r2=1.8">previous 1.7</a>
+
+
+
+
+
+
+
+
+
+
+<pre>Rearranged orbital elements into EllipticalOrbit groups; added custom orbit for the moon.
+</pre>
+
+<hr size=1 noshade>
+
+
+<a name="rev1.7"></a>
+
+
+Revision <b>1.7</b>
+ -
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?rev=1.7&view=markup">view</a>)
+(<a href="/viewcvs.py/*checkout*/celestia/celestia/data/extrasolar.ssc?rev=1.7">download</a>)
+
+
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?annotate=1.7">annotate</a>)
+
+
+- <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.7">[select for diffs]</a>
+
+
+
+
+<br>
+
+<i>Wed Oct 17 20:04:30 2001 UTC</i> (4 years ago) by <i>cjlaurel</i>
+
+<br>Branch:
+
+<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?only_with_tag=MAIN"><b>MAIN</b></a>
+
+
+
+
+
+
+
+<br>Changes since <b>1.6: +142 -0 lines</b>
+
+
+
+
+
+
+
+<br>Diff to <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.6&amp;r2=1.7">previous 1.6</a>
+
+
+
+
+
+
+
+
+
+
+<pre>Added 8 new exoplanets announced 15 Oct 2001.
+</pre>
+
+<hr size=1 noshade>
+
+
+<a name="rev1.6"></a>
+
+
+Revision <b>1.6</b>
+ -
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?rev=1.6&view=markup">view</a>)
+(<a href="/viewcvs.py/*checkout*/celestia/celestia/data/extrasolar.ssc?rev=1.6">download</a>)
+
+
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?annotate=1.6">annotate</a>)
+
+
+- <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.6">[select for diffs]</a>
+
+
+
+
+<br>
+
+<i>Fri Oct 12 22:43:17 2001 UTC</i> (4 years ago) by <i>cjlaurel</i>
+
+<br>Branch:
+
+<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?only_with_tag=MAIN"><b>MAIN</b></a>
+
+
+
+
+
+
+
+<br>Changes since <b>1.5: +2 -2 lines</b>
+
+
+
+
+
+
+
+<br>Diff to <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.5&amp;r2=1.6">previous 1.5</a>
+
+
+
+
+
+
+
+
+
+
+<pre>Changed Gliese 876's planets to use a better texture.
+</pre>
+
+<hr size=1 noshade>
+
+
+<a name="rev1.5"></a>
+<a name="v112"></a>
+
+
+Revision <b>1.5</b>
+ -
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?rev=1.5&view=markup">view</a>)
+(<a href="/viewcvs.py/*checkout*/celestia/celestia/data/extrasolar.ssc?rev=1.5">download</a>)
+
+
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?annotate=1.5">annotate</a>)
+
+
+- <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.5">[select for diffs]</a>
+
+
+
+
+<br>
+
+<i>Fri Aug 31 19:07:20 2001 UTC</i> (4 years, 2 months ago) by <i>cjlaurel</i>
+
+<br>Branch:
+
+<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?only_with_tag=MAIN"><b>MAIN</b></a>
+
+
+
+<br>CVS Tags:
+
+<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?only_with_tag=v112"><b>v112</b></a>
+
+
+
+
+
+
+<br>Changes since <b>1.4: +13 -0 lines</b>
+
+
+
+
+
+
+
+<br>Diff to <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.4&amp;r2=1.5">previous 1.4</a>
+
+
+
+
+
+
+
+
+
+
+<pre>Added addition planet around 47 UMa
+</pre>
+
+<hr size=1 noshade>
+
+
+<a name="rev1.4"></a>
+<a name="v108"></a>
+<a name="v1010"></a>
+<a name="v110"></a>
+<a name="v111"></a>
+<a name="v106"></a>
+<a name="v107"></a>
+
+
+Revision <b>1.4</b>
+ -
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?rev=1.4&view=markup">view</a>)
+(<a href="/viewcvs.py/*checkout*/celestia/celestia/data/extrasolar.ssc?rev=1.4">download</a>)
+
+
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?annotate=1.4">annotate</a>)
+
+
+- <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.4">[select for diffs]</a>
+
+
+
+
+<br>
+
+<i>Wed Apr  4 21:18:08 2001 UTC</i> (4 years, 7 months ago) by <i>cjlaurel</i>
+
+<br>Branch:
+
+<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?only_with_tag=MAIN"><b>MAIN</b></a>
+
+
+
+<br>CVS Tags:
+
+<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?only_with_tag=v108"><b>v108</b></a>,
+
+<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?only_with_tag=v1010"><b>v1010</b></a>,
+
+<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?only_with_tag=v110"><b>v110</b></a>,
+
+<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?only_with_tag=v111"><b>v111</b></a>,
+
+<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?only_with_tag=v106"><b>v106</b></a>,
+
+<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?only_with_tag=v107"><b>v107</b></a>
+
+
+
+
+
+
+<br>Changes since <b>1.3: +363 -10 lines</b>
+
+
+
+
+
+
+
+<br>Diff to <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.3&amp;r2=1.4">previous 1.3</a>
+
+
+
+
+
+
+
+
+
+
+<pre>Added new extrasolar planets announced April 4th by ESO
+</pre>
+
+<hr size=1 noshade>
+
+
+<a name="rev1.3"></a>
+<a name="v105"></a>
+
+
+Revision <b>1.3</b>
+ -
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?rev=1.3&view=markup">view</a>)
+(<a href="/viewcvs.py/*checkout*/celestia/celestia/data/extrasolar.ssc?rev=1.3">download</a>)
+
+
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?annotate=1.3">annotate</a>)
+
+
+- <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.3">[select for diffs]</a>
+
+
+
+
+<br>
+
+<i>Wed Mar 21 21:44:51 2001 UTC</i> (4 years, 7 months ago) by <i>cjlaurel</i>
+
+<br>Branch:
+
+<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?only_with_tag=MAIN"><b>MAIN</b></a>
+
+
+
+<br>CVS Tags:
+
+<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?only_with_tag=v105"><b>v105</b></a>
+
+
+
+
+
+
+<br>Changes since <b>1.2: +425 -1 lines</b>
+
+
+
+
+
+
+
+<br>Diff to <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.2&amp;r2=1.3">previous 1.2</a>
+
+
+
+
+
+
+
+
+
+
+<pre>Completed catalog of known extrasolar planets.
+</pre>
+
+<hr size=1 noshade>
+
+
+<a name="rev1.2"></a>
+<a name="v104"></a>
+
+
+Revision <b>1.2</b>
+ -
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?rev=1.2&view=markup">view</a>)
+(<a href="/viewcvs.py/*checkout*/celestia/celestia/data/extrasolar.ssc?rev=1.2">download</a>)
+
+
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?annotate=1.2">annotate</a>)
+
+
+- <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.2">[select for diffs]</a>
+
+
+
+
+<br>
+
+<i>Tue Mar  6 20:56:06 2001 UTC</i> (4 years, 8 months ago) by <i>cjlaurel</i>
+
+<br>Branch:
+
+<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?only_with_tag=MAIN"><b>MAIN</b></a>
+
+
+
+<br>CVS Tags:
+
+<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?only_with_tag=v104"><b>v104</b></a>
+
+
+
+
+
+
+<br>Changes since <b>1.1: +0 -21 lines</b>
+
+
+
+
+
+
+
+<br>Diff to <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.1&amp;r2=1.2">previous 1.1</a>
+
+
+
+
+
+
+
+
+
+
+<pre>Removed duplicate HD46735 system.
+</pre>
+
+<hr size=1 noshade>
+
+
+<a name="rev1.1.1.1"></a>
+<a name="arelease"></a>
+<a name="v103"></a>
+
+<a name="avendor"></a>
+
+Revision <b>1.1.1.1</b>
+ -
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?rev=1.1.1.1&view=markup">view</a>)
+(<a href="/viewcvs.py/*checkout*/celestia/celestia/data/extrasolar.ssc?rev=1.1.1.1">download</a>)
+
+
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?annotate=1.1.1.1">annotate</a>)
+
+
+- <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.1.1.1">[select for diffs]</a>
+
+
+
+
+<i>(vendor branch)</i>
+
+<br>
+
+<i>Mon Feb 26 15:41:04 2001 UTC</i> (4 years, 8 months ago) by <i>cjlaurel</i>
+
+<br>Branch:
+
+<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?only_with_tag=avendor"><b>avendor</b></a>
+
+
+
+<br>CVS Tags:
+
+<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?only_with_tag=arelease"><b>arelease</b></a>,
+
+<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?only_with_tag=v103"><b>v103</b></a>
+
+
+
+
+
+
+<br>Changes since <b>1.1: +0 -0 lines</b>
+
+
+
+
+
+
+
+<br>Diff to <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.1&amp;r2=1.1.1.1">previous 1.1</a>
+
+
+
+
+
+
+
+
+
+
+<pre>no message
+</pre>
+
+<hr size=1 noshade>
+
+
+<a name="rev1.1"></a>
+
+
+Revision <b>1.1</b>
+ -
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?rev=1.1&view=markup">view</a>)
+(<a href="/viewcvs.py/*checkout*/celestia/celestia/data/extrasolar.ssc?rev=1.1">download</a>)
+
+
+(<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?annotate=1.1">annotate</a>)
+
+
+- <a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?r1=1.1">[select for diffs]</a>
+
+
+
+
+<br>
+
+<i>Mon Feb 26 15:41:04 2001 UTC</i> (4 years, 8 months ago) by <i>cjlaurel</i>
+
+<br>Branch:
+
+<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?only_with_tag=MAIN"><b>MAIN</b></a>
+
+
+
+
+<br>Branch point for:
+
+<a href="/viewcvs.py/celestia/celestia/data/extrasolar.ssc?only_with_tag=avendor"><b>avendor</b></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<pre>Initial revision
+</pre>
+
+ 
+
+
+
+<a name=diff></a>
+<hr noshade>
+This form allows you to request diffs between any two revisions of
+a file. You may select a symbolic revision name using the selection
+box or you may type in a numeric name using the type-in text box.
+<p>
+<form method=get action="/viewcvs.py/celestia/celestia/data/extrasolar.ssc" name=diff_select>
+
+Diffs between
+<select name="r1">
+<option value="text" selected>Use Text Field</option>
+
+<option value="1.29:ver_1_3_1">ver_1_3_1</option>
+
+<option value="1.20:ver_1_3_0">ver_1_3_0</option>
+
+<option value="1.36:ver1_3_2">ver1_3_2</option>
+
+<option value="1.13:v124">v124</option>
+
+<option value="1.5:v112">v112</option>
+
+<option value="1.4:v111">v111</option>
+
+<option value="1.4:v110">v110</option>
+
+<option value="1.4:v108">v108</option>
+
+<option value="1.4:v107">v107</option>
+
+<option value="1.4:v106">v106</option>
+
+<option value="1.3:v105">v105</option>
+
+<option value="1.2:v104">v104</option>
+
+<option value="1.1.1.1:v103">v103</option>
+
+<option value="1.4:v1010">v1010</option>
+
+<option value="1.1.1.1:avendor">avendor</option>
+
+<option value="1.1.1.1:arelease">arelease</option>
+
+<option value="1.63:MAIN">MAIN</option>
+
+<option value="1.63:HEAD">HEAD</option>
+
+</select>
+<input type="TEXT" size="12" name="tr1" value="1.1"
+onChange="document.diff_select.r1.selectedIndex=0">
+and
+<select name="r2">
+<option value="text" selected>Use Text Field</option>
+
+<option value="1.29:ver_1_3_1">ver_1_3_1</option>
+
+<option value="1.20:ver_1_3_0">ver_1_3_0</option>
+
+<option value="1.36:ver1_3_2">ver1_3_2</option>
+
+<option value="1.13:v124">v124</option>
+
+<option value="1.5:v112">v112</option>
+
+<option value="1.4:v111">v111</option>
+
+<option value="1.4:v110">v110</option>
+
+<option value="1.4:v108">v108</option>
+
+<option value="1.4:v107">v107</option>
+
+<option value="1.4:v106">v106</option>
+
+<option value="1.3:v105">v105</option>
+
+<option value="1.2:v104">v104</option>
+
+<option value="1.1.1.1:v103">v103</option>
+
+<option value="1.4:v1010">v1010</option>
+
+<option value="1.1.1.1:avendor">avendor</option>
+
+<option value="1.1.1.1:arelease">arelease</option>
+
+<option value="1.63:MAIN">MAIN</option>
+
+<option value="1.63:HEAD">HEAD</option>
+
+</select>
+<input type="TEXT" size="12" name="tr2" value="1.63"
+onChange="document.diff_select.r1.selectedIndex=0">
+<br>Type of Diff should be a
+<select name="diff_format" onchange="submit()">
+<option value="h" selected>Colored Diff</option>
+<option value="l" >Long Colored Diff</option>
+<option value="u" >Unidiff</option>
+<option value="c" >Context Diff</option>
+<option value="s" >Side by Side</option>
+</select>
+<input type=submit value=" Get Diffs "></form>
+
+
+
+<hr noshade>
+<a name=branch></a>
+<form method=GET action="/viewcvs.py/celestia/celestia/data/extrasolar.ssc">
+
+View only Branch:
+<select name="only_with_tag" onchange="submit()">
+<option value="" selected>Show all branches</option>
+
+<option value="avendor" >avendor</option>
+
+<option value="MAIN" >MAIN</option>
+
+</select>
+<input type=submit value=" View Branch ">
+</form>
+
+
+<hr noshade>
+<a name=logsort></a>
+<form method=get action="/viewcvs.py/celestia/celestia/data/extrasolar.ssc">
+
+Sort log by:
+<select name="logsort" onchange="submit()">
+<option value="cvs" >Not sorted</option>
+<option value="date" selected>Commit date</option>
+<option value="rev" >Revision</option>
+</select>
+<input type=submit value=" Sort ">
+</form>
+
+
+<hr noshade>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td align="left">
+<address><a href="http://sourceforge.net/">Back to SourceForge.net</a></address><br />
+Powered by <a href="http://viewcvs.sourceforge.net/">ViewCVS 1.0-dev</a>
+</td>
+<td align="right">
+<h3><a target="_blank" href="/viewcvs.py/*docroot*/help_log.html">ViewCVS and CVS Help</a></h3>
+</td>
+</tr>
+</table>
+</body>
+</html>
+

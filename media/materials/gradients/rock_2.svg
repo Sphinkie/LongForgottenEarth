@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://inkscape.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="100%"
+   height="100%"
+   id="Rock Colormap"
+   sodipodi:version="0.32"
+   inkscape:version="0.42"
+   sodipodi:docname="rock_2.svg"
+   sodipodi:docbase="E:\sphinx\media\MATERI~1\GRADIE~1"
+   inkscape:export-filename="E:\sphinx\media\MATERI~1\GRADIE~1\rock_2.png"
+   inkscape:export-xdpi="90.000000"
+   inkscape:export-ydpi="90.000000">
+  <metadata
+     id="metadata23">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     inkscape:window-height="661"
+     inkscape:window-width="1141"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     inkscape:zoom="4.9299879"
+     inkscape:cx="0.00074005127"
+     inkscape:cy="1082.5528"
+     inkscape:window-x="1138"
+     inkscape:window-y="170"
+     inkscape:current-layer="Rock Colormap" />
+  <defs
+     id="defs3">
+    <linearGradient
+       id="MapGradient"
+       x1="-0.91183811"
+       y1="-22.585382"
+       x2="453.81577"
+       y2="-22.585382"
+       spreadMethod="pad"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.439827,0.000000,0.000000,0.548431,-99.59895,-67.80422)">
+      <stop
+         style="stop-color:#221804;stop-opacity:1.0000000;"
+         offset="0.00000000"
+         id="stop6" />
+      <stop
+         style="stop-color:#534236;stop-opacity:1.0000000;"
+         offset="0.062500000"
+         id="stop8" />
+      <stop
+         style="stop-color:#4d797a;stop-opacity:1.0000000;"
+         offset="0.37377378"
+         id="stop10" />
+      <stop
+         style="stop-color:#b29d7c;stop-opacity:1.0000000;"
+         offset="0.72312891"
+         id="stop14" />
+      <stop
+         style="stop-color:#ddc498;stop-opacity:1.0000000;"
+         offset="0.91464043"
+         id="stop16" />
+      <stop
+         style="stop-color:#fde5cd;stop-opacity:1.0000000;"
+         offset="1.0000000"
+         id="stop18" />
+    </linearGradient>
+  </defs>
+  <rect
+     width="199.51035"
+     height="99.509109"
+     rx="0.00000000"
+     ry="0.00000000"
+     x="-99.754433"
+     y="-79.945175"
+     style="fill:url(#MapGradient);stroke:none;stroke-width:0.49113670"
+     id="colormap"
+     inkscape:export-xdpi="90.000000"
+     inkscape:export-ydpi="90.000000"
+     inkscape:export-filename="E:\sphinx\media\MATERI~1\GRADIE~1\rock_2.png" />
+</svg>

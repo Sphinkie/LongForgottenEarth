@@ -1,0 +1,88 @@
+material Room_dome/hull
+{
+    technique
+    {
+        pass
+        {
+            lighting on
+            ambient 0.1 0.1 0.1
+            texture_unit
+            {
+                texture hull.jpg
+            }
+        }
+    }
+}
+
+material Room_dome/res
+{
+    technique
+    {
+        pass
+        {
+            ambient 1.0 1.0 1.0
+            diffuse 1.0 1.0 1.0
+            specular 0 0 0 0
+            emissive 0 0 0
+            texture_unit
+            {
+                anim_texture elecbrd2.jpg elecbrd3.jpg 3
+            }
+        }
+    }
+}
+
+material Room_dome/Steel
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.1 0.1 0.1
+            lighting on
+            texture_unit
+            {
+                texture Stainless_Steel.jpg
+            }
+        }
+    }
+}
+
+material Room_dome/ground
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.82353 0.82353 0.82353
+            diffuse 0.82353 0.82353 0.82353
+            specular 0 0 0 0
+            emissive 0 0 0
+            lighting on
+            texture_unit
+            {
+                texture ground.jpg
+            }
+        }
+    }
+}
+
+material Room_dome/glass
+{
+    technique
+    {
+        pass
+        {
+            depth_write off
+        	scene_blend alpha_blend
+            ambient 0.9 0.9 0.9
+            diffuse 1.0 1.0 1.0
+            texture_unit
+            {
+                texture t-chrome.tga
+            }
+        }
+    }
+}
+
+

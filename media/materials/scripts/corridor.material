@@ -1,0 +1,207 @@
+material Corridor/hull
+{
+    technique
+    {
+        pass
+        {
+        	lighting on
+            ambient 0.1 0.1 0.1
+            texture_unit
+            {
+                texture hull.jpg
+            }
+        }
+    }
+}
+
+material Corridor/airline
+{
+    technique
+    {
+        pass
+        {
+            ambient 1.0 1.0 1.0
+            diffuse 1.0 1.0 1.0
+            texture_unit
+            {
+                texture affiche_airline.jpg
+            }
+        }
+    }
+}
+
+material Corridor/carte
+{
+    technique
+    {
+        pass
+        {
+            ambient 1.0 1.0 1.0
+            diffuse 1.0 1.0 1.0
+            specular 0.0 0.0 0.0 0.0
+            emissive 0.0 0.0 0.0
+            texture_unit
+            {
+                texture level3_map.jpg
+            }
+        }
+    }
+}
+
+material Corridor/radar
+{
+    technique
+    {
+        pass
+        {
+            ambient 1.0 1.0 1.0
+            diffuse 1.0 1.0 1.0
+            specular 0.0 0.0 0.0 0.0
+            emissive 0.0 0.0 0.0
+            texture_unit
+            {
+                texture room2_rad.JPG
+            }
+        }
+    }
+}
+
+material Corridor/level
+{
+    technique
+    {
+        pass
+        {
+            depth_write off
+            scene_blend alpha_blend
+            ambient 1.0 1.0 1.0
+            diffuse 1.0 1.0 1.0
+            specular 0.0 0.0 0.0 0.0
+            emissive 0.0 0.0 0.0
+            texture_unit
+            {
+                texture level3.png 
+            }
+        }
+    }
+}
+
+material Corridor/board
+{
+    technique
+    {
+        pass
+        {
+            ambient 1.0 1.0 1.0
+            diffuse 1.0 1.0 1.0
+            specular 0.0 0.0 0.0 0.0
+            emissive 0.0 0.0 0.0
+            texture_unit
+            {
+                texture room2_elecbrd.jpg 
+            }
+        }
+    }
+}
+
+material Corridor/vitre
+{
+    technique
+    {
+        pass
+        {
+            ambient 1.0 1.0 1.0
+            diffuse 1.0 1.0 1.0
+            specular 0.0 0.0 0.0 0.0
+            emissive 0.0 0.0 0.0
+            texture_unit
+            {
+                texture room2_panel.JPG 
+            }
+        }
+    }
+}
+
+material Corridor/light
+{
+    technique
+    {
+        pass
+        {
+            ambient  0 0 0
+            diffuse  1 1 1
+			emissive 0.55 0.94 0.94
+        }
+    }
+}
+
+material Corridor/Aluminium
+{
+    technique
+    {
+        pass
+        {
+        	lighting on
+            ambient 0.1 0.1 0.1
+            texture_unit
+            {
+                texture aluminium1.jpg 
+            }
+        }
+    }
+}
+
+material Corridor/cuivre
+{
+    technique
+    {
+        pass
+        {
+            ambient 1.0 1.0 1.0
+            diffuse 1.0 1.0 1.0
+            specular 0.0 0.0 0.0 0.0
+            emissive 0.0 0.0 0.0
+            texture_unit
+            {
+                texture brass1.jpg 
+            }
+        }
+    }
+}
+
+material Corridor/trooper
+{
+    technique
+    {
+        pass
+        {
+            ambient 1.0 1.0 1.0
+            diffuse 1.0 1.0 1.0
+            specular 0.0 0.0 0.0 0.0
+            emissive 0.0 0.0 0.0
+            texture_unit
+            {
+                texture affiche_trooper.jpg
+            }
+        }
+    }
+}
+
+material Corridor/laser
+{
+    technique
+    {
+        pass
+        {
+            ambient 1.0 1.0 1.0
+            diffuse 1.0 1.0 1.0
+            specular 0.0 0.0 0.0 0.0
+            emissive 0.0 0.0 0.0
+            texture_unit
+            {
+                texture affiche_laser.jpg
+            }
+        }
+    }
+}
+

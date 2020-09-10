@@ -1,0 +1,50 @@
+material 01_-_Par_défaut
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.988235 0.356863 0.490196
+            diffuse 0.988235 0.356863 0.490196
+            specular 0.898039 0.776471 0.513726 0.0
+            emissive 0.0 0.0 0.0
+            texture_unit
+            {
+//                texture fire.png
+            }
+        }
+    }
+}
+
+material Examples/Moon
+{
+	technique
+	{
+		pass
+		{
+			//depth_write off for background static or tranparent objects
+			depth_write off
+		     // if dynamic lighting is off, object is fully lit
+			lighting on
+			// if ON,	000=black  - 111=white
+			// ambient est la lumière générale ambiante, elle évite des contrastes trop tranchés entre zone éclairée et zone d'ombre
+			ambient 0.9 0.9 0.9
+			// diffuse est la couleur pour la partie éclairée (comme un filtre posé devant la lumière venant du Light)
+			diffuse  1 1 1
+			// specular est la couleur des reflets (aspect métal).
+			// Pour les voir, il faut baisser la lumière ambiante, et avoir paramétré un setSpecularColor sur la Light
+			// specular 1 1 1 12
+			texture_unit
+			{
+				scale 2.76 2.76
+				texture jupiter1.jpg
+				scroll_anim 0.01 0.0
+
+// 				texture earth.jpg
+//				scroll_anim 0.001 0.0
+			}
+
+		}
+	}
+}
+

@@ -1,0 +1,24 @@
+material Test/EnvMap
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture chrome.jpg
+			}
+
+			texture_unit
+			{
+				texture spacebox_48.jpg
+				colour_op_ex add src_texture src_current
+				colour_op_multipass_fallback one one
+				env_map spherical
+			}
+		}
+	}
+}
+
+

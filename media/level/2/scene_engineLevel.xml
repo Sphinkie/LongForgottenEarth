@@ -1,0 +1,1217 @@
+<scene formatVersion="0.2.0">
+  <nodes>
+    <node name="ElevDoor2">
+      <position x="-1.559856" y="23.941307" z="0.144161"/>
+      <rotation qx="-0.707107" qy="0.000000" qz="0.000000" qw="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="ElevDoor2" meshFile="ElevDoor2.mesh"/>
+      <userData>
+        <property type="STRING" name="CLASS" data="door"/>
+        <property type="STRING" name="ANIMATION" data="ElevDoor2.open"/>
+        <property type="STRING" name="DESCFILE" data="ElevatorDoor.cfg"/>
+        <property type="STRING" name="INSIDE" data="Corridor2"/>
+        <property type="STRING" name="OUTSIDE" data="Elevator2"/>
+      </userData>
+    </node>
+    <node name="ElevDoor1">
+      <position x="-2.053216" y="23.739460" z="0.032444"/>
+      <rotation qx="-0.707107" qy="0.000000" qz="0.000000" qw="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="ElevDoor1" meshFile="ElevDoor1.mesh"/>
+      <userData>
+        <property type="STRING" name="CLASS" data="door"/>
+        <property type="STRING" name="ANIMATION" data="ElevDoor1.open"/>
+        <property type="STRING" name="DESCFILE" data="ElevatorDoor.cfg"/>
+        <property type="STRING" name="INSIDE" data="Corridor2"/>
+        <property type="STRING" name="OUTSIDE" data="Elevator2"/>
+      </userData>
+    </node>
+    <node name="EngineDoor1.follow">
+      <position x="-241.559692" y="12.231594" z="-1.397410"/>
+      <rotation qx="0.000000" qy="0.707107" qz="0.707107" qw="0.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="EngineDoor1.follow" meshFile="BigDoor.mesh"/>
+      <userData>
+        <property type="STRING" name="CLASS" data="door"/>
+        <property type="STRING" name="ANIMATION" data="engineDoorOpen"/>
+        <property type="STRING" name="DESCFILE" data="door.cfg"/>
+        <property type="STRING" name="INSIDE" data="EngineRoom"/>
+        <property type="STRING" name="OUTSIDE" data="Corridor2"/>
+      </userData>
+      <node name="EnginePanel1">
+        <position x="-227.519592" y="3.478540" z="14.160332"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="EnginePanel1" meshFile="EnginePanel1.mesh"/>
+      </node>
+    </node>
+    <node name="Elevator2">
+      <position x="0.025397" y="17.212030" z="0.030413"/>
+      <rotation qx="-0.707107" qy="0.000000" qz="0.000000" qw="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="Elevator2" meshFile="Elevator2.mesh"/>
+      <userData>
+        <property type="STRING" name="CLASS" data="room"/>
+        <property type="STRING" name="DESCFILE" data="elevator.cfg"/>
+      </userData>
+      <node name="Button DN2">
+        <position x="-3.367225" y="3.433194" z="-23.167948"/>
+        <rotation qx="0.001711" qy="0.006122" qz="0.269160" qw="0.963075"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="Button DN2" meshFile="ElevButton.mesh"/>
+        <userData>
+          <property type="STRING" name="CLASS" data="button"/>
+          <property type="STRING" name="DESCFILE" data="elev_button_DN.cfg"/>
+        </userData>
+      </node>
+      <node name="Button UP2">
+        <position x="-0.574409" y="0.000018" z="-16.496059"/>
+        <rotation qx="0.001711" qy="0.006122" qz="0.269160" qw="0.963075"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="Button UP2" meshFile="ElevButton.mesh"/>
+        <userData>
+          <property type="STRING" name="CLASS" data="button"/>
+          <property type="STRING" name="DESCFILE" data="elev_button_UP.cfg"/>
+        </userData>
+      </node>
+      <node name="LightE2">
+        <position x="6.602380" y="-9.144321" z="46.092148"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <light name="LightE2" type="point">
+          <colourDiffuse r="0.200000" g="0.200000" b="0.200000"/>
+          <colourSpecular r="0.200000" g="0.200000" b="0.200000"/>
+          <lightAttenuation range="5000.0" constant="1.000000" linear="0.010000" quadratic="0.000000"/>
+        </light>
+        <userData>
+          <property type="INT" name="RANGE" data="100"/>
+          <property type="BOOL" name="MAINLIGHT" data="0"/>
+        </userData>
+      </node>
+    </node>
+    <node name="CrystalDoor">
+      <position x="-2.410636" y="12.646729" z="253.171967"/>
+      <rotation qx="-0.496813" qy="-0.503171" qz="-0.503171" qw="0.496805"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="CrystalDoor" meshFile="BigDoor.mesh"/>
+      <userData>
+        <property type="STRING" name="CLASS" data="door"/>
+        <property type="STRING" name="ANIMATION" data="engineDoorOpen"/>
+        <property type="STRING" name="DESCFILE" data="door.cfg"/>
+        <property type="STRING" name="INSIDE" data="CrystalRoom"/>
+        <property type="STRING" name="OUTSIDE" data="Corridor2"/>
+      </userData>
+      <node name="CrystalPanel">
+        <position x="-241.950317" y="3.545837" z="14.104015"/>
+        <rotation qx="-0.000000" qy="0.000000" qz="-0.707108" qw="0.707106"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="CrystalPanel" meshFile="CrystalPanel.mesh"/>
+      </node>
+    </node>
+    <node name="EngineRoom">
+      <position x="-52.083324" y="42.287453" z="-0.086210"/>
+      <rotation qx="-0.707107" qy="0.000000" qz="0.000000" qw="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="EngineRoom" meshFile="EngineRoom.mesh"/>
+      <userData>
+        <property type="STRING" name="CLASS" data="room"/>
+        <property type="STRING" name="DESCFILE" data="RoomEngine.cfg"/>
+      </userData>
+      <node name="engineFlow1">
+        <position x="0.613068" y="-0.769890" z="22.805557"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="engineFlow1" meshFile="engineFlow1.mesh"/>
+      </node>
+      <node name="tubes1">
+        <position x="0.613068" y="-0.769890" z="22.805557"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="tubes1" meshFile="tubes1.mesh"/>
+      </node>
+      <node name="engineWall1">
+        <position x="0.613068" y="-0.769890" z="22.805557"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="engineWall1" meshFile="engineWall1.mesh"/>
+      </node>
+      <node name="engineWall2">
+        <position x="0.000000" y="0.000000" z="0.000000"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="engineWall2" meshFile="engineWall2.001.mesh"/>
+      </node>
+      <node name="LightEngine1">
+        <position x="-556.723999" y="-5.369230" z="2.360615"/>
+        <rotation qx="-0.000000" qy="0.000000" qz="-0.999980" qw="0.006367"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <light name="LightEngine1" type="point">
+          <colourDiffuse r="0.200000" g="0.200000" b="0.200000"/>
+          <colourSpecular r="0.200000" g="0.200000" b="0.200000"/>
+          <lightAttenuation range="5000.0" constant="1.000000" linear="0.002500" quadratic="0.000000"/>
+        </light>
+        <userData>
+          <property type="INT" name="RANGE" data="400"/>
+          <property type="BOOL" name="MAINLIGHT" data="1"/>
+        </userData>
+      </node>
+      <node name="tubeCups1">
+        <position x="0.613068" y="-0.769890" z="22.805557"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="tubeCups1" meshFile="tubeCups1.mesh"/>
+      </node>
+      <node name="engine1a">
+        <position x="-2.645027" y="1.409643" z="22.622932"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="engine1a" meshFile="engine1a.mesh"/>
+      </node>
+      <node name="holder1">
+        <position x="0.613068" y="-0.769890" z="22.805557"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="holder1" meshFile="holder1.mesh"/>
+      </node>
+      <node name="holder3">
+        <position x="0.613068" y="-0.769890" z="22.805557"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="holder3" meshFile="holder3.mesh"/>
+      </node>
+      <node name="holder2">
+        <position x="0.613068" y="-0.769890" z="22.805557"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="holder2" meshFile="holder2.mesh"/>
+      </node>
+      <node name="WallLamps">
+        <position x="-598.924805" y="179.065048" z="-31.601460"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="WallLamps" meshFile="WallLamps.mesh"/>
+      </node>
+      <node name="engineGlass1">
+        <position x="0.000000" y="0.000000" z="0.000000"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="engineGlass1" meshFile="engineGlass1.mesh"/>
+      </node>
+      <node name="engineFloor1">
+        <position x="0.000000" y="0.000000" z="0.000000"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="engineFloor1" meshFile="engineFloor1.mesh"/>
+      </node>
+      <node name="LampSupport">
+        <position x="-336.581573" y="-209.826431" z="-103.622665"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="LampSupport" meshFile="LampSupport.001.mesh"/>
+      </node>
+      <node name="ceilingpipes.002">
+        <position x="-17.968418" y="9.537375" z="-70.138565"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="ceilingpipes.002" meshFile="m06.002.mesh"/>
+      </node>
+      <node name="engineLamps1">
+        <position x="0.613068" y="-0.769890" z="22.805557"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="engineLamps1" meshFile="engineLamps1.mesh"/>
+      </node>
+    </node>
+    <node name="Camera">
+      <position x="-96.654495" y="5.794245" z="-0.705311"/>
+      <rotation qx="0.000000" qy="-0.707107" qz="0.000000" qw="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <camera name="Camera.001" fov="51.612694" projectionType="perspective">
+        <normal x="0.0" y="0.0" z="-1.0"/>
+        <clipping near="0.100000" far="1000.000000"/>
+      </camera>
+    </node>
+    <node name="MaintceDoor.follow">
+      <position x="0.197217" y="12.501363" z="-246.342606"/>
+      <rotation qx="-0.500000" qy="0.500000" qz="0.500000" qw="0.500000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="MaintceDoor.follow" meshFile="BigDoor.mesh"/>
+      <userData>
+        <property type="STRING" name="CLASS" data="door"/>
+        <property type="STRING" name="ANIMATION" data="engineDoorOpen"/>
+        <property type="STRING" name="DESCFILE" data="door.cfg"/>
+        <property type="STRING" name="INSIDE" data="MaintceRoom"/>
+        <property type="STRING" name="OUTSIDE" data="Corridor2"/>
+      </userData>
+      <node name="MaintcePanel">
+        <position x="-22.969601" y="3.168653" z="49.269485"/>
+        <rotation qx="-0.000000" qy="-0.000000" qz="-0.711322" qw="0.702866"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="MaintcePanel" meshFile="MaintcePanel.mesh"/>
+      </node>
+    </node>
+    <node name="Corridor2">
+      <position x="-2.074536" y="23.908152" z="0.069844"/>
+      <rotation qx="-0.707107" qy="0.000000" qz="0.000000" qw="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="Corridor2" meshFile="c00.mesh"/>
+      <userData>
+        <property type="STRING" name="CLASS" data="room"/>
+        <property type="STRING" name="DESCFILE" data="Corridor2.cfg"/>
+      </userData>
+      <node name="pipe05.001">
+        <position x="-0.221975" y="-0.432436" z="0.000000"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="pipe05.001" meshFile="c15.001.mesh"/>
+      </node>
+      <node name="pipe02.001">
+        <position x="-0.221975" y="-0.432436" z="0.000000"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="pipe02.001" meshFile="c12.001.mesh"/>
+      </node>
+      <node name="lampE">
+        <position x="-9.732761" y="-1.939171" z="1.009594"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="lampE" meshFile="c02.004.mesh"/>
+      </node>
+      <node name="LevelPanel.003">
+        <position x="-4.732872" y="-3.001452" z="13.152945"/>
+        <rotation qx="-0.000000" qy="-0.000000" qz="-0.706508" qw="0.707705"/>
+        <scale x="0.650000" y="0.650000" z="0.650000"/>
+        <entity name="LevelPanel.003" meshFile="LevelPanel.mesh"/>
+      </node>
+      <node name="lampN">
+        <position x="1.084033" y="-5.143102" z="4.155453"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="lampN" meshFile="c02.003.mesh"/>
+      </node>
+      <node name="lampW">
+        <position x="1.180227" y="-0.432433" z="0.000000"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="lampW" meshFile="c02.001.mesh"/>
+      </node>
+      <node name="pipe04.001">
+        <position x="-0.221975" y="-0.432436" z="0.000000"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="pipe04.001" meshFile="c14.001.mesh"/>
+      </node>
+      <node name="pipe03.001">
+        <position x="-0.240831" y="-0.427005" z="0.000000"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="pipe03.001" meshFile="c13.001.mesh"/>
+      </node>
+      <node name="lampS">
+        <position x="-0.376210" y="5.600383" z="0.819878"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="lampS" meshFile="c02.002.mesh"/>
+      </node>
+      <node name="LightC2">
+        <position x="-2.799993" y="-110.821198" z="41.800613"/>
+        <rotation qx="0.000000" qy="0.000000" qz="1.000000" qw="0.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <light name="LightC2" type="point">
+          <colourDiffuse r="0.200000" g="0.200000" b="0.200000"/>
+          <colourSpecular r="0.200000" g="0.200000" b="0.200000"/>
+          <lightAttenuation range="5000.0" constant="1.000000" linear="0.005000" quadratic="0.000000"/>
+        </light>
+        <userData>
+          <property type="INT" name="RANGE" data="200"/>
+          <property type="BOOL" name="MAINLIGHT" data="0"/>
+        </userData>
+      </node>
+      <node name="sasN">
+        <position x="-3.554875" y="-85.654015" z="0.000000"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="sasN" meshFile="c34.mesh"/>
+      </node>
+      <node name="LevelPanel.001">
+        <position x="4.857229" y="-5.788787" z="13.152945"/>
+        <rotation qx="0.000000" qy="-0.000000" qz="-0.000000" qw="1.000000"/>
+        <scale x="0.650000" y="0.650000" z="0.650000"/>
+        <entity name="LevelPanel.001" meshFile="LevelPanel.mesh"/>
+      </node>
+      <node name="LevelPanel.002">
+        <position x="-1.844755" y="6.656623" z="13.152945"/>
+        <rotation qx="0.000000" qy="-0.000000" qz="0.999970" qw="0.007715"/>
+        <scale x="0.650000" y="0.650000" z="0.650000"/>
+        <entity name="LevelPanel.002" meshFile="LevelPanel.mesh"/>
+      </node>
+      <node name="pipe07.001">
+        <position x="-0.221975" y="-0.432436" z="0.000000"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="pipe07.001" meshFile="c17.001.mesh"/>
+      </node>
+      <node name="LevelPanel.004">
+        <position x="6.892633" y="3.379415" z="13.037504"/>
+        <rotation qx="0.000000" qy="-0.000000" qz="0.707777" qw="0.706436"/>
+        <scale x="0.650000" y="0.650000" z="0.650000"/>
+        <entity name="LevelPanel.004" meshFile="LevelPanel.mesh"/>
+      </node>
+      <node name="pipe01.001">
+        <position x="-0.221975" y="-0.432436" z="0.000000"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="pipe01.001" meshFile="c01.001.mesh"/>
+      </node>
+      <node name="pipe06.001">
+        <position x="-0.221975" y="-0.432436" z="0.000000"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="pipe06.001" meshFile="c16.001.mesh"/>
+      </node>
+      <node name="LightC2.003">
+        <position x="2.968737" y="131.465469" z="41.800613"/>
+        <rotation qx="0.000000" qy="0.000000" qz="1.000000" qw="0.000000"/>
+        <scale x="0.650000" y="0.650000" z="0.650000"/>
+        <light name="LightC2.003" type="point">
+          <colourDiffuse r="0.200000" g="0.200000" b="0.200000"/>
+          <colourSpecular r="0.200000" g="0.200000" b="0.200000"/>
+          <lightAttenuation range="5000.0" constant="1.000000" linear="0.005000" quadratic="0.000000"/>
+        </light>
+        <userData>
+          <property type="INT" name="RANGE" data="200"/>
+          <property type="BOOL" name="MAINLIGHT" data="0"/>
+        </userData>
+      </node>
+      <node name="LightC2.001">
+        <position x="-124.338669" y="-0.123484" z="45.208374"/>
+        <rotation qx="0.000000" qy="0.000000" qz="1.000000" qw="0.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <light name="LightC2.001" type="point">
+          <colourDiffuse r="0.100000" g="0.100000" b="0.100000"/>
+          <colourSpecular r="0.100000" g="0.100000" b="0.100000"/>
+          <lightAttenuation range="5000.0" constant="1.000000" linear="0.005000" quadratic="0.000000"/>
+        </light>
+        <userData>
+          <property type="INT" name="RANGE" data="200"/>
+          <property type="BOOL" name="MAINLIGHT" data="0"/>
+        </userData>
+      </node>
+      <node name="pipe08.001">
+        <position x="-0.205750" y="-0.430098" z="0.000000"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="pipe08.001" meshFile="c18.001.mesh"/>
+      </node>
+      <node name="sasW">
+        <position x="87.594193" y="1.107096" z="0.000000"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="sasW" meshFile="c30.mesh"/>
+      </node>
+      <node name="sasS">
+        <position x="4.201483" y="-211.192932" z="-10.231230"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="sasS" meshFile="c33.001.mesh"/>
+      </node>
+    </node>
+    <node name="CrystalRoom">
+      <position x="-0.925688" y="23.862173" z="252.508835"/>
+      <rotation qx="-0.707107" qy="0.000000" qz="0.000000" qw="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="CrystalRoom" meshFile="y00.mesh"/>
+      <userData>
+        <property type="STRING" name="CLASS" data="room"/>
+        <property type="STRING" name="DESCFILE" data="RoomCrystal.cfg"/>
+      </userData>
+      <node name="y20">
+        <position x="-0.000006" y="-0.000031" z="0.000000"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="y20" meshFile="y20.mesh"/>
+      </node>
+      <node name="y15.001">
+        <position x="-2.441899" y="129.420380" z="0.000000"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="y15.001" meshFile="y15.002.mesh"/>
+      </node>
+      <node name="y28.001">
+        <position x="-2.441890" y="129.420349" z="0.000004"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="y28.001" meshFile="y28.001.mesh"/>
+      </node>
+      <node name="y29">
+        <position x="0.000000" y="0.000000" z="0.000004"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="y29" meshFile="y29.mesh"/>
+      </node>
+      <node name="LightCrystal1">
+        <position x="75.279556" y="-211.465103" z="13.901808"/>
+        <rotation qx="-0.000000" qy="0.000000" qz="-0.999980" qw="0.006367"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <light name="LightCrystal1" type="point">
+          <colourDiffuse r="0.200000" g="0.200000" b="0.200000"/>
+          <colourSpecular r="0.200000" g="0.200000" b="0.200000"/>
+          <lightAttenuation range="5000.0" constant="1.000000" linear="0.005000" quadratic="0.000000"/>
+        </light>
+        <userData>
+          <property type="INT" name="RANGE" data="200"/>
+          <property type="BOOL" name="MAINLIGHT" data="1"/>
+        </userData>
+      </node>
+      <node name="y03.001">
+        <position x="-2.441895" y="129.420380" z="0.000000"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="y03.001" meshFile="y03.002.mesh"/>
+      </node>
+      <node name="y24.001">
+        <position x="-2.441890" y="129.420349" z="0.000000"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="y24.001" meshFile="y24.002.mesh"/>
+      </node>
+      <node name="y13.001">
+        <position x="-2.441886" y="129.420349" z="0.000000"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="y13.001" meshFile="y13.001.mesh"/>
+      </node>
+      <node name="y09.001">
+        <position x="-2.441893" y="129.420349" z="0.000000"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="y09.001" meshFile="y09.002.mesh"/>
+      </node>
+      <node name="y04.001">
+        <position x="-2.441892" y="129.420380" z="0.000000"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="y04.001" meshFile="y04.002.mesh"/>
+      </node>
+      <node name="mLamp.008">
+        <position x="282.756378" y="-429.049866" z="12.036436"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="mLamp.008" meshFile="mLamp.008.mesh"/>
+      </node>
+      <node name="y22">
+        <position x="0.000000" y="0.000000" z="0.000004"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="y22" meshFile="y22.mesh"/>
+      </node>
+      <node name="y23">
+        <position x="0.000000" y="0.000000" z="0.000004"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="y23" meshFile="y23.mesh"/>
+      </node>
+      <node name="y27.001">
+        <position x="-2.441893" y="129.420349" z="0.000000"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="y27.001" meshFile="y27.002.mesh"/>
+      </node>
+      <node name="y02.001">
+        <position x="-2.441895" y="129.420380" z="0.000000"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="y02.001" meshFile="y02.001.mesh"/>
+      </node>
+      <node name="y26.001">
+        <position x="-2.441896" y="129.420349" z="0.000000"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="y26.001" meshFile="y26.002.mesh"/>
+      </node>
+      <node name="y11.001">
+        <position x="-2.441893" y="129.420349" z="0.000000"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="y11.001" meshFile="y11.002.mesh"/>
+      </node>
+      <node name="y31">
+        <position x="0.000000" y="0.000000" z="0.000004"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="y31" meshFile="y31.mesh"/>
+      </node>
+      <node name="y30">
+        <position x="0.000000" y="0.000000" z="0.000004"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="y30" meshFile="y30.mesh"/>
+      </node>
+      <node name="y08.001">
+        <position x="-2.441895" y="129.420380" z="0.000000"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="y08.001" meshFile="y08.002.mesh"/>
+      </node>
+      <node name="m15.001">
+        <position x="-277.633667" y="-331.427185" z="8.267706"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="m15.001" meshFile="m15.001.mesh"/>
+      </node>
+      <node name="y28">
+        <position x="0.000006" y="-0.000031" z="0.000004"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="y28" meshFile="y28.mesh"/>
+      </node>
+      <node name="mLamp.006">
+        <position x="-226.761612" y="-331.363159" z="11.928297"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="mLamp.006" meshFile="mLamp.006.mesh"/>
+      </node>
+      <node name="mLamp.007">
+        <position x="229.441696" y="-326.254578" z="12.036436"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="mLamp.007" meshFile="mLamp.007.mesh"/>
+      </node>
+      <node name="y21">
+        <position x="0.000000" y="0.000000" z="0.000004"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="y21" meshFile="y21.mesh"/>
+      </node>
+      <node name="y24">
+        <position x="0.000000" y="0.000000" z="0.000004"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="y24" meshFile="y24.mesh"/>
+      </node>
+      <node name="y25">
+        <position x="0.000000" y="0.000000" z="0.000004"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="y25" meshFile="y25.mesh"/>
+      </node>
+      <node name="y26">
+        <position x="0.000000" y="0.000000" z="0.000004"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="y26" meshFile="y26.mesh"/>
+      </node>
+      <node name="y27">
+        <position x="0.000000" y="0.000000" z="0.000004"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="y27" meshFile="y27.mesh"/>
+      </node>
+      <node name="y21.001">
+        <position x="-2.441894" y="129.420380" z="0.000000"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="y21.001" meshFile="y21.001.mesh"/>
+      </node>
+      <node name="y01">
+        <position x="0.000000" y="0.000000" z="0.000004"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="y01" meshFile="y01.mesh"/>
+      </node>
+      <node name="y18">
+        <position x="-0.000000" y="0.000031" z="0.000004"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="y18" meshFile="y18.mesh"/>
+      </node>
+      <node name="y15">
+        <position x="0.000000" y="0.000000" z="0.000000"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="y15" meshFile="y15.mesh"/>
+      </node>
+      <node name="y17">
+        <position x="-0.000012" y="0.000000" z="0.000004"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="y17" meshFile="y17.mesh"/>
+      </node>
+      <node name="y16">
+        <position x="-0.000000" y="0.000031" z="0.000004"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="y16" meshFile="y16.mesh"/>
+      </node>
+      <node name="y11">
+        <position x="0.000000" y="0.000000" z="0.000004"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="y11" meshFile="y11.mesh"/>
+      </node>
+      <node name="y13">
+        <position x="0.000013" y="-0.000031" z="0.000000"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="y13" meshFile="y13.mesh"/>
+      </node>
+      <node name="y12">
+        <position x="0.000000" y="0.000000" z="0.000004"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="y12" meshFile="y12.mesh"/>
+      </node>
+      <node name="y02">
+        <position x="0.000000" y="0.000000" z="0.000004"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="y02" meshFile="y02.mesh"/>
+      </node>
+      <node name="y03">
+        <position x="0.000000" y="0.000000" z="0.000004"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="y03" meshFile="y03.mesh"/>
+      </node>
+      <node name="y06">
+        <position x="0.000000" y="0.000000" z="0.000004"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="y06" meshFile="y06.mesh"/>
+      </node>
+      <node name="y07">
+        <position x="0.000000" y="0.000000" z="0.000004"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="y07" meshFile="y07.mesh"/>
+      </node>
+      <node name="y04">
+        <position x="0.000000" y="0.000000" z="0.000004"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="y04" meshFile="y04.mesh"/>
+      </node>
+      <node name="y05">
+        <position x="0.000000" y="0.000000" z="0.000004"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="y05" meshFile="y05.mesh"/>
+      </node>
+      <node name="y08">
+        <position x="0.000000" y="0.000000" z="0.000004"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="y08" meshFile="y08.mesh"/>
+      </node>
+      <node name="y09">
+        <position x="0.000000" y="0.000000" z="0.000004"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="y09" meshFile="y09.mesh"/>
+      </node>
+      <node name="y29.001">
+        <position x="-2.441894" y="129.420380" z="0.000000"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="y29.001" meshFile="y29.001.mesh"/>
+      </node>
+      <node name="y30.001">
+        <position x="-2.441894" y="129.420380" z="0.000004"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="y30.001" meshFile="y30.002.mesh"/>
+      </node>
+      <node name="ceilingpipes.001">
+        <position x="-6.729222" y="211.397888" z="124.549538"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="ceilingpipes.001" meshFile="m06.001.mesh"/>
+      </node>
+      <node name="y25.001">
+        <position x="-2.441893" y="129.420349" z="0.000000"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="y25.001" meshFile="y25.002.mesh"/>
+      </node>
+      <node name="m15.002">
+        <position x="196.475983" y="-367.388794" z="8.375845"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="m15.002" meshFile="m15.002.mesh"/>
+      </node>
+      <node name="LightCrystal2">
+        <position x="-0.302021" y="-61.296463" z="13.901800"/>
+        <rotation qx="-0.000000" qy="0.000000" qz="-0.999980" qw="0.006367"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <light name="LightCrystal2" type="point">
+          <colourDiffuse r="0.300000" g="0.300000" b="0.300000"/>
+          <colourSpecular r="0.300000" g="0.300000" b="0.300000"/>
+          <lightAttenuation range="5000.0" constant="1.000000" linear="0.010000" quadratic="0.000000"/>
+        </light>
+        <userData>
+          <property type="INT" name="RANGE" data="100"/>
+          <property type="BOOL" name="MAINLIGHT" data="0"/>
+        </userData>
+      </node>
+      <node name="mLamp">
+        <position x="-275.678894" y="-436.874023" z="12.072165"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="mLamp" meshFile="mLamp.mesh"/>
+      </node>
+      <node name="y23.001">
+        <position x="-2.441894" y="129.420380" z="0.000000"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="y23.001" meshFile="y23.001.mesh"/>
+      </node>
+      <node name="y19">
+        <position x="0.000006" y="0.000031" z="0.000004"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="y19" meshFile="y19.mesh"/>
+      </node>
+      <node name="y05.001">
+        <position x="-2.441896" y="129.420380" z="0.000000"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="y05.001" meshFile="y05.001.mesh"/>
+      </node>
+      <node name="y10.001">
+        <position x="-2.441894" y="129.420349" z="0.000000"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="y10.001" meshFile="y10.002.mesh"/>
+      </node>
+      <node name="y31.001">
+        <position x="-2.441894" y="129.420380" z="0.000000"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="y31.001" meshFile="y31.002.mesh"/>
+      </node>
+      <node name="y18.001">
+        <position x="-2.441894" y="129.420380" z="0.000004"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="y18.001" meshFile="y18.001.mesh"/>
+      </node>
+      <node name="y20.001">
+        <position x="-2.441898" y="129.420349" z="0.000000"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="y20.001" meshFile="y20.001.mesh"/>
+      </node>
+      <node name="y17.001">
+        <position x="-2.441906" y="129.420349" z="0.000004"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="y17.001" meshFile="y17.001.mesh"/>
+      </node>
+      <node name="y10">
+        <position x="0.000000" y="0.000000" z="0.000004"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="y10" meshFile="y10.mesh"/>
+      </node>
+      <node name="y16.001">
+        <position x="-2.441898" y="129.420410" z="0.000004"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="y16.001" meshFile="y16.001.mesh"/>
+      </node>
+      <node name="CrystalGate">
+        <position x="2.431958" y="200.766937" z="0.173439"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="CrystalGate" meshFile="y14.mesh"/>
+      </node>
+      <node name="y19.001">
+        <position x="-2.441886" y="129.420380" z="0.000004"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="y19.001" meshFile="y19.001.mesh"/>
+      </node>
+    </node>
+    <node name="MaintceRoom">
+      <position x="-0.222263" y="23.900675" z="-245.896729"/>
+      <rotation qx="-0.707107" qy="0.000000" qz="0.000000" qw="0.707107"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="MaintceRoom" meshFile="MaintceRoom.mesh"/>
+      <userData>
+        <property type="STRING" name="CLASS" data="room"/>
+        <property type="STRING" name="DESCFILE" data="RoomMaint.cfg"/>
+      </userData>
+      <node name="caisse.004">
+        <position x="51.772869" y="325.676270" z="-50.505569"/>
+        <rotation qx="0.000000" qy="0.000000" qz="-0.080458" qw="0.996758"/>
+        <scale x="0.650000" y="0.650000" z="0.650000"/>
+        <entity name="caisse.004" meshFile="dumpster.mesh"/>
+      </node>
+      <node name="caisse.007">
+        <position x="118.568718" y="52.405273" z="-50.693985"/>
+        <rotation qx="-0.000000" qy="0.000000" qz="0.984645" qw="0.174566"/>
+        <scale x="0.949458" y="0.949458" z="0.949458"/>
+        <entity name="caisse.007" meshFile="dumpster.003.mesh"/>
+      </node>
+      <node name="caisse.001">
+        <position x="182.939957" y="276.527344" z="-50.505569"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="caisse.001" meshFile="dumpster.001.mesh"/>
+      </node>
+      <node name="caisse.002">
+        <position x="-189.774948" y="273.666565" z="-50.505569"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="caisse.002" meshFile="dumpster.002.mesh"/>
+      </node>
+      <node name="caisse.005">
+        <position x="218.353622" y="191.493591" z="-50.505569"/>
+        <rotation qx="0.000000" qy="0.000000" qz="-0.327403" qw="0.944885"/>
+        <scale x="0.650000" y="0.650000" z="0.650000"/>
+        <entity name="caisse.005" meshFile="dumpster.mesh"/>
+      </node>
+      <node name="caisse.006">
+        <position x="279.249237" y="112.890564" z="-50.505569"/>
+        <rotation qx="0.000000" qy="0.000000" qz="-0.592041" qw="0.805908"/>
+        <scale x="0.650000" y="0.650000" z="0.650000"/>
+        <entity name="caisse.006" meshFile="dumpster.mesh"/>
+      </node>
+      <node name="caisse.003">
+        <position x="-225.621704" y="180.851379" z="-50.693977"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.455761" qw="0.890102"/>
+        <scale x="0.949458" y="0.949458" z="0.949458"/>
+        <entity name="caisse.003" meshFile="dumpster.003.mesh"/>
+      </node>
+      <node name="mbox3">
+        <position x="0.000000" y="-0.000015" z="0.000004"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="mbox3" meshFile="m21.mesh"/>
+      </node>
+      <node name="m25">
+        <position x="0.000003" y="0.000046" z="0.000008"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="m25" meshFile="m25.mesh"/>
+      </node>
+      <node name="mbox5">
+        <position x="-0.000012" y="-0.000015" z="-14.759640"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="mbox5" meshFile="m10.mesh"/>
+      </node>
+      <node name="mbox4">
+        <position x="0.000000" y="0.000015" z="-14.759640"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="mbox4" meshFile="m19.mesh"/>
+      </node>
+      <node name="mbox6">
+        <position x="-0.000000" y="0.000046" z="-14.759640"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="mbox6" meshFile="m11.mesh"/>
+      </node>
+      <node name="mbox1">
+        <position x="0.000000" y="0.000015" z="0.000000"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="mbox1" meshFile="m12.mesh"/>
+      </node>
+      <node name="LightMaintce.001">
+        <position x="15.363378" y="104.386658" z="-0.586811"/>
+        <rotation qx="-0.000000" qy="0.000000" qz="-0.843951" qw="0.536420"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <light name="LightMaintce.002" type="point">
+          <colourDiffuse r="0.300000" g="0.300000" b="0.300000"/>
+          <colourSpecular r="0.300000" g="0.300000" b="0.300000"/>
+          <lightAttenuation range="5000.0" constant="1.000000" linear="0.005000" quadratic="0.000000"/>
+        </light>
+        <userData>
+          <property type="INT" name="RANGE" data="200"/>
+          <property type="BOOL" name="MAINLIGHT" data="0"/>
+        </userData>
+      </node>
+      <node name="mbox2">
+        <position x="0.000013" y="-0.000031" z="-14.759640"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="mbox2" meshFile="m20.mesh"/>
+      </node>
+      <node name="m00">
+        <position x="0.000000" y="0.000015" z="-14.759644"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="m00" meshFile="m00.mesh"/>
+      </node>
+      <node name="m38">
+        <position x="0.000013" y="-0.000015" z="0.000000"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="m38" meshFile="m38.mesh"/>
+      </node>
+      <node name="m37">
+        <position x="-0.000003" y="-0.000015" z="0.000000"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="m37" meshFile="m37.mesh"/>
+      </node>
+      <node name="m36">
+        <position x="-0.000006" y="-0.000031" z="0.000000"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="m36" meshFile="m36.mesh"/>
+      </node>
+      <node name="m35">
+        <position x="0.000000" y="0.000015" z="0.000000"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="m35" meshFile="m35.mesh"/>
+      </node>
+      <node name="m34">
+        <position x="0.000000" y="0.000015" z="0.000000"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="m34" meshFile="m34.mesh"/>
+      </node>
+      <node name="m33">
+        <position x="0.000000" y="0.000015" z="0.000000"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="m33" meshFile="m33.mesh"/>
+      </node>
+      <node name="m32">
+        <position x="0.000000" y="-0.000015" z="0.000004"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="m32" meshFile="m32.mesh"/>
+      </node>
+      <node name="m31">
+        <position x="0.000000" y="0.000015" z="-0.000004"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="m31" meshFile="m31.mesh"/>
+      </node>
+      <node name="mLamp.001">
+        <position x="-46.802307" y="-76.090836" z="3.660564"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="mLamp.001" meshFile="mLamp.001.mesh"/>
+      </node>
+      <node name="mLamp.002">
+        <position x="-28.001095" y="-59.292328" z="3.713543"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="mLamp.002" meshFile="mLamp.002.mesh"/>
+      </node>
+      <node name="mLamp.003">
+        <position x="-2.023856" y="-48.572540" z="3.700752"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="mLamp.003" meshFile="mLamp.003.mesh"/>
+      </node>
+      <node name="mLamp.004">
+        <position x="21.376337" y="-56.204315" z="3.660564"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="mLamp.004" meshFile="mLamp.004.mesh"/>
+      </node>
+      <node name="mLamp.005">
+        <position x="23.221432" y="-68.909714" z="3.660564"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="mLamp.005" meshFile="mLamp.005.mesh"/>
+      </node>
+      <node name="m28">
+        <position x="0.000000" y="0.000015" z="0.000000"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="m28" meshFile="m28.mesh"/>
+      </node>
+      <node name="m29">
+        <position x="-0.000000" y="0.000046" z="0.000000"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="m29" meshFile="m29.mesh"/>
+      </node>
+      <node name="m24">
+        <position x="0.000003" y="-0.000015" z="-0.000004"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="m24" meshFile="m24.mesh"/>
+      </node>
+      <node name="m26">
+        <position x="0.000003" y="0.000046" z="0.000000"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="m26" meshFile="m26.mesh"/>
+      </node>
+      <node name="m27">
+        <position x="0.000003" y="-0.000015" z="0.000000"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="m27" meshFile="m27.mesh"/>
+      </node>
+      <node name="m22">
+        <position x="0.000000" y="0.000015" z="0.000004"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="m22" meshFile="m22.mesh"/>
+      </node>
+      <node name="m23">
+        <position x="0.000000" y="-0.000015" z="0.000000"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="m23" meshFile="m23.mesh"/>
+      </node>
+      <node name="MaintceComputer">
+        <position x="0.000000" y="0.000015" z="-7.118261"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="MaintceComputer" meshFile="MaintceComputer.mesh"/>
+        <userData>
+          <property type="STRING" name="CLASS" data="computer/maint"/>
+          <property type="STRING" name="DESCFILE" data="comp_maint.cfg"/>
+        </userData>
+      </node>
+      <node name="m15">
+        <position x="-0.000012" y="-0.000015" z="-0.000004"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="m15" meshFile="m15.mesh"/>
+      </node>
+      <node name="m17">
+        <position x="0.000000" y="0.000015" z="-0.000008"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="m17" meshFile="m17.mesh"/>
+      </node>
+      <node name="m16">
+        <position x="-0.000000" y="0.000046" z="0.000008"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="m16" meshFile="m16.mesh"/>
+      </node>
+      <node name="m18">
+        <position x="-0.000000" y="0.000046" z="0.000004"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="m18" meshFile="m18.mesh"/>
+      </node>
+      <node name="m04">
+        <position x="0.000003" y="-0.000015" z="0.000000"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="m04" meshFile="m04.mesh"/>
+      </node>
+      <node name="m05">
+        <position x="0.000000" y="0.000015" z="-14.759640"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="m05" meshFile="m05.mesh"/>
+      </node>
+      <node name="m02">
+        <position x="0.000000" y="0.000015" z="0.000000"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="m02" meshFile="m02.mesh"/>
+      </node>
+      <node name="m03">
+        <position x="-0.000007" y="0.000046" z="0.000000"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="m03" meshFile="m03.mesh"/>
+      </node>
+      <node name="m01">
+        <position x="0.000000" y="-0.000015" z="0.000000"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="m01" meshFile="m01.mesh"/>
+      </node>
+      <node name="ceilingpipes.003">
+        <position x="0.677206" y="-243.583786" z="-12.691572"/>
+        <rotation qx="0.496807" qy="0.503173" qz="0.503173" qw="0.496807"/>
+        <scale x="0.812037" y="0.812037" z="0.812037"/>
+        <entity name="ceilingpipes.003" meshFile="m06.mesh"/>
+      </node>
+      <node name="mPipe.002">
+        <position x="-258.795685" y="145.690918" z="63.160957"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="mPipe.002" meshFile="mPipe.002.mesh"/>
+      </node>
+      <node name="mPipe.001">
+        <position x="-286.378357" y="115.268860" z="63.160957"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="mPipe.001" meshFile="mPipe.001.mesh"/>
+      </node>
+      <node name="maintceGate">
+        <position x="1.283479" y="18.736145" z="-4.752371"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="maintceGate" meshFile="maintceGate.mesh"/>
+      </node>
+      <node name="LightMaintce">
+        <position x="-70.424423" y="225.207031" z="-0.586811"/>
+        <rotation qx="-0.000000" qy="0.000000" qz="-0.843951" qw="0.536420"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <light name="LightMaintce" type="point">
+          <colourDiffuse r="0.200000" g="0.200000" b="0.200000"/>
+          <colourSpecular r="0.200000" g="0.200000" b="0.200000"/>
+          <lightAttenuation range="5000.0" constant="1.000000" linear="0.003333" quadratic="0.000000"/>
+        </light>
+        <userData>
+          <property type="INT" name="RANGE" data="300"/>
+          <property type="BOOL" name="MAINLIGHT" data="1"/>
+        </userData>
+      </node>
+      <node name="gasbottle.001">
+        <position x="-242.049683" y="115.082458" z="-34.103565"/>
+        <rotation qx="0.000000" qy="-0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="0.800000" y="0.800000" z="1.000000"/>
+        <entity name="gasbottle.001" meshFile="gasbottle.mesh"/>
+      </node>
+      <node name="gasbottle.002">
+        <position x="216.857925" y="247.114380" z="-34.103573"/>
+        <rotation qx="0.000000" qy="-0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="0.900000" y="0.900000" z="0.800000"/>
+        <entity name="gasbottle.002" meshFile="gasbottle.mesh"/>
+      </node>
+      <node name="gasbottle.003">
+        <position x="-43.298153" y="286.987305" z="-34.103565"/>
+        <rotation qx="0.000000" qy="-0.000000" qz="-0.284994" qw="0.958529"/>
+        <scale x="0.800000" y="0.800000" z="0.800000"/>
+        <entity name="gasbottle.003" meshFile="gasbottle.mesh"/>
+      </node>
+      <node name="gasbottle.004">
+        <position x="253.818832" y="162.987549" z="-33.529366"/>
+        <rotation qx="0.000000" qy="-0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="gasbottle.004" meshFile="gasbottle.mesh"/>
+      </node>
+      <node name="gasbottle.005">
+        <position x="56.247524" y="68.443665" z="-34.103565"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.251057" qw="0.967972"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="gasbottle.005" meshFile="gasbottle.mesh"/>
+      </node>
+      <node name="mIncinerator">
+        <position x="-262.585846" y="42.187866" z="-18.710541"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="mIncinerator" meshFile="mIncinerator.mesh"/>
+      </node>
+    </node>
+  </nodes>
+  <externals>
+    <item type="material">
+      <file name="scene_engineLevel.material"/>
+    </item>
+  </externals>
+  <environment>
+    <colourAmbient r="0.000000" g="0.000000" b="0.000000"/>
+    <colourBackground r="0.056563" g="0.220815" b="0.400000"/>
+  </environment>
+</scene>

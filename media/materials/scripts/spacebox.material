@@ -1,0 +1,163 @@
+material SpaceSkyBox/0_8
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+			fog_override true
+			texture_unit
+			{
+				cubic_texture spacebox_08.jpg spacebox_08.jpg spacebox_08.jpg spacebox_08.jpg spacebox_08.jpg spacebox_08.jpg separateUV
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+
+material SpaceSkyBox/1_8
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+			fog_override true
+			texture_unit
+			{
+				cubic_texture spacebox_18.jpg spacebox_18.jpg spacebox_18.jpg spacebox_18.jpg spacebox_18.jpg spacebox_18.jpg separateUV
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+
+material SpaceSkyBox/2_8
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+			fog_override true
+			texture_unit
+			{
+				cubic_texture spacebox_28.jpg spacebox_28.jpg spacebox_28.jpg spacebox_28.jpg spacebox_28.jpg spacebox_28.jpg separateUV
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+
+material SpaceSkyBox/3_8
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+			fog_override true
+			texture_unit
+			{
+				cubic_texture spacebox_38.jpg spacebox_38.jpg spacebox_38.jpg spacebox_38.jpg spacebox_38.jpg spacebox_38.jpg separateUV
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+
+
+material SpaceSkyBox/4_8
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+			fog_override true
+			texture_unit
+			{
+				cubic_texture spacebox_48.jpg spacebox_48.jpg spacebox_48.jpg spacebox_48.jpg spacebox_48.jpg spacebox_48.jpg separateUV
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+
+material SpaceSkyBox/5_8
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+			fog_override true
+			texture_unit
+			{
+				cubic_texture spacebox_58.jpg spacebox_58.jpg spacebox_58.jpg spacebox_58.jpg spacebox_58.jpg spacebox_58.jpg separateUV
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+
+material SpaceSkyBox/6_8
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+			fog_override true
+			texture_unit
+			{
+				cubic_texture spacebox_68.jpg spacebox_68.jpg spacebox_68.jpg spacebox_68.jpg spacebox_68.jpg spacebox_68.jpg separateUV
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+material SpaceSkyBox/7_8
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+			fog_override true
+			texture_unit
+			{
+				cubic_texture spacebox_78.jpg spacebox_78.jpg spacebox_78.jpg spacebox_78.jpg spacebox_78.jpg spacebox_78.jpg separateUV
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+
+
+material SpaceSkyBox/8_8
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+			fog_override true
+			texture_unit
+			{
+				cubic_texture spacebox_88.jpg spacebox_88.jpg spacebox_88.jpg spacebox_88.jpg spacebox_88.jpg spacebox_88.jpg separateUV
+				tex_address_mode clamp
+			}
+		}
+	}
+}
+

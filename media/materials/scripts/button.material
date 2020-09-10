@@ -1,0 +1,162 @@
+material elev_button/steel
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.1 0.1 0.1
+            diffuse 1.0 1.0 1.0
+            texture_unit
+            {
+                texture Stainless_Steel.jpg
+            }
+        }
+    }
+}
+
+material elev_button/button
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.1 0.1 0.1
+            diffuse 1.0 1.0 1.0
+            texture_unit
+            {
+                texture elevator_button_C.jpg
+            }
+        }
+    }
+}
+
+// -------------------------------------------------
+
+material elev_button/down
+{
+    technique
+    {
+        pass
+        {
+          	lighting off
+            ambient 0.1 0.1 0.1
+            diffuse 1.0 1.0 1.0
+            texture_unit
+            {
+                texture elevator_button_down_C.jpg
+            }
+			texture_unit
+            {
+                texture elevator_button_L2.jpg
+            }
+        }
+    }
+}
+
+material elev_button/down/active
+{
+    technique
+    {
+        pass
+        {
+          	lighting off
+            ambient 0.1 0.1 0.1
+            diffuse 1.0 1.0 1.0
+            texture_unit
+            {
+                texture elevator_button_down_C.jpg
+            }
+			texture_unit
+            {
+                texture elevator_button_L1.jpg
+            }
+        }
+    }
+}
+
+material elev_button/down/flash
+{
+    technique
+    {
+        pass
+        {
+          	lighting off
+            ambient 0.1 0.1 0.1
+            diffuse 1.0 1.0 1.0
+            texture_unit
+            {
+                texture elevator_button_down_C.jpg
+            }
+			texture_unit
+            {
+                anim_texture elevator_button_L1.jpg elevator_button_L2.jpg 2
+            }
+        }
+    }
+}
+
+// -------------------------------------------------
+
+material elev_button/up
+{
+    technique
+    {
+        pass
+        {
+          	lighting off
+            ambient 0.1 0.1 0.1
+            diffuse 1.0 1.0 1.0
+            texture_unit
+            {
+				texture elevator_button_up_C.jpg
+            }
+			texture_unit
+            {
+                texture elevator_button_L2.jpg
+            }
+        }
+    }
+}
+
+material elev_button/up/active
+{
+    technique
+    {
+        pass
+        {
+          	lighting off
+            ambient 0.1 0.1 0.1
+            diffuse 1.0 1.0 1.0
+            texture_unit
+            {
+				texture elevator_button_up_C.jpg
+            }
+			texture_unit
+            {
+                texture elevator_button_L3.jpg
+            }
+        }
+    }
+}
+
+material elev_button/up/flash
+{
+    technique
+    {
+        pass
+        {
+          	lighting off
+            ambient 0.1 0.1 0.1
+            diffuse 1.0 1.0 1.0
+            texture_unit
+            {
+				texture elevator_button_up_C.jpg
+            }
+			texture_unit
+            {
+                anim_texture elevator_button_L3.jpg elevator_button_L2.jpg 2
+            }
+        }
+    }
+}
+

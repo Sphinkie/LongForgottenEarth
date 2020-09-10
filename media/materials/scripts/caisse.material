@@ -1,0 +1,32 @@
+material caisse/Metal_Steel
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.2 0.2 0.2
+            diffuse 0.6 0.6 0.6
+            texture_unit
+            {
+                texture STEELPLT.JPG
+            }
+        }
+    }
+}
+
+material caisse/Metal_Black
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.2 0.2 0.2
+            diffuse 0.6 0.6 0.6
+            texture_unit
+            {
+                texture WRINKLED.JPG
+            }
+        }
+    }
+}
+

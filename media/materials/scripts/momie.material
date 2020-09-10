@@ -1,0 +1,56 @@
+material momie/peau
+{
+    technique
+    {
+        pass
+        {
+            lighting on
+            ambient 0.5 0.5 0.5
+            diffuse 0.5 0.5 0.5
+            specular 0.0 0.0 0.0 0.0
+            emissive 0.0 0.0 0.0
+            texture_unit
+            {
+                texture muscle2.jpg
+            }
+        }
+    }
+}
+
+material momie/organes
+{
+    technique
+    {
+        pass
+        {
+            lighting on
+            ambient 0.5 0.5 0.5
+            diffuse 0.4 0.4 0.4
+            specular 0.0 0.0 0.0 0.0
+            emissive 0.0 0.0 0.0
+            texture_unit
+            {
+                texture tissue4.jpg
+            }
+        }
+    }
+}
+
+material momie/os
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.5 0.5 0.5
+            diffuse 0.5 0.5 0.5
+            specular 0.0 0.0 0.0 0.0
+            emissive 0.0 0.0 0.0
+            texture_unit
+            {
+                texture bone0.jpg 
+            }
+        }
+    }
+}
+

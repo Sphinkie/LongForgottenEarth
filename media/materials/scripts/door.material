@@ -1,0 +1,201 @@
+material Door/contour
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.117647 0.117647 0.117647
+            diffuse 1.0 1.0 1.0
+            specular 0.0 0.0 0.0 0.0
+            emissive 0.0 0.0 0.0
+            lighting on
+            texture_unit
+            {
+                texture Stainless_Steel.jpg
+            }
+        }
+    }
+}
+
+material Door/porteD
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.156863 0.156863 0.156863
+            diffuse 1.0 1.0 1.0
+            specular 0.0 0.0 0.0 0.0
+            emissive 0.0 0.0 0.0
+            lighting on
+            texture_unit
+            {
+                texture door.jpg 
+            }
+        }
+    }
+}
+
+material Door/screen1
+{
+    technique
+    {
+        pass
+        {
+            ambient 1 1 1
+            diffuse 1.0 1.0 1.0
+            specular 0.0 0.0 0.0 0.0
+            emissive 1 1 1
+            texture_unit
+            {
+                texture door-nominal.jpg
+            }
+        }
+    }
+}
+
+material Door/screen2
+{
+    technique
+    {
+        pass
+        {
+            ambient 1 1 1
+            diffuse 1.0 1.0 1.0
+            specular 0.0 0.0 0.0 0.0
+            emissive 1 1 1
+            texture_unit
+            {
+                texture door-locked.jpg
+            }
+        }
+    }
+}
+
+material Door/PorteG
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.156863 0.156863 0.156863
+            diffuse 1.0 1.0 1.0
+            specular 0.0 0.0 0.0 0.0
+            emissive 0.0 0.0 0.0
+            lighting on
+            texture_unit
+            {
+                texture door.jpg
+            }
+        }
+    }
+}
+
+material Door/Hull
+{
+    technique
+    {
+        pass
+        {
+            lighting on
+            ambient 0.1 0.1 0.1
+            texture_unit
+            {
+                texture hull.jpg
+            }
+        }
+    }
+}
+
+material Door/sasH
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.156863 0.156863 0.156863
+            diffuse 1.0 1.0 1.0
+            specular 0.0 0.0 0.0 0.0
+            emissive 0.0 0.0 0.0
+            texture_unit
+            {
+                texture sas.jpg 
+            }
+        }
+    }
+}
+
+material Door/sasB
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.156863 0.156863 0.156863
+            diffuse 1.0 1.0 1.0
+            specular 0.0 0.0 0.0 0.0
+            emissive 0.0 0.0 0.0
+            lighting on
+            texture_unit
+            {
+                texture sas.jpg
+            }
+        }
+    }
+}
+
+material Door/sasD
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.156863 0.156863 0.156863
+            diffuse 1.0 1.0 1.0
+            specular 0.0 0.0 0.0 0.0
+            emissive 0.0 0.0 0.0
+            lighting on
+            texture_unit
+            {
+                texture sas.jpg
+            }
+        }
+    }
+}
+
+material Door/sasG
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.156863 0.156863 0.156863
+            diffuse 1.0 1.0 1.0
+            specular 0.0 0.0 0.0 0.0
+            emissive 0.0 0.0 0.0
+            lighting on
+            texture_unit
+            {
+                texture sas.jpg
+            }
+        }
+    }
+}
+
+material Door/antigravity
+{
+    technique
+    {
+        pass
+        {
+        	scene_blend alpha_blend
+            ambient 1 1 1
+            diffuse 1 1 1
+            texture_unit
+            {
+                texture antigravity.png
+            }
+        }
+    }
+}
+

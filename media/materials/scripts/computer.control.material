@@ -1,0 +1,90 @@
+material computerControl/screen
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.913726 0.913726 1.0
+            diffuse 0.894118 0.894118 1.0
+            specular 0.0 0.0 0.0 0.0
+            emissive 0.0 0.0 0.0
+            texture_unit
+            {
+                texture comp_idle1.jpg 
+            }
+        }
+    }
+}
+
+material computerControl/visu1
+{
+    technique
+    {
+        pass
+        {
+            ambient 1.0 1.0 1.0
+            diffuse 1.0 1.0 1.0
+            specular 0.0 0.0 0.0 0.0
+            emissive 0.0 0.0 0.0
+            texture_unit
+            {
+                texture computerStatus1.jpg 
+            }
+        }
+    }
+}
+
+material computerControl/visu2
+{
+    technique
+    {
+        pass
+        {
+            ambient 1.0 1.0 1.0
+            diffuse 1.0 1.0 1.0
+            specular 0.0 0.0 0.0 0.0
+            emissive 0.0 0.0 0.0
+            texture_unit
+            {
+                texture computerStatus2.jpg 
+            }
+        }
+    }
+}
+
+material computerControl/visu3
+{
+    technique
+    {
+        pass
+        {
+            ambient 1.0 1.0 1.0
+            diffuse 1.0 1.0 1.0
+            specular 0.0 0.0 0.0 0.0
+            emissive 0.0 0.0 0.0
+            texture_unit
+            {
+                texture computerStatus3.jpg 
+            }
+        }
+    }
+}
+
+material computerControl/side
+{
+    technique
+    {
+        pass
+        {
+            ambient 1.0 1.0 1.0
+            diffuse 1.0 1.0 1.0
+            specular 0.0 0.0 0.0 0.0
+            emissive 0.0 0.0 0.0
+            texture_unit
+            {
+                texture Sky_Aluminium.jpg 
+            }
+        }
+    }
+}
+

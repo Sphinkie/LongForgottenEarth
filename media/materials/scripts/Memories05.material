@@ -1,0 +1,155 @@
+
+material Memories05/earthlogo
+{
+	technique
+	{
+		pass
+		{
+			//depth_write off for background static or tranparent objects
+			depth_write off
+			fog_override true
+		     // if dynamic lighting is off, object is fully lit
+			lighting off
+			texture_unit
+			{
+				texture earthlogo.png
+				scale 2.7 2.7
+				scroll_anim -0.1 0.0
+			}
+		}
+	}
+}
+
+
+// Un caisson
+material Memories05/SkyBox
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+			fog_override true
+			texture_unit
+			{
+			 	// ordre des textures _FR _BK _LF _RT _UP _DN
+				cubic_texture screen_1.jpg aluminumfoil_2.jpg aluminumfoil_LF.jpg aluminumfoil_RT.jpg screen_2.jpg screen_2.jpg separateUV
+				tex_address_mode wrap
+			}
+		}
+	}
+}
+
+// des ecrans
+material Memories05/cadran1
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+			fog_override true
+			texture_unit
+			{
+		 		texture cadran_1.jpg
+			}
+		}
+	}
+}
+
+// des ecrans
+material Memories05/cadran2
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+			fog_override true
+			texture_unit
+			{
+		 		anim_texture cadran_2c.jpg cadran_2b.jpg cadran_2c.jpg cadran_2d.jpg cadran_2c.jpg cadran_2b.jpg cadran_2a.jpg cadran_2b.jpg 30
+			}
+		}
+	}
+}
+
+
+
+// des ecrans
+material Memories05/cadran3
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+			fog_override true
+			texture_unit
+			{
+		 		texture cadran_3.jpg
+				scroll_anim -0.09 0.0
+			}
+		}
+	}
+}
+
+// des ecrans
+material Memories05/cadran4
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+			fog_override true
+			texture_unit
+			{
+		 		texture cadran_4.jpg
+				scroll_anim -0.4 0.0
+			}
+		}
+	}
+}
+
+// des ecrans
+material Memories05/cadran5
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+			fog_override true
+			texture_unit
+			{
+		 		texture cadran_5a.jpg
+			}
+		}
+	}
+}
+
+// un coeur qui bat
+material Memories05/heart
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+			fog_override true
+	 		scene_blend alpha_blend
+			texture_unit
+			{
+		 		texture cadran_5b.png
+			}
+		}
+	}
+}

@@ -1,0 +1,60 @@
+material stars/far
+{
+    technique
+    {
+        pass
+        {
+            ambient 1 1 1
+            diffuse 1 1 1
+			lighting off
+            depth_write off
+        	scene_blend add
+//        	scene_blend alpha_blend
+            texture_unit
+            {
+			    texture star_far.jpg
+//			    texture starf.jpg
+            }
+        }
+    }
+}
+material stars/F
+{
+    technique
+    {
+        pass
+        {
+            ambient 1 1 1
+            diffuse 1 1 1
+			lighting off
+            depth_write off
+        	scene_blend add
+//        	scene_blend alpha_blend
+            texture_unit
+            {
+			    texture starf.jpg
+            }
+        }
+    }
+}
+
+material stars/lensflare
+{
+    technique
+    {
+        pass
+        {
+            ambient 1 1 1
+            diffuse 1 1 1
+			lighting off
+            depth_write off
+        	scene_blend add
+//        	scene_blend alpha_blend
+            texture_unit
+            {
+			    texture part_glow.jpg
+            }
+        }
+    }
+}
+

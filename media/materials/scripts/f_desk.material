@@ -1,0 +1,39 @@
+material desk/table
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.0 0.0509804 0.184314
+            diffuse 0.0 0.054902 0.172549
+            specular 0.0 0.0 0.0 0.0
+        }
+    }
+}
+
+material desk/pied
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.796079 0.631373 0.270588
+            diffuse 0.796079 0.631373 0.270588
+            specular 0.0 0.0 0.0 0.0
+        }
+    }
+}
+
+material desk/socle
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.6 0.8 0.8
+            diffuse 0.6 0.8 0.8 
+            specular 0.0 0.0 0.0 0.0
+        }
+    }
+}
+

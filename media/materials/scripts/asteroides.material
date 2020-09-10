@@ -1,0 +1,163 @@
+material asteroide_0
+{
+    technique
+    {
+        pass
+        {
+			ambient 0.3 0.3 0.3
+			lighting on
+            texture_unit
+            {
+			texture asteroid0.jpg
+            }
+        }
+    }
+}
+
+material asteroide_1
+{
+    technique
+    {
+        pass
+        {
+			ambient 0.3 0.3 0.3
+			lighting on
+            texture_unit
+            {
+			texture asteroid1.jpg
+            }
+        }
+    }
+}
+
+material asteroide_2
+{
+    technique
+    {
+        pass
+        {
+			ambient 0.3 0.3 0.3
+			lighting on
+            texture_unit
+            {
+			texture asteroid2.jpg
+            }
+        }
+    }
+}
+
+material asteroide_3
+{
+    technique
+    {
+        pass
+        {
+			ambient 0.3 0.3 0.3
+			lighting on
+            texture_unit
+            {
+			texture asteroid3.jpg
+            }
+        }
+    }
+}
+
+material asteroide_4
+{
+    technique
+    {
+        pass
+        {
+			ambient 0.3 0.3 0.3
+			lighting on
+            texture_unit
+            {
+			texture asteroid4.jpg
+            }
+        }
+    }
+}
+
+material asteroide_5
+{
+    technique
+    {
+        pass
+        {
+			ambient 0.3 0.3 0.3
+			lighting on
+            texture_unit
+            {
+			texture asteroid5.jpg
+            }
+        }
+    }
+}
+
+material astero/type1
+{
+    technique
+    {
+        pass
+        {
+            ambient 1 1 1
+            depth_write off
+        	scene_blend alpha_blend
+            texture_unit
+            {
+			texture asteroides_ida.png
+            }
+        }
+    }
+}
+
+material astero/type2
+{
+    technique
+    {
+        pass
+        {
+            ambient 1 1 1
+            depth_write off
+        	scene_blend alpha_blend
+            texture_unit
+            {
+			texture asteroides_deimos.png
+            }
+        }
+    }
+}
+
+material astero/type3
+{
+    technique
+    {
+        pass
+        {
+            ambient 1 1 1
+            depth_write off
+        	scene_blend alpha_blend
+            texture_unit
+            {
+			texture asteroides_gaspra.png
+            }
+        }
+    }
+}
+
+material astero/type4
+{
+    technique
+    {
+        pass
+        {
+            ambient 1 1 1
+            depth_write off
+        	scene_blend alpha_blend
+            texture_unit
+            {
+			texture asteroides_pom.png
+            }
+        }
+    }
+}

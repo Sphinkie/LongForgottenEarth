@@ -1,0 +1,354 @@
+material Doorpanel/navroom
+{
+    technique
+    {
+        pass
+        {
+            ambient 1 1 1
+            diffuse 1 1 1
+            emissive 0.2 0.2 0.2
+            texture_unit
+            {
+                texture door-navroom.jpg
+            }
+        }
+    }
+}
+
+material Doorpanel/hibroom
+{
+    technique
+    {
+        pass
+        {
+            ambient 1 1 1
+            diffuse 1 1 1
+            emissive 0.2 0.2 0.2
+            texture_unit
+            {
+                texture door-hibroom.jpg
+            }
+        }
+    }
+}
+
+material Doorpanel/maproom
+{
+    technique
+    {
+        pass
+        {
+            ambient 1 1 1
+            diffuse 1 1 1
+            emissive 0.2 0.2 0.2
+            texture_unit
+            {
+                texture door-maproom.jpg
+            }
+        }
+    }
+}
+
+material Doorpanel/labroom
+{
+    technique
+    {
+        pass
+        {
+            ambient 1 1 1
+            diffuse 1 1 1
+            emissive 0.2 0.2 0.2
+            texture_unit
+            {
+                texture door-labroom.jpg
+            }
+        }
+    }
+}
+
+material Doorpanel/locked
+{
+    technique
+    {
+        pass
+        {
+            ambient 1 1 1
+            diffuse 1 1 1
+            emissive 0.2 0.2 0.2
+            texture_unit
+            {
+                texture door-locked.jpg
+            }
+        }
+    }
+}
+
+material Doorpanel/level2
+{
+    technique
+    {
+        pass
+        {
+            ambient 1 1 1
+            diffuse 1 1 1
+            emissive 0.2 0.2 0.2
+            texture_unit
+            {
+                texture door-level2.jpg
+            }
+        }
+    }
+}
+
+material Doorpanel/level3
+{
+    technique
+    {
+        pass
+        {
+            ambient 1 1 1
+            diffuse 1 1 1
+            emissive 0.2 0.2 0.2
+            texture_unit
+            {
+                texture door-level3.jpg
+            }
+        }
+    }
+}
+
+material Doorpanel/level4
+{
+    technique
+    {
+        pass
+        {
+            ambient 1 1 1
+            diffuse 1 1 1
+            emissive 0.2 0.2 0.2
+            texture_unit
+            {
+                texture door-level4.jpg
+            }
+        }
+    }
+}
+
+material Doorpanel/malfunction
+{
+    technique
+    {
+        pass
+        {
+            ambient 1 1 1
+            diffuse 1 1 1
+            emissive 0.2 0.2 0.2
+            texture_unit
+            {
+                anim_texture door-red.jpg door-malfunction.jpg 2
+            }
+        }
+    }
+}
+
+material Doorpanel/pressure
+{
+    technique
+    {
+        pass
+        {
+            ambient 1 1 1
+            diffuse 1 1 1
+            emissive 0.2 0.2 0.2
+            texture_unit
+            {
+                anim_texture door-warning.jpg door-pressure.jpg 2.2
+            }
+        }
+    }
+}
+
+material Doorpanel/weaproom
+{
+    technique
+    {
+        pass
+        {
+            ambient 1 1 1
+            diffuse 1 1 1
+            emissive 0.2 0.2 0.2
+            texture_unit
+            {
+                texture door-weapon.jpg
+            }
+        }
+    }
+}
+
+material Doorpanel/storeroom
+{
+    technique
+    {
+        pass
+        {
+            ambient 1 1 1
+            diffuse 1 1 1
+            emissive 0.2 0.2 0.2
+            texture_unit
+            {
+                texture door-store.jpg
+            }
+        }
+    }
+}
+
+material Doorpanel/elevator
+{
+    technique
+    {
+        pass
+        {
+            ambient 1 1 1
+            diffuse 1 1 1
+            emissive 0.2 0.2 0.2
+            texture_unit
+            {
+                texture door-elevator.jpg
+            }
+        }
+    }
+}
+
+material Doorpanel/evacuation
+{
+    technique
+    {
+        pass
+        {
+            ambient 1 1 1
+            diffuse 1 1 1
+            emissive 0.2 0.2 0.2
+            texture_unit
+            {
+                texture door-evacuation.jpg
+            }
+        }
+    }
+}
+
+material Doorpanel/dormitory
+{
+    technique
+    {
+        pass
+        {
+            ambient 1 1 1
+            diffuse 1 1 1
+            emissive 0.2 0.2 0.2
+            texture_unit
+            {
+                texture door-dormitory.jpg
+            }
+        }
+    }
+}
+material Doorpanel/observatory
+{
+    technique
+    {
+        pass
+        {
+            ambient 1 1 1
+            diffuse 1 1 1
+            emissive 0.2 0.2 0.2
+            texture_unit
+            {
+                texture door-observatory.jpg
+            }
+        }
+    }
+}
+material Doorpanel/sports
+{
+    technique
+    {
+        pass
+        {
+            ambient 1 1 1
+            diffuse 1 1 1
+            emissive 0.2 0.2 0.2
+            texture_unit
+            {
+                texture door-sports.jpg
+            }
+        }
+    }
+}
+material Doorpanel/captain
+{
+    technique
+    {
+        pass
+        {
+            ambient 1 1 1
+            diffuse 1 1 1
+            emissive 0.2 0.2 0.2
+            texture_unit
+            {
+                texture door-captain.jpg
+            }
+        }
+    }
+}
+
+material Doorpanel/officers
+{
+    technique
+    {
+        pass
+        {
+            ambient 1 1 1
+            diffuse 1 1 1
+            emissive 0.2 0.2 0.2
+            texture_unit
+            {
+                texture door-officers.jpg
+            }
+        }
+    }
+}
+
+material Doorpanel/engines
+{
+    technique
+    {
+        pass
+        {
+            ambient 1 1 1
+            diffuse 1 1 1
+            emissive 0.2 0.2 0.2
+            texture_unit
+            {
+                texture door-engines.jpg
+            }
+        }
+    }
+}
+
+material Doorpanel/crystals
+{
+    technique
+    {
+        pass
+        {
+            ambient 1 1 1
+            diffuse 1 1 1
+            emissive 0.2 0.2 0.2
+            texture_unit
+            {
+                texture door-crystals.jpg
+            }
+        }
+    }
+}
+

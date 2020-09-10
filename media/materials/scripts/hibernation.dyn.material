@@ -1,0 +1,101 @@
+material hibernation/dyn/empty
+{
+    technique
+    {
+        pass
+        {
+        	lighting off
+            ambient 0.2 0.2 0.2
+            texture_unit
+            {
+                texture screen_empty.jpg
+            }
+            texture_unit
+            {
+                texture screen_empty_L.png
+            }
+        }
+    }
+}
+
+material hibernation/dyn/dead
+{
+    technique
+    {
+        pass
+        {
+        	lighting off
+            ambient 0.2 0.2 0.2
+            texture_unit
+            {
+                texture screen_dead.jpg
+            }
+            texture_unit
+            {
+                texture screen_dead_L.png
+            }
+        }
+    }
+}
+
+material hibernation/dyn/alarm
+{
+    technique
+    {
+        pass
+        {
+        	lighting off
+            ambient 0.2 0.2 0.2
+            texture_unit
+            {
+                texture screen_alarm1.jpg
+            }
+            texture_unit
+            {
+                anim_texture screen_alarm1_L.png screen_alarm2_L.png 2
+            }
+        }
+    }
+}
+
+material hibernation/dyn/critical
+{
+    technique
+    {
+        pass
+        {
+        	lighting off
+            ambient 0.2 0.2 0.2
+            texture_unit
+            {
+                texture screen_critical.jpg
+            }
+            texture_unit
+            {
+                anim_texture screen_critical1_L.png screen_critical2_L.png 3
+            }
+        }
+    }
+}
+
+material hibernation/dyn/hiberning
+{
+    technique
+    {
+        pass
+        {
+        	lighting off
+//            ambient 0.2 0.2 0.2
+            texture_unit
+            {
+                texture screen_hiberning.jpg
+            }
+            texture_unit
+            {
+                anim_texture screen_hiberning1_L.png screen_hiberning2_L.png 3
+            }
+        }
+    }
+}
+
+

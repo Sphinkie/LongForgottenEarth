@@ -1,0 +1,47 @@
+<scene formatVersion="0.2.0">
+  <nodes>
+    <node name="RoomPlane">
+      <position x="0.000000" y="0.000000" z="0.000000"/>
+      <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <entity name="RoomPlane" meshFile="RoomPlane.mesh"/>
+      <userData>
+        <property type="STRING" name="CLASS" data="room"/>
+      </userData>
+      <node name="box1">
+        <position x="0.000000" y="0.000000" z="1.000000"/>
+        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <entity name="box1" meshFile="box1.mesh"/>
+      </node>
+      <node name="LampPoint">
+        <position x="4.076245" y="1.005454" z="5.903862"/>
+        <rotation qx="0.169076" qy="0.272171" qz="0.755880" qw="0.570948"/>
+        <scale x="1.000000" y="1.000000" z="1.000000"/>
+        <light name="LampPoint" type="point">
+          <colourDiffuse r="1.000000" g="1.000000" b="1.000000"/>
+          <colourSpecular r="1.000000" g="1.000000" b="1.000000"/>
+          <lightAttenuation range="5000.0" constant="1.000000" linear="0.033333" quadratic="0.000000"/>
+        </light>
+      </node>
+    </node>
+    <node name="Camera">
+      <position x="7.481132" y="-6.507640" z="5.343665"/>
+      <rotation qx="0.481707" qy="0.212922" qz="0.334251" qw="0.781600"/>
+      <scale x="1.000000" y="1.000000" z="1.000000"/>
+      <camera name="Camera" fov="37.849289" projectionType="perspective">
+        <normal x="0.0" y="0.0" z="-1.0"/>
+        <clipping near="0.100000" far="100.000000"/>
+      </camera>
+    </node>
+  </nodes>
+  <externals>
+    <item type="material">
+      <file name="MaterialTest.material"/>
+    </item>
+  </externals>
+  <environment>
+    <colourAmbient r="0.000000" g="0.000000" b="0.000000"/>
+    <colourBackground r="0.056563" g="0.220815" b="0.400000"/>
+  </environment>
+</scene>

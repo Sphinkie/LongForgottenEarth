@@ -1,0 +1,44 @@
+<mesh>
+	<submeshes>
+		<submesh material="Lamps" usesharedvertices="false" use32bitindexes="false" operationtype="triangle_list">
+			<faces count="2">
+				<face v1="0" v2="1" v3="3"/>
+				<face v1="3" v2="1" v3="2"/>
+			</faces>
+			<geometry vertexcount="4">
+				<vertexbuffer positions="true" normals="true">
+					<vertex>
+						<position x="120.000000" y="9.999947" z="0.000000"/>
+						<normal x="0.000000" y="0.000000" z="-1.000000"/>
+					</vertex>
+					<vertex>
+						<position x="120.000000" y="-10.000053" z="0.000000"/>
+						<normal x="0.000000" y="0.000000" z="-1.000000"/>
+					</vertex>
+					<vertex>
+						<position x="-120.000000" y="-9.999948" z="0.000000"/>
+						<normal x="0.000000" y="0.000000" z="-1.000000"/>
+					</vertex>
+					<vertex>
+						<position x="-119.999962" y="10.000053" z="0.000000"/>
+						<normal x="0.000000" y="0.000000" z="-1.000000"/>
+					</vertex>
+				</vertexbuffer>
+				<vertexbuffer texture_coord_dimensions_0="2" texture_coords="1">
+					<vertex>
+						<texcoord u="0.000000" v="0.000000"/>
+					</vertex>
+					<vertex>
+						<texcoord u="1.000000" v="0.000000"/>
+					</vertex>
+					<vertex>
+						<texcoord u="1.000000" v="1.000000"/>
+					</vertex>
+					<vertex>
+						<texcoord u="0.000000" v="1.000000"/>
+					</vertex>
+				</vertexbuffer>
+			</geometry>
+		</submesh>
+	</submeshes>
+</mesh>

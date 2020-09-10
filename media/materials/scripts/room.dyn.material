@@ -1,0 +1,83 @@
+material Room/dynamic/screen_entrance
+{
+    technique
+    {
+        pass
+        {
+            ambient  1.0 1.0 1.0
+            diffuse  1.0 1.0 1.0
+            emissive 0.2 0.2 0.2
+            texture_unit
+            {
+                texture screen_silence.jpg
+            }
+        }
+    }
+}
+
+material Room/dynamic/screen_collision
+{
+    technique
+    {
+        pass
+        {
+            ambient  1.0 1.0 1.0
+            diffuse  1.0 1.0 1.0
+            emissive 0.2 0.2 0.2
+            texture_unit
+            {
+   		 		anim_texture screen_collision.jpg screen_void.jpg 3
+
+            }
+        }
+    }
+}
+
+
+material Room/dynamic/screen_void
+{
+    technique
+    {
+        pass
+        {
+            ambient  1.0 1.0 1.0
+            diffuse  1.0 1.0 1.0
+            emissive 0.2 0.2 0.2
+            texture_unit
+            {
+   		 		texture screen_void.jpg 
+
+            }
+        }
+    }
+}
+
+material Room/dynamic/screen_2
+{
+    technique
+    {
+        pass
+        {
+            ambient  1.0 1.0 1.0
+            diffuse  1.0 1.0 1.0
+            emissive 0.2 0.2 0.2
+            texture_unit
+            {
+                texture panel_2.JPG
+            }
+        }
+    }
+}
+
+material Room/dynamic/light
+{
+    technique
+    {
+        pass
+        {
+            ambient  0 0 0
+            diffuse  1 1 1
+			emissive 0.55 0.94 0.94
+        }
+    }
+}

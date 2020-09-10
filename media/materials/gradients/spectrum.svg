@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://inkscape.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="100%"
+   height="100%"
+   id="Star Light Spectrum"
+   sodipodi:version="0.32"
+   inkscape:version="0.42"
+   sodipodi:docname="spectrum.svg"
+   sodipodi:docbase="E:\sphinx\media\MATERI~1\GRADIE~1">
+  <metadata
+     id="metadata23">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     inkscape:window-height="721"
+     inkscape:window-width="1024"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     inkscape:zoom="4.6649977"
+     inkscape:cx="5.3405762e-005"
+     inkscape:cy="1002.2307"
+     inkscape:window-x="1179"
+     inkscape:window-y="121"
+     inkscape:current-layer="Star Light Spectrum"
+     showguides="true"
+     inkscape:guide-bbox="true" />
+  <defs
+     id="defs3">
+    <linearGradient
+       id="MapGradient"
+       x1="-0.35382907"
+       y1="-0.70655586"
+       x2="453.25503"
+       y2="-0.70655586"
+       spreadMethod="pad"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.220346,0.000000,0.000000,0.312305,-40.62659,0.747362)">
+      <stop
+         style="stop-color:#000000;stop-opacity:1.0000000;"
+         offset="0.000"
+         id="UV" />
+      <stop
+         style="stop-color:#392459;stop-opacity:1.0000000;"
+         offset="0.21385960"
+         id="violet sombre" />
+      <stop
+         style="stop-color:#5a3eba;stop-opacity:1.0000000;"
+         offset="0.36099994"
+         id="violet" />
+      <stop
+         style="stop-color:#466ced;stop-opacity:1.0000000;"
+         offset="0.38449085"
+         id="bleu" />
+      <stop
+         style="stop-color:#81f0f0;stop-opacity:1.0000000;"
+         offset="0.40431070"
+         id="blanc-bleu" />
+      <stop
+         style="stop-color:#7ce18c;stop-opacity:1.0000000;"
+         offset="0.42198551"
+         id="vert" />
+      <stop
+         style="stop-color:#e4e6ae;stop-opacity:1.0000000;"
+         offset="0.50010622"
+         id="jaune" />
+      <stop
+         style="stop-color:#f0a140;stop-opacity:1.0000000;"
+         offset="0.65117794"
+         id="orange" />
+      <stop
+         style="stop-color:#cd0505;stop-opacity:1.0000000;"
+         offset="0.73000002"
+         id="rouge" />
+      <stop
+         style="stop-color:#000000;stop-opacity:1.0000000;"
+         offset="1.0000000"
+         id="IR" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#MapGradient"
+       id="linearGradient1315"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.220186,0.000000,0.000000,0.312305,-40.59713,0.747362)"
+       spreadMethod="pad"
+       x1="-269.78494"
+       y1="-1.9720467"
+       x2="638.53845"
+       y2="-1.9720467" />
+  </defs>
+  <rect
+     width="199.73787"
+     height="99.737755"
+     rx="0.00000000"
+     ry="0.00000000"
+     x="-99.868881"
+     y="0.26259762"
+     style="fill:url(#linearGradient1315);stroke:#808080;stroke-width:0.26223132"
+     id="rect20"
+     inkscape:export-filename="E:\sphinx\media\MATERI~1\GRADIE~1\spectrum.png"
+     inkscape:export-xdpi="90.000000"
+     inkscape:export-ydpi="90.000000" />
+</svg>

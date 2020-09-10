@@ -1,0 +1,221 @@
+material Room1/hull
+{
+    technique
+    {
+        pass
+        {
+            lighting on
+            ambient 0.1 0.1 0.1
+            texture_unit
+            {
+                texture hull.jpg
+            }
+        }
+    }
+}
+
+material Room1/electrobrd
+{
+    technique
+    {
+        pass
+        {
+            ambient 1.0 1.0 1.0
+            diffuse 1.0 1.0 1.0
+            specular 0 0 0 0
+            emissive 0 0 0
+            texture_unit
+            {
+                anim_texture elecbrd2.jpg elecbrd3.jpg 3
+            }
+        }
+    }
+}
+
+material Room1/Steel
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.1 0.1 0.1
+            lighting on
+            texture_unit
+            {
+                texture Stainless_Steel.jpg
+            }
+        }
+    }
+}
+
+material Room1/ground
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.82353 0.82353 0.82353
+            diffuse 0.82353 0.82353 0.82353
+            specular 0 0 0 0
+            emissive 0 0 0
+            lighting on
+            texture_unit
+            {
+                texture ground.jpg
+            }
+        }
+    }
+}
+
+material Room1/panel
+{
+    technique
+    {
+        pass
+        {
+            ambient 1 1 1
+            diffuse 1 1 1
+            texture_unit
+            {
+                texture panel.JPG
+            }
+        }
+    }
+}
+
+material Room1/panel_2
+{
+    technique
+    {
+        pass
+        {
+            ambient 1 1 1
+            diffuse 1 1 1
+            texture_unit
+            {
+                texture panel_2.JPG
+            }
+        }
+    }
+}
+
+material Room1/label_spares
+{
+    technique
+    {
+        pass
+        {
+            depth_write off
+            scene_blend alpha_blend
+            ambient 1 1 1
+            diffuse 1 1 1
+            specular 0 0 0 0
+            emissive 0 0 0
+            texture_unit
+            {
+                texture spareparts.png
+            }
+        }
+    }
+}
+
+material Room1/stripes
+{
+    technique
+    {
+        pass
+        {
+            lighting on
+            ambient 0.156863 0.156863 0.156863
+            diffuse 1.0 1.0 1.0
+            specular 0.0 0.0 0.0 0.0
+            emissive 0.0 0.0 0.0
+            texture_unit
+            {
+                texture stripes.jpg
+            }
+        }
+    }
+}
+
+material Room1/ground_stripes
+{
+    technique
+    {
+        pass
+        {
+            lighting on
+            ambient 0.156863 0.156863 0.156863
+            diffuse 1.0 1.0 1.0
+            texture_unit
+            {
+                texture stripes2.jpg 
+            }
+        }
+    }
+}
+
+material Room1/areaclear
+{
+    technique
+    {
+        pass
+        {
+            lighting on
+            ambient 0.156863 0.156863 0.156863
+            diffuse 1.0 1.0 1.0
+            texture_unit
+            {
+                texture stripes3.jpg
+            }
+        }
+    }
+}
+
+material Room1/light
+{
+    technique
+    {
+        pass
+        {
+            ambient  0 0 0
+            diffuse  1 1 1
+			emissive 0.55 0.94 0.94
+        }
+    }
+}
+
+material Room1/screen_entrance_hib
+{
+    technique
+    {
+        pass
+        {
+            lighting on
+            ambient 0.1 0.1 0.1
+            diffuse 1.0 1.0 1.0
+            texture_unit
+            {
+                texture screen_silence.jpg
+            }
+        }
+    }
+}
+
+material Room1/screen_wall
+{
+    technique
+    {
+        pass
+        {
+            lighting on
+            ambient 0.1 0.1 0.1
+            diffuse 1.0 1.0 1.0
+            texture_unit
+            {
+                texture screen_void.jpg
+            }
+        }
+    }
+}
+

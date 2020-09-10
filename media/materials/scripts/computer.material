@@ -1,0 +1,83 @@
+material computer/screen
+{
+    technique
+    {
+        pass
+        {
+        	lighting on
+            ambient 0.2 0.2 0.2
+            texture_unit
+            {
+                texture radiator.jpg
+            }
+        }
+    }
+}
+
+material computer/visu
+{
+    technique
+    {
+        pass
+        {
+        	lighting on
+            ambient 0.1 0.1 0.1
+            texture_unit
+            {
+                texture radiator.jpg
+            }
+        }
+    }
+}
+
+material computer/keyboard
+{
+    technique
+    {
+        pass
+        {
+            ambient 1.0 1.0 1.0
+            diffuse 1.0 1.0 1.0
+            specular 0.0 0.0 0.0 0.0
+            emissive 0.0 0.0 0.0
+            texture_unit
+            {
+                texture keyboard.jpg
+            }
+        }
+    }
+}
+
+material computer/steel
+{
+    technique
+    {
+        pass
+        {
+        	lighting on
+            ambient 0.1 0.1 0.1
+            texture_unit
+            {
+                texture Stainless_Steel.jpg
+            }
+        }
+    }
+}
+
+material computer/side
+{
+    technique
+    {
+        pass
+        {
+        	lighting on
+            ambient 0.9 0.9 0.9
+            diffuse 1.0 1.0 1.0
+            texture_unit
+            {
+                texture Sky_Aluminium.jpg
+            }
+        }
+    }
+}
+

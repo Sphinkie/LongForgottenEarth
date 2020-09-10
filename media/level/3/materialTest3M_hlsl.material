@@ -1,0 +1,111 @@
+
+vertex_program FxMap_HLSL_VS hlsl
+{ 
+  source FXMap_HLSL.vert
+  entry_point main
+  target vs_1_1 
+} 
+
+fragment_program FxMap_HLSL_PS hlsl 
+{ 
+  source FXMap_HLSL.frag
+  entry_point main 
+  target ps_2_0 
+} 
+
+
+
+material Material.plane
+{
+  technique HLSL_DX9 
+  { 
+    pass 
+    { 
+          
+      vertex_program_ref FxMap_HLSL_VS 
+      { 
+        param_named_auto worldViewProj_matrix worldviewproj_matrix 
+        param_named_auto lightPosition light_position_object_space 0 
+        param_named_auto eyePosition camera_position_object_space 
+      } 
+
+      fragment_program_ref FxMap_HLSL_PS 
+      { 
+        param_named ambientColor float4 0.2 0.2 0.2 0.2 
+      } 
+
+      // Normal map 
+      texture_unit 
+      { 
+        texture floorNM.jpg
+        tex_coord_set 0 
+        filtering trilinear 
+      } 
+
+      // Base diffuse texture map 
+      texture_unit 
+      { 
+        texture floorCol.jpg
+        filtering trilinear 
+        tex_coord_set 1 
+      }
+
+      // Fx map for specular intensity, specular size, diffuse intensity, emissive intensity 
+      texture_unit 
+      { 
+        texture floorSpec.jpg
+        filtering trilinear
+        tex_coord_set 2 
+      }
+    }
+  }
+}
+
+
+
+material Material.cube
+{
+  technique HLSL_DX9
+  {
+    pass
+    {
+
+      vertex_program_ref FxMap_HLSL_VS
+      {
+        param_named_auto worldViewProj_matrix worldviewproj_matrix
+        param_named_auto lightPosition light_position_object_space 0
+        param_named_auto eyePosition camera_position_object_space
+      }
+
+      fragment_program_ref FxMap_HLSL_PS
+      {
+//        param_named ambientColor float4 0.2 0.2 0.2 0.2
+        param_named ambientColor float4 0.3 0.3 0.3 0.3
+      }
+
+      // Normal map
+      texture_unit
+      {
+        texture cubeNM.jpg
+        tex_coord_set 0
+        filtering trilinear
+      }
+
+      // Base diffuse texture map
+      texture_unit
+      {
+        texture cubeColor.jpg
+        filtering trilinear
+        tex_coord_set 1
+      }
+
+      // Fx map for specular intensity, specular size, diffuse intensity, emissive intensity
+      texture_unit
+      {
+        texture cubeSpec.png
+        filtering trilinear
+        tex_coord_set 2
+      }
+    }
+  }
+}

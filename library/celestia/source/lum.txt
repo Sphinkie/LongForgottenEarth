@@ -1,0 +1,10 @@
+Octet 1: Type of star.
+
+Ia-0 (super giant) : 0 
+Ia (super giant) : 1 
+Ib (super giant) : 2 
+II (bright giant) : 3 
+III (giant) : 4 
+IV (sub giant) : 5 
+V (dwarf, main sequence star) : 6 
+VI (sub dwarf) : 7

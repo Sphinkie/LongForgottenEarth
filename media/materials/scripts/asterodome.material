@@ -1,0 +1,54 @@
+material asterodome/Roche
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.423529 0.345098 0.211765
+            diffuse 0.2 0.27451 0.0
+            specular 0.0 0.0 0.0 0.0
+            emissive 0.0 0.0 0.0
+            texture_unit
+            {
+                texture pierre.jpg 
+            }
+        }
+    }
+}
+
+material asterodome/Dome
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.619608 0.670588 0.698039
+            diffuse 0.0 0.0 0.0
+            specular 0.0 0.0 0.0 0.0
+            emissive 0.0 0.0 0.0
+            texture_unit
+            {
+                texture Dome.jpg 
+            }
+        }
+    }
+}
+
+material asterodome/Tubes
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.458824 0.635294 0.662745
+            diffuse 0.682353 0.784314 0.811765
+            specular 0.0 0.0 0.0 0.0
+            emissive 0.0 0.0 0.0
+            texture_unit
+            {
+                texture tube.jpg 
+            }
+        }
+    }
+}
+
