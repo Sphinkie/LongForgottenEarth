@@ -1,5 +1,13 @@
 # LibNoise
 
+
+
+## Documentation
+
+Doxygen documentation is [here](doc/doxygen/html/index.html)
+
+
+
 ## Installing libnoise
 
 ### Make
