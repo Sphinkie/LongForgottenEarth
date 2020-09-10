@@ -2,7 +2,7 @@
 
 ## Documentation
 
-Doxygen documentation is [here](html/index.html)
+Doxygen documentation is at *html/index.html*.
 
 ## Building documentation
 

@@ -2,9 +2,17 @@
 
 
 
+## Presentation
+
+Libnoise is an open-source C++ library for generating coherent 2D procedural maps.
+
+Official site is hosted by [SourceForge](http://libnoise.sourceforge.net/)
+
+## 
+
 ## Documentation
 
-Doxygen documentation is [here](doc/doxygen/html/index.html)
+Libnoise doxygen documentation is included in the /doc repository.
 
 
 
