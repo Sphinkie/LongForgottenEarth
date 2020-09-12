@@ -6,7 +6,7 @@ version 0.14
 
 26-marsh-2006
 
-A demo program is available in the "Releases" section. *(very soon)*
+A demo program will *shortly* be available in the "Releases" section. 
 
 ## Presentation
 
