@@ -71,6 +71,20 @@ h4 {
     margin-right: auto ;
 }
 
+/* imagette */
+.imagette {
+	width : 160px;
+	height: 120px;
+}
+
+/* Screenshot: centré sur fond noir */
+.screenshot {
+	display: block;
+    margin-left: auto;
+    margin-right: auto ;
+	background-color:#212121;
+	margin-top: 10em;
+}
 
 .row:after {
 	content: "";
@@ -83,32 +97,6 @@ h4 {
 	float: left;
 /*  padding: 15px; */
 	width: 100%;
-}
-
-/* ---------- ECRANS  ---------- */
-
-@media only screen and (min-width: 600px) {
-	.menu {
-		width: 25%;
-		background: #000000;
-	}
-	.content {
-		width: 75%;
-		background: #f2f2f2;
-	}
-}
-
-/* ---------- ECRANS  ---------- */
-
-@media only screen and (min-width: 768px) {
-	.menu {
-		width: 20%;
-		background: #000000;
-	}
-	.content {
-		width: 80%;
-		background: #f2f2f2;
-	}
 }
 
 /* ---------- CLASSES MENU ---------- */
@@ -198,4 +186,112 @@ a:hover, a:focus {
   border-bottom-left-radius: 2px;
   border-bottom-right-radius: 2px;
 }
+
+
+/* ---------- ECRANS  ---------- */
+
+@media only screen and (min-width: 600px) {
+	.menu {
+		width: 25%;
+		background: #000000;
+	}
+	.content {
+		width: 75%;
+		background: #f2f2f2;
+	}
+}
+
+/* ---------- ECRANS  ---------- */
+
+@media only screen and (min-width: 768px) {
+	.menu {
+		width: 20%;
+		background: #000000;
+	}
+	.content {
+		width: 80%;
+		background: #f2f2f2;
+	}
+}
+
+
+/*******************************************************************************
+Small Device Styles
+*******************************************************************************/
+
+@media screen and (max-width: 992px) {
+  img {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    font-size:14px;
+  }
+
+  .inner {
+    min-width: 320px;
+    max-width: 480px;
+  }
+
+  h1 {
+    font-size: 28px;
+	color: #00ff00;   /* G */
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 21px;
+  }
+
+  h4 {
+    font-size: 18px;
+  }
+
+  code, pre {
+    font-size: 11px;
+  }
+
+}
+
+@media screen and (max-width: 320px) {
+  body {
+    font-size:14px;
+  }
+
+  .inner {
+    min-width: 240px;
+    max-width: 320px;
+  }
+
+  h1 {
+    font-size: 24px;
+	color: #ff0000;   /* R */
+  }
+
+  h2 {
+    font-size: 21px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  h4 {
+    font-size: 16px;
+  }
+
+  code, pre {
+    min-width: 240px;
+    max-width: 320px;
+    font-size: 11px;
+  }
+
+}
+
+
 
