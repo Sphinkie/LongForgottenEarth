@@ -204,9 +204,9 @@ Small Device Styles
   
     p {
 	margin: 10px 0 15px 0;
-    padding-left: 0;
-    padding-right: 0;
-	color: #0000ff;   /* B */
+    padding-left: 5%;
+    padding-right: 5%;
+	color: #ff00ff;   /* B */
   }
   
 }
@@ -214,18 +214,6 @@ Small Device Styles
 @media screen and (max-width: 480px) {
   body {
     font-size:14px;
-  }
-
-  .inner {
-    min-width: 320px;
-    max-width: 480px;
-  }
-
-  p {
-	margin: 10px 0 15px 0;
-    padding-left: 0;
-    padding-right: 0;
-	color: #00ff00;   /* G */
   }
 
   h1 {
@@ -253,18 +241,6 @@ Small Device Styles
 @media screen and (max-width: 320px) {
   body {
     font-size:14px;
-  }
-
-  .inner {
-    min-width: 240px;
-    max-width: 320px;
-  }
-  
-  p {
-	margin: 10px 0 15px 0;
-    padding-left: 0;
-    padding-right: 0;
-	color: #ff0000;   /* R */
   }
 
   h1 {
