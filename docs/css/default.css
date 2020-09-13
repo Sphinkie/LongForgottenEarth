@@ -77,15 +77,6 @@ h4 {
 	height: 120px;
 }
 
-/* Screenshot: centré sur fond noir */
-.screenshot {
-	display: block;
-    margin-left: auto;
-    margin-right: auto ;
-	background-color:#212121;
-	margin-top: 10em;
-}
-
 .row:after {
 	content: "";
 	clear: both;
@@ -194,9 +185,10 @@ a:hover, a:focus {
 /*******************************************************************************
 Small Device Styles
 
+Il y a plusieurs façons de les détecter.
   @media only screen and (hover: none) and (pointer: coarse){
-  @media screen and (max-width: 480px) {
   @media only screen and (orientation: portrait) {
+  @media screen and (max-width: 480px) {
 	
 *******************************************************************************/
 
@@ -205,18 +197,16 @@ Small Device Styles
     max-width: 100%;
   }
   
-    p {
+  p {
 	margin: 10px 0 15px 0;
     padding-left: 5%;
     padding-right: 5%;
-	color: #ff00ff;   /* B */
   }
- 
 
-.narrow{
-    padding-left: 0%;
-    padding-right: 0%;	
-} 
+  .narrow p {
+    padding-left: 0;
+    padding-right: 0;	
+  } 
 }
 
 @media screen and (max-width: 480px) {
