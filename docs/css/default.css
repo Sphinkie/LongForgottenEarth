@@ -204,8 +204,8 @@ Il y a plusieurs façons de détecter les smartphones:
   }
 
   .narrow {
-    padding-left: 0;
-    padding-right: 0;	
+    padding-left: 5%;
+    padding-right: 5%;	
   } 
 }
 
