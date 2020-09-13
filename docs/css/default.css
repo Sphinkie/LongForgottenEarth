@@ -183,9 +183,9 @@ a:hover, a:focus {
 
 
 /*******************************************************************************
-Small Device Styles
+                    Small Device Styles
 
-Il y a plusieurs façons de les détecter.
+Il y a plusieurs façons de détecter les smartphones:
   @media only screen and (hover: none) and (pointer: coarse){
   @media only screen and (orientation: portrait) {
   @media screen and (max-width: 480px) {
@@ -203,7 +203,7 @@ Il y a plusieurs façons de les détecter.
     padding-right: 5%;
   }
 
-  .narrow p {
+  .narrow {
     padding-left: 0;
     padding-right: 0;	
   } 
