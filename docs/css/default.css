@@ -190,9 +190,14 @@ a:hover, a:focus {
 
 /*******************************************************************************
 Small Device Styles
+
+  @media only screen and (hover: none) and (pointer: coarse){
+  @media screen and (max-width: 480px) {
+  @media only screen and (orientation: portrait) {
+	
 *******************************************************************************/
 
-@media screen and (max-width: 992px) {
+@media only screen and (orientation: portrait) {
   img {
     max-width: 100%;
   }
@@ -203,6 +208,7 @@ Small Device Styles
     padding-right: 0;
 	color: #0000ff;   /* B */
   }
+  
 }
 
 @media screen and (max-width: 480px) {
