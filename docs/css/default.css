@@ -23,7 +23,7 @@ img {
 }  
 
 h1 {
-  padding-top: 15px;
+	padding-top: 15px;
 	font-size: 36px;
 	font-weight: 700;
 	text-align: center;
@@ -188,33 +188,6 @@ a:hover, a:focus {
 }
 
 
-/* ---------- ECRANS  ---------- */
-
-@media only screen and (min-width: 600px) {
-	.menu {
-		width: 25%;
-		background: #000000;
-	}
-	.content {
-		width: 75%;
-		background: #f2f2f2;
-	}
-}
-
-/* ---------- ECRANS  ---------- */
-
-@media only screen and (min-width: 768px) {
-	.menu {
-		width: 20%;
-		background: #000000;
-	}
-	.content {
-		width: 80%;
-		background: #f2f2f2;
-	}
-}
-
-
 /*******************************************************************************
 Small Device Styles
 *******************************************************************************/
@@ -235,9 +208,15 @@ Small Device Styles
     max-width: 480px;
   }
 
+  p {
+	margin: 10px 0 15px 0;
+    padding-left: 0;
+    padding-right: 0;
+	color: #00ff00;   /* G */
+  }
+
   h1 {
     font-size: 28px;
-	color: #00ff00;   /* G */
   }
 
   h2 {
@@ -267,10 +246,16 @@ Small Device Styles
     min-width: 240px;
     max-width: 320px;
   }
+  
+  p {
+	margin: 10px 0 15px 0;
+    padding-left: 0;
+    padding-right: 0;
+	color: #ff0000;   /* R */
+  }
 
   h1 {
     font-size: 24px;
-	color: #ff0000;   /* R */
   }
 
   h2 {
