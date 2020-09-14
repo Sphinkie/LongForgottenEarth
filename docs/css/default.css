@@ -206,6 +206,7 @@ Il y a plusieurs façons de détecter les smartphones:
     padding-left: 5%;
     padding-right: 5%;	
   } 
+  
 }
 
 @media screen and (max-width: 480px) {
@@ -233,6 +234,9 @@ Il y a plusieurs façons de détecter les smartphones:
     font-size: 11px;
   }
 
+.topnav a {
+    font-size: 20px;
+  }
 }
 
 @media screen and (max-width: 320px) {
@@ -281,7 +285,7 @@ Il y a plusieurs façons de détecter les smartphones:
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 28px;
 }
 
 /* Change the color of links on hover */
